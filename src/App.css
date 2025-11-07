@@ -1,51 +1,122 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+:root {
+  /* ... (suas variáveis de cor continuam iguais) ... */
+  --cor-bege-fundo: #fefcf3; 
+  --cor-marrom-escuro: #4a2c1e; 
+  --cor-laranja-claro: #d6a18d; 
+  --cor-laranja-medio: #c28873; 
+  --cor-verde-escuro: #3a5c32; 
+
+  --fonte-titulo: 'Georgia', serif;
+  --fonte-corpo: 'Palatino Linotype', 'Book Antiqua', serif;
+}
+
+/* Estilo global do corpo */
+body {
+  margin: 0;
+  font-family: var(--fonte-corpo);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--cor-bege-fundo); 
+  color: var(--cor-marrom-escuro); 
+  line-height: 1.6; 
+
+  /* MUDANÇA AQUI - Background menos zoom e nome .jpg */
+  background-image: url('/parchment-bg.jpg'); /* Corrigido para .jpg */
+  background-repeat: repeat; /* Isso fará a textura repetir (tiling) */
+  /* Removemos 'background-size: cover' e 'background-attachment: fixed' */
+  /* Isso fará a imagem aparecer no tamanho original, menos "zoom" */
+}
+
+.app-container {
+  max-width: 800px; /* Largura máxima do conteúdo */
+  margin: 0 auto; /* Centraliza o container na página */
+  padding: 10px;
+}
+
+/* Estilo para a imagem de São Francisco */
+.sao-francisco-violino {
+  display: block; /* Para centralizar */
+  margin: 20px auto; /* Centraliza horizontalmente e dá margem */
+  max-width: 150px; /* Tamanho razoável, ajuste se precisar */
+  height: auto;
+  opacity: 0.8; /* Um pouco transparente para parecer uma marca d'água */
+}
+
+h1, h2 {
+  font-family: var(--fonte-titulo);
+  color: var(--cor-marrom-escuro);
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 2px solid var(--cor-laranja-claro);
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.2em;
+  letter-spacing: 2px; /* Espaçamento entre letras no título principal */
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+/* Listas (categorias e músicas) */
+ul {
+  list-style: none; 
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+li {
+  background-color: rgba(255, 255, 255, 0.6); 
+  border: 1px solid var(--cor-laranja-medio);
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.1em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+  /* MUDANÇA AQUI - Centraliza o texto dentro dos botões da lista */
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+li:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: var(--cor-laranja-escuro);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
 .letra-musica {
-  /* Isso faz o navegador respeitar as quebras de linha (\n) do nosso JSON */
-  white-space: pre-wrap;
+  white-space: pre-wrap; /* Mantém as quebras de linha */
+  padding: 0 20px;
+  max-width: 700px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  border: 1px solid var(--cor-laranja-claro);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Bônus: Deixa o cursor parecer clicável na lista */
-li {
+button {
+  background-color: var(--cor-laranja-medio);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
   cursor: pointer;
+  font-size: 1em;
+  margin: 15px auto;
+  display: block; /* Para centralizar o botão de voltar */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--cor-marrom-escuro);
+}
+
+p {
+  text-align: center;
+  padding: 10px;
 }

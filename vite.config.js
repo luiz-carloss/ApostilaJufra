@@ -11,17 +11,23 @@ base: '/ApostilaJufra/',
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'APPostila Jufra',
-        short_name: 'APPostila',
-        description: 'Apostila digital do coral Jufra de Lagoa Formosa.',
-        theme_color: '#ffffff',
-        icons: [
-          {
-            src: 'vite.svg',
-            sizes: 'any',
-            type: 'image/svg+xml'
-          }
-        ]
+    name: 'APPostila Jufra',
+    short_name: 'APPostila',
+    description: 'Apostila digital do coral Jufra de Lagoa Formosa.',
+    theme_color: '#d6a18d', // Pode ser a cor principal da capa
+    background_color: '#fefcf3', // Fundo para splash screen
+    icons: [
+        {
+            src: 'capa-jufra.png', // Usamos a imagem da capa
+            sizes: '192x192', // Tamanho comum para ícones
+            type: 'image/png'
+        },
+        {
+            src: 'capa-jufra.png',
+            sizes: '512x512', // Tamanho maior para dispositivos de alta resolução
+            type: 'image/png'
+        }
+    ]
       }
     })
   ]
