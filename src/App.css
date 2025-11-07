@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+.letra-musica {
+  /* Isso faz o navegador respeitar as quebras de linha (\n) do nosso JSON */
+  white-space: pre-wrap;
+}
+
+/* Bônus: Deixa o cursor parecer clicável na lista */
+li {
+  cursor: pointer;
+}
