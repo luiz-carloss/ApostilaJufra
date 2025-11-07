@@ -2,16 +2,25 @@
   {
     "id": 1,
     "titulo": "Hino da Jufra",
+    "categoria": "Franciscana",
     "letra": "Somos jovens franciscanos,\nnuma alegre união.\nConstruindo um novo tempo,\nna paz, no amor, no perdão."
   },
   {
     "id": 2,
     "titulo": "Cântico de Francisco (Louvado Seja)",
+    "categoria": "Franciscana",
     "letra": "Louvado seja, ó meu Senhor,\nLouvado seja, ó meu Senhor,\nLouvado seja, ó meu Senhor,\nLouvado seja, ó meu Senhor.\n\nPelo sol e pela lua,\nPelas estrelas no céu,\nPela água, nossa irmã..."
   },
   {
     "id": 3,
     "titulo": "Teste de Deploy",
+    "categoria": "Mantra",
     "letra": "Isto é um teste para forçar o deploy."
+  },
+  {
+    "id": 4,
+    "titulo": "Pai Nosso (da Jufra)",
+    "categoria": "Entrada",
+    "letra": "Pai nosso que estais no céu...\n(Letra da música de entrada)"
   }
 ]
