@@ -8,5 +8,10 @@
     "id": 2,
     "titulo": "Cântico de Francisco (Louvado Seja)",
     "letra": "Louvado seja, ó meu Senhor,\nLouvado seja, ó meu Senhor,\nLouvado seja, ó meu Senhor,\nLouvado seja, ó meu Senhor.\n\nPelo sol e pela lua,\nPelas estrelas no céu,\nPela água, nossa irmã..."
+  },
+  {
+    "id": 3,
+    "titulo": "Teste de Deploy",
+    "letra": "Isto é um teste para forçar o deploy."
   }
 ]
