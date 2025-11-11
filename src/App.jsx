@@ -1,7 +1,7 @@
 // src/App.jsx
 import React, { useState } from 'react';
 import musicas from './data/musicas.json';
-import categorias from './data/categorias.json'; // Importa a lista de categorias
+import categorias from './data/categorias.json';
 import ListaCategorias from './components/ListaCategorias';
 import ListaMusicas from './components/ListaMusicas';
 import DetalheMusica from './components/DetalheMusica';
@@ -37,25 +37,30 @@ function App() {
   } else if (categoriaSelecionada && !musicaIdSelecionada) {
     const musicasFiltradas = musicas.filter(m => m.categoria === categoriaSelecionada);
     
+    // Pegando o ajuste que fizemos na mensagem anterior
+    // para mostrar o título da categoria
     conteudo = (
       <div>
         <button onClick={handleCategoriaVoltar}>&larr; Voltar para Categorias</button>
-        <ListaMusicas musicas={musicasFiltradas} onMusicaClick={handleMusicaClick} />
+        <ListaMusicas 
+          categoria={categoriaSelecionada} 
+          musicas={musicasFiltradas} 
+          onMusicaClick={handleMusicaClick} 
+        />
       </div>
     );
 
   } else {
-    // A prop 'musicas' foi removida daqui
     conteudo = <ListaCategorias onCategoriaClick={handleCategoriaClick} />;
   }
 
   return (
-    // 👇 ADICIONAMOS ESTE CONTAINER PARA CENTRALIZAR TUDO
     <div className="app-container"> 
       <header>
-        {/* 👇 MUDAMOS O TÍTULO AQUI */}
         <h1>Notas Franciscanas</h1>
-        <img src="/sao-francisco.png" alt="São Francisco com violino de gravetos" className="sao-francisco-violino" />
+        
+        <img src="public/sao-francisco.png" alt="São Francisco com violino de gravetos" className="sao-francisco-violino" />
+      
       </header>
       
       <main>

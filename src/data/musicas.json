@@ -1,26 +1,1719 @@
 [
   {
     "id": 1,
-    "titulo": "Hino da Jufra",
-    "categoria": "Franciscanos",
-    "letra": "Somos jovens franciscanos,\nnuma alegre união.\nConstruindo um novo tempo,\nna paz, no amor, no perdão."
+    "numero": 1,
+    "titulo": "PONTO DE PARTIDA",
+    "categoria": "Mantra",
+    "pagina": 3,
+    "letra": "Não perca de vista / Seu ponto de partida (Bis)"
   },
   {
     "id": 2,
-    "titulo": "Cântico de Francisco (Louvado Seja)",
-    "categoria": "Franciscanos",
-    "letra": "Louvado seja, ó meu Senhor,\nLouvado seja, ó meu Senhor,\nLouvado seja, ó meu Senhor,\nLouvado seja, ó meu Senhor.\n\nPelo sol e pela lua,\nPelas estrelas no céu,\nPela água, nossa irmã..."
+    "numero": 2,
+    "titulo": "ONDE REINA O AMOR",
+    "categoria": "Mantra",
+    "pagina": 3,
+    "letra": "Onde reina o amor / Fraterno amor / Onde reina o amor / Deus aí está"
   },
   {
     "id": 3,
-    "titulo": "Teste de Deploy",
+    "numero": 3,
+    "titulo": "ALTÍSSIMO, GLORIOSO DEUS",
     "categoria": "Mantra",
-    "letra": "Isto é um teste para forçar o deploy."
+    "pagina": 3,
+    "letra": "Altíssimo, Glorioso Deus / Ilumina as trevas do meu coração\nDai-me fé reta / Esperança certa e perfeita caridade / Para que eu cumpra tua santa vontade"
   },
   {
     "id": 4,
-    "titulo": "Pai Nosso (da Jufra)",
+    "numero": 4,
+    "titulo": "LUZ DO SENHOR",
+    "categoria": "Mantra",
+    "pagina": 3,
+    "letra": "Ó, luz do Senhor / Que vem sobre a terra / Inunda meu ser / Permanece em nós"
+  },
+  {
+    "id": 5,
+    "numero": 5,
+    "titulo": "INDO E VINDO",
+    "categoria": "Mantra",
+    "pagina": 3,
+    "letra": "Indo e vindo / Trevas e luz / Tudo é graça / Deus nos conduz"
+  },
+  {
+    "id": 6,
+    "numero": 6,
+    "titulo": "A IGREJINHA DE SÃO DAMIÃO",
+    "categoria": "Mantra",
+    "pagina": 3,
+    "letra": "1- De cada riso e dor / De cada espinho e flor / Construo a casa do meu senhor\n2- Com o que o mundo abandonou / De cada pedra do chão / Construo o templo do coração\n3- Em cada dia que vem / Em cada dia que vai / Ergo em mim a casa de meu Pai"
+  },
+  {
+    "id": 7,
+    "numero": 7,
+    "titulo": "TEU SOL NÃO SE APAGARÁ",
+    "categoria": "Mantra",
+    "pagina": 3,
+    "letra": "Teu Sol não se apagará / Tua Lua não terá minguante / Porque o Senhor será tua luz / Ó, povo que Deus conduz"
+  },
+  {
+    "id": 8,
+    "numero": 8,
+    "titulo": "AGORA O TEMPO SE CUMPRIU",
+    "categoria": "Mantra",
+    "pagina": 3,
+    "letra": "Agora, o tempo se cumpriu, o reino já chegou, / irmãos, convertam-se e creiam firmes no Evangelho!"
+  },
+  {
+    "id": 9,
+    "numero": 9,
+    "titulo": "NADA TE PERTURBE",
+    "categoria": "Mantra",
+    "pagina": 3,
+    "letra": "Nada, te perturbe, nada te espante / Tudo, tudo passa, Só Deus não muda\nA paciência tudo alcança / Nada te falta, com Deus no coração / Só Deus, Só Deus, / Te basta!"
+  },
+  {
+    "id": 10,
+    "numero": 10,
+    "titulo": "EU CONFIO EM NOSSO SENHOR",
+    "categoria": "Mantra",
+    "pagina": 3,
+    "letra": "Eu confio em nosso Senhor / com fé, esperança e amor"
+  },
+  {
+    "id": 11,
+    "numero": 11,
+    "titulo": "ENVIAI SENHOR, MUITOS OPERÁRIOS",
+    "categoria": "Mantra",
+    "pagina": 3,
+    "letra": "Enviai, Senhor, muitos operários / Para a vossa messe / Pois a messe é grande, Senhor / E os operários são poucos!"
+  },
+  {
+    "id": 12,
+    "numero": 12,
+    "titulo": "O SENHOR QUE DÁ O BOM COMEÇO",
+    "categoria": "Mantra",
+    "pagina": 3,
+    "letra": "O Senhor que dá o bom começo, / o Senhor que dá o crescimento, / dará perseverança até o fim"
+  },
+  {
+    "id": 13,
+    "numero": 13,
+    "titulo": "PARA SERVIR E SEGUIR-TE",
+    "categoria": "Mantra",
+    "pagina": 3,
+    "letra": "Para servir e seguir-te, / deixamos tudo, Senhor! / Para servir e seguir-te, / deixamos tudo, Senhor, por Teu Amor!"
+  },
+  {
+    "id": 14,
+    "numero": 14,
+    "titulo": "BENÇÃO IRLANDESA",
+    "categoria": "Mantra",
+    "pagina": 3,
+    "letra": "Que a estrada se abra à sua frente, / Que o vento sopre levemente em suas costas\nQue o sol brilhe morno e suave em sua face / Que a chuva caia de mansinho em seus campos\nE, até que nos encontremos, de novo... / Que Deus Ihe guarde nas palmas de suas mãos!"
+  }
+,
+  {
+    "id": 15,
+    "numero": 1,
+    "titulo": "ESTAREMOS AQUI REUNIDOS",
     "categoria": "Entrada",
-    "letra": "Pai nosso que estais no céu...\n(Letra da música de entrada)"
+    "pagina": 6,
+    "letra": "Refrão: Estaremos aqui reunidos / Como estavam em Jerusalém\nPois só quando vivemos unidos / É que o Espírito Santo nos vêm\n\n1- Ninguém para esse vento passando / Ninguém vê, e ele sopra onde quer\nForça igual têm o Espírito quando / Faz a Igreja de Cristo crescer\n\n2- Feita de homens, a Igreja é divina / Pois o Espírito Santo a conduz\nComo um fogo que aquece e ilumina / Que é pureza, que é vida, que é luz\n\n3- Sua imagem são línguas ardentes / Pois amor é comunicação\nE é preciso que todas as gentes / Saibam quanto felizes serão-"
+  },
+  {
+    "id": 16,
+    "numero": 2,
+    "titulo": "VEM, EU MOSTRAREI",
+    "categoria": "Entrada",
+    "pagina": 6,
+    "letra": "1- Vem, e eu mostrarei que o meu caminho te leva ao Pai / Guiarei os passos teus e junto a ti ei de seguir\nSim, eu irei e saberei como chegar ao fim / De onde vim, aonde vou, por onde irás, irei também\n\n2- Vem, eu te direi o que ainda estás a procurar / A verdade é como o Sol e invadirá teu coração\nSim, eu irei e aprenderei minha razão de ser / Eu creio em ti que crês em mim e à tua luz verei a luz\n\n3- Vem, e eu te farei da minha vida participar / Viverás em mim aqui, viver em mim é o bem maior\nSim, eu irei e viverei a vida inteira assim / Eternidade é na verdade, o amor vivendo sempre em nós\n\n4- Vem, que a terra espera quem possa e queira realizar / Com amor, a construção de um mundo novo muito melhor\nSim, eu irei e levarei teu nome aos meus irmãos / Iremos nós e o teu amor vai construir enfim a paz"
+  },
+  {
+    "id": 17,
+    "numero": 3,
+    "titulo": "QUANDO CHAMASTE OS DOZE PRIMEIROS",
+    "categoria": "Entrada",
+    "pagina": 6,
+    "letra": "1- Quando chamaste os doze primeiros pra te seguir / Sei que chamavas a todos os que haviam de vir\n\nRefrão: Tua voz me fez refletir / Deixei tudo pra te seguir / Nos teus mares eu quero navegar (Bis)\n\n2- Quando pediste aos doze primeiro: Ide ensinai / Sei que pedias a todos nós: Evangelizai!\n\n3- Quando enviaste os doze primeiro de dois em dois / Sei que enviavas todos os que viessem depois"
+  },
+  {
+    "id": 18,
+    "numero": 4,
+    "titulo": "EIS-ME AQUI SENHOR",
+    "categoria": "Entrada",
+    "pagina": 6,
+    "letra": "Refrão: Eis-me aqui, Senhor! (Bis) / Pra fazer Tua Vontade, pra viver do Teu Amor (Bis) / Eis-me aqui, Senhor!\n\n1- O Senhor é o pastor que me conduz / Por caminhos nunca vistos me enviou\nSou chamado a ser fermento, sal e luz / E por isso respondi: Aqui estou!\n\n2- Ele pôs em minha boca uma canção / Me ungiu como profeta e trovador\nDa história e da vida do meu povo / E por isso respondi: Aqui estou!\n\n3- Ponho a minha confiança no Senhor / Da esperança sou chamado a ser sinal\nSeu ouvido se inclinou ao meu clamor / E por isso respondi: Aqui estou!"
+  },
+  {
+    "id": 19,
+    "numero": 5,
+    "titulo": "DEIXA A LUZ DO CÉU ENTRAR",
+    "categoria": "Entrada",
+    "pagina": 6,
+    "letra": "1- Tu anseias, eu bem sei, a salvação / Tens desejo de banir a escuridão\nAbre, pois, de par em par, teu coração / E deixa a luz do céu entrar\n\nRefrão: Deixa a luz do céu entrar (Bis) / Abre bem as portas do teu coração / E deixa a luz do céu entrar\n\n2- Cristo, a luz do céu, em ti quer habitar / Para as trevas do pecado dissipar\nTeu caminho e coração iluminar / E deixa a luz do céu entrar\n\n3- Que alegria andar ao brilho dessa luz / Vida eterna e paz no coração produz\nÓ, aceita agora o Salvador Jesus / E deixa a luz do céu entrar"
+  },
+  {
+    "id": 20,
+    "numero": 6,
+    "titulo": "EU SOU O CAMINHO A VERDADE E A VIDA",
+    "categoria": "Entrada",
+    "pagina": 6,
+    "letra": "Refrão: Eu sou o caminho / A verdade e a vida (Bis)\n\n1- Guardo no meu coração tua Palavra / Para não te ofender\n\n2- Tua fala permanece para sempre / É eterna como o Céu\n\n3- Minha boca sempre canta tua Palavra / Pois são justos teus preceitos"
+  },
+  {
+    "id": 21,
+    "numero": 7,
+    "titulo": "EU CONFIO EM NOSSO SENHOR",
+    "categoria": "Entrada",
+    "pagina": 7,
+    "letra": "Refrão: Eu confio em nosso Senhor / Com fé, esperança e amor! (Bis)\n\n1- A meu deus fiel sempre serei, eu / Confio em nosso Senhor\nSeu caminho, oh! sim seguirei, / Com fé, esperança e amor\n\n2- Venha embora qualquer tentação / Eu confio em nosso Senhor\nMostrarei que sou sempre cristão / Com fé esperança e amor\n\n3- E depois de uma vida com deus, / Eu confio em nosso Senhor\nEu espero partir para os céus, / Com fé, esperança e amor"
+  },
+  {
+    "id": 22,
+    "numero": 8,
+    "titulo": "ALEGRES VAMOS A CASA DO PAI",
+    "categoria": "Entrada",
+    "pagina": 7,
+    "letra": "Refrão: Alegres, vamos à casa do Pai/E na alegria, cantar Seu louvor\nEm Sua casa, somos felizes / Participamos da ceia do amor\n\n1- A alegria nos vem do Senhor / Seu amor nos conduz pela mão\nEle é luz que ilumina o seu povo / Com segurança lhe dá a salvação\n\n2- O Senhor nos concede os Seus bens / Nos convida à Sua mesa sentar\nE partilha conosco o Seu pão / Somos irmãos ao redor deste altar"
+  },
+  {
+    "id": 23,
+    "numero": 9,
+    "titulo": "SENHOR QUEM ENTRARÁ",
+    "categoria": "Entrada",
+    "pagina": 7,
+    "letra": "Refrão: Senhor, quem entrará no santuário pra te louvar? (Bis)\n\n1- Quem tem as mãos limpas e o coração puro / Quem não é vaidoso e sabe amar (Bis)\n\nRefrão: Senhor, eu quero entrar no santuário pra te louvar? (Bis)\n\n2- Ó dá-me mãos limpas e um coração puro / Arranca a vaidade ensina-me a amar (Bis)\n\nRefrão: Senhor, já posso entrar no santuário pra te louvar? (Bis)\n\n3- Teu sangue me lava, teu fogo me queima / O Espírito Santo inunda meu ser (Bis)"
+  },
+  {
+    "id": 24,
+    "numero": 10,
+    "titulo": "Ó PAI SOMOS NÓS O POVO ELEITO",
+    "categoria": "Entrada",
+    "pagina": 7,
+    "letra": "Refrão: O Pai, somos nós o povo eleito, que Cristo veio reunir (Bis)\n\n1- Pra viver da sua vida, aleluia / O Senhor nos enviou, aleluia\n\n2- Pra ser igreja peregrina, aleluia / O Senhor nos enviou, aleluia\n\n3- Pra ser sinal da salvação, aleluia / O Senhor nos enviou, aleluia\n\n4- Pra anunciar o evangelho, aleluia / O Senhor nos enviou, aleluia\n\n5- Pra servir na unidade, aleluia / O Senhor nos enviou, aleluia\n\n6- Pra celebrar a sua glória, aleluia / O Senhor nos enviou, aleluia"
+  },
+  {
+    "id": 25,
+    "numero": 11,
+    "titulo": "CRISTO RESSUCITOU ALELUIA",
+    "categoria": "Entrada",
+    "pagina": 7,
+    "letra": "Refrão: Cristo ressuscitou, aleluia! / Venceu a morte com amor (Bis) / Aleluia!\n\n1- Tendo vencido a morte / O Senhor ficará para sempre entre nós\nPara manter viva / A chama do amor que reside / Em cada cristão a caminho do Pai\n\n2- Tendo vencido a morte / O Senhor nos abriu horizonte, feliz\nPois nosso peregrinar / Pela face do mundo terá / Seu final lá na casa do Pai"
+  },
+  {
+    "id": 26,
+    "numero": 12,
+    "titulo": "HOSANA HEY",
+    "categoria": "Entrada",
+    "pagina": 7,
+    "letra": "Refrão: Hosana, hey! Hosana, ha! / Hosana, hey! Hosana, hey! Hosana, ha!(Bis)\n\n1- Ele é o Santo, é o filho de Maria / É o Deus de Israel / É o filho de Davi\n\n2- Vamos a Ele com as flores dos trigais / Com os ramos de oliveiras / Com alegria e muita paz\n\n3- Ele é o Cristo, é o unificador / É Hosana nas alturas / É Hosana no amor\n\n4- Ele é a alegria, é a razão de meu viver / É a vida de meus dias / É amparo no sofrer"
+  }
+,
+  {
+    "id": 27,
+    "numero": 1,
+    "titulo": "KYRIE JMJ",
+    "categoria": "Ato Penitencial",
+    "pagina": 11,
+    "letra": "1- Senhor, que viestes salvar / Os corações arrependidos\nRefrão: Kyrie eleison, eleison, eleison / Kyrie eleison, eleison, eleison\n\n2- Ó, Cristo, que viestes chamar / Os pecadores humilhados\nRefrão: Christe eleison, eleison, eleison / Christe eleison, eleison, eleison\n\n3- Senhor, que intercedeis por nós / Junto a Deus Pai que nos perdoa\nRefrão: Kyrie eleison, eleison, eleison/ Kyrie eleison, eleison, eleison"
+  },
+  {
+    "id": 28,
+    "numero": 2,
+    "titulo": "KYRIE TRADICIONAL",
+    "categoria": "Ato Penitencial",
+    "pagina": 11,
+    "letra": "Refrão: Kyrie eleison kyriee eleison kyrie ele_e_ison\n\n1. Senhor, que sois a plenitude da verdade e da graça tende piedade de nós\nRefrão: Kyrie eleison kyriee eleison kyrie ele_e_ison\n\n2. Cristo, que vos tornastes pobre para nos enriquecer tende piedade de nós\nRefrão: Christie eleison Christie eleison Christie ele e ison\n\n3. Senhor, que viestes para fazer de nós o vosso povo santo tende piedade de nós\nRefrão: Kyrie eleison kyriee eleison kyrie ele_e_ison"
+  },
+  {
+    "id": 29,
+    "numero": 3,
+    "titulo": "KYRIE A CAPELLA",
+    "categoria": "Ato Penitencial",
+    "pagina": 11,
+    "letra": "1- Senhor que vieste salvar os corações arrependi.......dos\nRefrão: Kyrie Ele...ei...son, Eleison, Eleison (Bis)\n\n2- Ó Cristo que vieste chamar os pecadores humilha.......dos >>> (Christhe Eleison...)\n\n3- Senhor que intercedeis por nós juntos a Deus Pai que nos perdo.....oa >>> (Kyrie Eleison...)"
+  },
+  {
+    "id": 30,
+    "numero": 4,
+    "titulo": "KYRIE ARRASTADO",
+    "categoria": "Ato Penitencial",
+    "pagina": 11,
+    "letra": "1- Estrofe de acordo com o Jornal / Texto do Ato Penitencial\nR: Kyrie / Kyrie / Ky_rie eleison / Kyrie / Kyrie / Ky_rie eleison"
+  },
+  {
+    "id": 31,
+    "numero": 5,
+    "titulo": "EU CONFESSO",
+    "categoria": "Ato Penitencial",
+    "pagina": 11,
+    "letra": "1- Eu confesso a Deus e a vós irmãos / Tantas vezes pequei, não fui fiel\nPensamentos e palavras, atitudes e omissões / Por minha culpa, tão grande culpa\n\nRefrão: Senhor piedade, Cristo piedade, tem piedade, ó Senhor (Bis)\n\n2- Peço à Virgem Maria, nossa Mãe / E a vós meus irmãos, rogueis por mim\nA Deus Pai que nos perdoa e nos sustenta em Sua mão / Por Seu amor, tão grande amor"
+  },
+  {
+    "id": 32,
+    "numero": 6,
+    "titulo": "SENHOR TENDE PIEDADE E PERDOAI A NOSSA CULPA",
+    "categoria": "Ato Penitencial",
+    "pagina": 11,
+    "letra": "1- Senhor, tende piedade e perdoai a nossa culpa / E perdoai a nossa culpa\nRefrão: Porque nós somos vosso povo / Que vem pedir vosso perdão\n\n2- Cristo, tem piedade e perdoai a nossa culpa / E perdoai a nossa culpa\n\n3- Senhor, tende piedade e perdoai a nossa culpa / E perdoai a nossa culpa"
+  },
+  {
+    "id": 33,
+    "numero": 7,
+    "titulo": "PELO IRMÃO QUE NÃO AMEI",
+    "categoria": "Ato Penitencial",
+    "pagina": 11,
+    "letra": "1- Senhor, tende piedade de nós (Bis)\nRefrão: Pelo irmão que não amei / Pelo mal que lhe causei, piedade (Bis)\n\n2- Ó, Cristo, tende piedade de nós (Bis)\nRefrão: Pelo bem que eu não fiz / Pela paz que eu não quis, piedade (Bis)\n\n3- Senhor, tende piedade de nós (Bis)\nRefrão: Pelo amor que sufoquei / Pela vida que matei, piedade (Bis)"
+  },
+  {
+    "id": 34,
+    "numero": 8,
+    "titulo": "ATO PENITENCIAL SEPARADO",
+    "categoria": "Ato Penitencial",
+    "pagina": 12,
+    "letra": "1- Senhor, tende piedade de nós (Bis)\n\n2- Ó, Cristo, tende piedade de nós (Bis)\n\n3- Senhor, tende piedade de nós (Bis)"
+  },
+  {
+    "id": 35,
+    "numero": 9,
+    "titulo": "SENHOR QUE VIESTES SALVAR (SEPARADO)",
+    "categoria": "Ato Penitencial",
+    "pagina": 12,
+    "letra": "1- Senhor que viestes salvar/ Os corações arrependidos\nRefrão: Piedade, Piedade/ Piedade de nós (Bis)\n\n2- Ó, Cristo que viestes chamar/ Os pecadores humilhados\n\n3- Senhor que intercedeis por nós/ Junto a Deus Pai que nos perdoa"
+  },
+  {
+    "id": 36,
+    "numero": 10,
+    "titulo": "TENDE PIEDADE DE NÓS...",
+    "categoria": "Ato Penitencial",
+    "pagina": 12,
+    "letra": "1- Senhor, tende piedade/ Dos corações arrependidos\nRefrão: Tende piedade de nós/ Tende piedade de nós/Tende piedade de nós/ Tende piedade de nós\n\n2- Jesus, tende piedade/ Dos pecadores, tão humilhados!\n\n3- Senhor, tende piedade/ Intercedendo por nós ao Pai!"
+  },
+  {
+    "id": 37,
+    "numero": 11,
+    "titulo": "SENHOR, SERVO DE DEUS",
+    "categoria": "Ato Penitencial",
+    "pagina": 12,
+    "letra": "1- Senhor, servo de Deus/ Que libertastes a nossa vida/ Tende piedade de nós! / Senhor, tende piedade de nós!\n\n2- Oh Cristo, nosso irmão/ Que conheceis nossa fraqueza/ Tende piedade de nós! / Cristo, tende piedade de nós!\n\n3- Senhor, filho de Deus/ Que vos tornastes obediente/ Tende piedade de nós! / Senhor, tende piedade de nós"
+  },
+  {
+    "id": 38,
+    "numero": 1,
+    "titulo": "GLÓRIA RAPIDINHO",
+    "categoria": "Glória",
+    "pagina": 15,
+    "letra": "Glória a Deus nas alturas / E paz na terra aos homens por ele amados (Bis)\nSenhor Deus Rei dos céus / Deus Pai todo-poderoso / Nós vos louvamos vos bendizemos\nVos adoramos vos glorificamos / Nós vos damos graças por vossa imensa gló_ó_ria\nSenhor Jesus Cristo Filho Unigênito / Senhor Deus Cordeiro de Deus Filho de Deus Pai\nVós que tirais o pecado do mundo tende piedade de nós / Vós que tirais o pecado do mundo acolhei a nossa súplica\nVós que estais à direita do Pai / Tende piedade de nós\nSó vós sois o Santo Só vós o Senhor / Só vós o Altíssimo Jesus Cristo / Com o Espírito Santo\nNa glória de Deus Pai / Na glória de Deus Pai / Amém, amém, amém, amém, aaaaaaaaaaaaaamém"
+  },
+  {
+    "id": 39,
+    "numero": 2,
+    "titulo": "GLÓRIA 3x (TRADICIONAL)",
+    "categoria": "Glória",
+    "pagina": 15,
+    "letra": "Glória a Deus nas alturas / Glória a Deus nas alturas / Glória a Deus nas alturas\nE paz na terra aos homens por Ele amados\nSenhor Deus Rei dos céus Deus Pai todo poderoso / Nós vos louvamos / nós vos bendizemos\nNos vos adoramos / Nós vos glorificamos / Nós vos damos graças por vossa imensa glória\nSenhor Jesus Cristo Filho Unigênito Senhor Deus / Cordeiro de Deus / Filho de Deus Pai\nVós que tirais o pecado do mundo/Tende piedade de nós\nVós que tirais o pecado do mundo / Acolhei a nossa súplica\nVós que estais à direita do Pai / Tende piedade de nós\nSó vós sois o Santo só vós o Senhor / Só vós o Altíssimo Jesus Cristo\nCom o Espírito Santo na glória de Deus Pai / A_mém"
+  },
+  {
+    "id": 40,
+    "numero": 3,
+    "titulo": "GLÓRIA DOS ANJOS NEGROS (VIGÍLIA PASCAL)",
+    "categoria": "Glória",
+    "pagina": 15,
+    "letra": "Glória a Deus / Glória a Deus / No mais alto dos céus / No mais alto dos céus (Bis)\nE paz na terra / E paz na terra / Aos homens por ele amados / Senhor Deus rei dos céus\nSenhor Deus rei dos céus / Deus Pai todo-poderoso / Deus Pai todo-poderoso\nNós, nós vos louvamos / Nós, nós vos bendizemos / Nós, nós vos adoramos / Nós vos glorificamos\nNós / Nós / Nós vos damos graças / Por vossa imensa glória / Por vossa imensa glória\nSenhor / Senhor / Filho unigênito / filho unigênito / Jesus Cristo / Jesus Cristo /\nSenhor Deus, Cordeiro de De_eus / Filho de Deus Pai / Filho de Deus Pa_ai /\nVós que tirais o pecado / Piedade de nós / Vós que tirais o pecado do mundo / Piedade de nós\nVós que estais sentado à direita do Pai / Piedade de nós / Vós que tirais o pecado do mundo / Piedade de nós /\nPorque só vós sois o santo / Porque só vós sois senhor / porque só vós sois o Altíssimo\nJesus Cris to / Jesus Cris_to\nCom o Espírito Santo / Na Glória de Deus Pai / Amém / Amém / Amém"
+  },
+  {
+    "id": 41,
+    "numero": 4,
+    "titulo": "GLÓRIA (MONJOLINHO)",
+    "categoria": "Glória",
+    "pagina": 15,
+    "letra": "1-Glória a Deus nas alturas / E paz na terra aos homens por Ele amados / Aos homens por ele amados\n2-Senhor Deus Rei dos céus / Deus Pai todo poderoso / Nós vos louvamos / nós vos bendizemos\n3-Nós vos adoramos / Nós vos glorificamos / Nós vos damos graças por vossa imensa glória\n4-Senhor Jesus Cristo Filho Unigênito Senhor Deus / Cordeiro de Deus / Filho de Deus Pai\n5-Vós que tirais o pecado do mundo /Tende piedade de nós / Vós que tirais o pecado do mundo / Acolhei a nossa súplica\n6-Vós que estais à direita do Pai / Tende piedade de nós / Tende Piedade de nós / Tende Piedade de nós\n7-Só vós sois o Santo só vós o Senhor / Só vós o Altíssimo Jesus Cristo\n8-Com o Espírito Santo na glória de Deus Pai A mém / Amém"
+  },
+  {
+    "id": 42,
+    "numero": 5,
+    "titulo": "GLÓRIA (ESTROFE LENTA)",
+    "categoria": "Glória",
+    "pagina": 15,
+    "letra": "R: Glória a Deus nas alturas / E paz na terra aos homens por ele ama_dos (Amém)\n1-Senhor Deus Rei dos Céus Deus Pai todo-poderoso / Nós vos louvamos nós vos bendizemos\nNós vos adoramos nós vos glorificamos\n2-Nós vos damos graças por vossa imensa glória / Senhor Jesus Cristo filho unigênito\nSenhor Deus Cordeiro de Deus Filho de Deus Pai\n3-Vós que tirais o pecado do mundo tende piedade de nós / Vós que tirais o pecado do mundo\nAcolhei a nossa súplica / Vós que estais à direita do Pai tende piedade de nós\n4-Só vós sois o Santo, só vós o Senhor / Só vós o Altíssimo Jesus Cristo\nCom o Espírito Santo na glória de Deus Pai"
+  },
+  {
+    "id": 43,
+    "numero": 1,
+    "titulo": "BUSCAI PRIMEIRO",
+    "categoria": "Aclamação",
+    "pagina": 18,
+    "letra": "1- Buscai primeiro o reino de Deus / E a sua justiça / E tudo mais vos serás acrescentado / Aleluia, aleluia!\n2- Não só de pão o homem viverá / Mas de toda Palavra / Que procede da boca de Deus / Aleluia, Aleluia!\n3- Se vos perseguem por causa de mim / Não esqueçais o porquê / Não é o servo maior que o Senhor / Aleluia, Aleluia!"
+  },
+  {
+    "id": 44,
+    "numero": 2,
+    "titulo": "EU QUERO AGORA, O PÃO DA PALAVRA",
+    "categoria": "Aclamação",
+    "pagina": 18,
+    "letra": "Refrão: Eu quero agora o Pão da Palavra / Que alimentou Francisco e Clara (Bis)\n1-Nossa vida se transformará / Mundo novo surgirá / Quando a palavra que é luz / O mundo inteiro iluminar"
+  },
+  {
+    "id": 45,
+    "numero": 3,
+    "titulo": "ALELUIA, A MINH'ALMA ABRIREI",
+    "categoria": "Aclamação",
+    "pagina": 18,
+    "letra": "Aleluia, aleluia, a minh'alma abrirei / Aleluia, aleluia / Cristo é meu Rei! (Bis)"
+  },
+  {
+    "id": 46,
+    "numero": 4,
+    "titulo": "ALELUIA, RENDEI GRAÇAS AO SENHOR",
+    "categoria": "Aclamação",
+    "pagina": 18,
+    "letra": "Solo: Ale_e_e_lu_u_u_u_u_uia / Ale_e_e_lu_u_u_u_u_uia (3x)\nRefrão: Aleluia, Aleluia / Aleluia / Ale_luuuuuia / Aleluia, Aleluia / Aleluia/Ale_lu_uuuuia\n\n1- Rendei graças ao Senhor / Que seu amor é sem fim / Diga ao povo de Israel / Que seu amor é sem fim\nDiga os seus sacerdo_tes / Que seu amor é sem fim / Diga a todos que o temem / Que seu amor é sem fim\n\n2- Eis o dia do Senhor / Alegres nele exultemos / Que nos salve, imploremos / Alegres nele exultemos\nBem-vindos á sua casa / Alegres nele exultemos / Nós todos os seus amados / Alegres nele exultemos"
+  },
+  {
+    "id": 47,
+    "numero": 5,
+    "titulo": "ALELUIA, ALGUÉM DO POVO EXCLAMA",
+    "categoria": "Aclamação",
+    "pagina": 18,
+    "letra": "Refrão: Aleluia, Aleluia / Aleluia, Alelu_u_ia / Aleluia, Aleluia / Aleluia, Alelu_u_ia\nAlguém do povo exclama como é grande ó Senhor / Quem te gerou e alimentou\nJesus responde ó mulher pra mim é feliz / Quem soube ouvir a voz de Deus e tudo guardou"
+  },
+  {
+    "id": 48,
+    "numero": 6,
+    "titulo": "COMO SÃO BELOS OS PÉS DO MENSAGEIRO",
+    "categoria": "Aclamação",
+    "pagina": 18,
+    "letra": "1- Como são belos os pés do mensageiro, que anuncia a paz-\nComo são belos os pés do mensageiro, que anuncia o Senhor-\nRef: Ele vive (Aleluia) Ele reina (para sempre) Ele é Deus e Senhor (Bis)"
+  },
+  {
+    "id": 49,
+    "numero": 7,
+    "titulo": "ALELUIA, É O NOSSO CANTO",
+    "categoria": "Aclamação",
+    "pagina": 18,
+    "letra": "R: Aleluia é o nosso canto / Jesus Cristo vai falar / E o Espírito que é Santo é quem vai nos explicar\n1- Santo e santificador, iluminai nossa mente, e o fogo do vosso amor / Encha o coração da gente, encha o coração\nda gente"
+  },
+  {
+    "id": 50,
+    "numero": 8,
+    "titulo": "QUERO QUE FAÇAS EM MIM",
+    "categoria": "Aclamação",
+    "pagina": 18,
+    "letra": "R: Quero que faças em mim / Segundo a tua Palavra Senhor / Quero dizer sempre sim/Ao teu projeto de Amor (Bis)\n1- O Anjo de Deus anunciou a Maria / e ela aceitou o que o anjo dizia\n2-Os Anjos da terra também anunciam / Palavras de Vida e de Luz que nos guiam"
+  },
+  {
+    "id": 51,
+    "numero": 9,
+    "titulo": "PALAVRA DE SALVAÇÃO",
+    "categoria": "Aclamação",
+    "pagina": 18,
+    "letra": "Refrão: Palavra de salvação somente o céu tem pra dar / Por isso meu coração se abre para escutar\n1- Por mais difícil que seja seguir / Tua palavra queremos ouvir\nPor mais difícil de se praticar / Tua palavra queremos guardar\n2- Com Simão Pedro diremos também / Que não é fácil dizer sempre amém\nMas não há outro na Terra e no céu / Mais companheiro, mais santo e fiel"
+  },
+  {
+    "id": 52,
+    "numero": 10,
+    "titulo": "A VOSSA PALAVRA SENHOR",
+    "categoria": "Aclamação",
+    "pagina": 18,
+    "letra": "Refrão: A vossa Palavra, Senhor é sinal de interesse por nós (Bis)\n1- Como um pai ao redor de sua mesa, revelando seus planos de amor\n2- É feliz quem escuta a Palavra e a guarda no seu coração\n3- Neste encontro da Eucaristia aprendemos a grande lição"
+  },
+  {
+    "id": 53,
+    "numero": 11,
+    "titulo": "ALELUIA, PONHO-ME A OUVIR",
+    "categoria": "Aclamação",
+    "pagina": 19,
+    "letra": "REFRÃO: Aleluia, aleluia, aleluia, aleluia / Aleluia, alelui_a, aleluia, aleluia_a\n1- Ponho-me a ouvir, o que o senhor dirá / Ele vai falar, vai falar de paz\nPela minha voz, e pelas minhas mãos / Jesus cristo vai, vai falar de paz"
+  },
+  {
+    "id": 54,
+    "numero": 12,
+    "titulo": "EU VOS DOU UM NOVO MANDAMENTO",
+    "categoria": "Aclamação",
+    "pagina": 19,
+    "letra": "Eu vos dou um novo mandamento / Que vos ameis uns aos outros assim como eu vos amei, disse o Senhor (Bis)"
+  },
+  {
+    "id": 55,
+    "numero": 13,
+    "titulo": "SALVE Ó CRISTO, OBEDIENTE",
+    "categoria": "Aclamação",
+    "pagina": 19,
+    "letra": "R: Salve ó cristo obediente / Salve amor onipotente / Que te entregou à cruz / E te recebeu na luz\n1-O Cristo obedeceu até a morte / Humilhou-se e obedeceu o bom Jesus\nHumilhou-se e obedeceu, sereno e forte / Humilhou-se e obedeceu até a cruz\n2- Por isso o Pai do céu o exaltou / Exaltou-o e lhe deu um grande nome\nExaltou-o e lhe deu poder e glória / Diante deles céus e terra se ajoelhem"
+  },
+  {
+    "id": 56,
+    "numero": 14,
+    "titulo": "ALELUIA (TÚ ÉS PEDRO E SOBRE ESTA PEDRA)",
+    "categoria": "Aclamação",
+    "pagina": 19,
+    "letra": "Refrão: Aleluia, aleluia / Aleluia, aleluia / Aleluia, aleluia / Aleluia, aleluia\nAleluia, aleluia / Aleluia, aleluia / Aleluia, aleluia / Aleluia, aleluia\n1-Tu és Pedro e sobre esta pedra / Eu irei construir minha Igreja / E as portas do inferno / Não irão derrotá-la"
+  },
+  {
+    "id": 57,
+    "numero": 15,
+    "titulo": "ALELUIA (EU TE LOUVO Ó PAI SANTO) (RAPIDINHO)",
+    "categoria": "Aclamação",
+    "pagina": 19,
+    "letra": "Refrão: Aleluia aleluia / Aleluia aleluia / Aleluia aleluia / Aleluia aleluia (Bis)\nEu te louvo o Pai Santo / Deus do céu, Senhor da terra / Os mistérios do teu reino / Aos pequenos, Pai, revelas"
+  },
+  {
+    "id": 58,
+    "numero": 16,
+    "titulo": "ALELUIA (SE ALGUÉM QUISER SEGUIR-ME)",
+    "categoria": "Aclamação",
+    "pagina": 19,
+    "letra": "Ref: Aleluia / Aleluia / Ale_lu_u_ia (2x)\n1-Se alguém quiser seguir-me, negue-se a si mesmo, tome a sua cruz a cada dia, e venha"
+  },
+  {
+    "id": 59,
+    "numero": 17,
+    "titulo": "TODA BÍBLIA É, COMUNICAÇÃO",
+    "categoria": "Aclamação",
+    "pagina": 19,
+    "letra": "Refrão: Toda bíblia é comunicação / De um Deus amor, de um Deus irmão\nÉ feliz quem crê na revelação / Quem tem Deus no coração\n1-Jesus Cristo é a palavra / Pura imagem de Deus Pai / Ele é vida e verdade / A suprema caridade\n2-Os profetas sempre mostram / A vontade do Senhor / Precisamos ser profetas / Para o mundo ser melhor\n3-Vinde a nós, ó Santo Espírito / Vinde nos iluminar / A palavra que nos salva Q Nós queremos conservar"
+  }
+,
+  {
+    "id": 60,
+    "numero": 1,
+    "titulo": "EIS O QUE EU VENHO TE DAR",
+    "categoria": "Ofertório",
+    "pagina": 22,
+    "letra": "1- Um coração para amar, pra perdoar e sentir / Para chorar e sorrir, ao me criar Tu me deste\nUm coração pra sonhar, inquieto e sempre a bater / Ansioso por entender as coisas que Tu disseste\n\nRefrão: Eis o que eu venho Te dar, Eis o que eu ponho no altar\nToma Senhor, que ele é Teu, Meu coração não é meu (Bis)\n\n2- Quero que o meu coração seja tão cheio de paz / Que não se sinta capaz de sentir ódio ou rancor\nQuero que a minha oração possa me amadurecer / Leve-me a compreender as consequências do amor"
+  },
+  {
+    "id": 61,
+    "numero": 2,
+    "titulo": "QUANDO O TRIGO, AMADURECE",
+    "categoria": "Ofertório",
+    "pagina": 22,
+    "letra": "Refrão: Lá, Laiá/ Lá, Laiá/ Laiá, Laiá\n\n1- Quando o trigo amadurece / E do Sol recebe a cor / Quando a uva se torna prece / Na oferta do nosso amor\nDamos graças pela vida / Derramada neste chão / Pois, és tu, ó Deus da vida/Quem dá vida à criação (Bis)\n\n2- Os presentes da natureza / O amor do coração / O teu povo canta a certeza / Traz a vida em procissão\nAbençoa nossa vida / O trabalho redentor / As colheitas repartidas / Para celebrar o amor (Bis)"
+  },
+  {
+    "id": 62,
+    "numero": 3,
+    "titulo": "QUEM DISSE QUE NÃO SOMOS NADA",
+    "categoria": "Ofertório",
+    "pagina": 22,
+    "letra": "Refrão: Quem disse que não somos nada / E que não temos nada para oferecer\nRepare as nossas mãos abertas / Trazendo as ofertas do nosso viver\n\n1- Aqui trazemos a semente sangue desta gente / Que fecunda o chão\nDo gringo e tantos lavradores / Santos e operários em libertação /: Ô, ô, ô, ô, recebe Senhor\n\n2- Coragem de quem dá a vida seja oferecida / Neste vinho e pão\nÉ força que destrói a morte e muda nossa sorte é ressurreição /: Ô, ô, ô, ô recebe Senhor"
+  },
+  {
+    "id": 63,
+    "numero": 4,
+    "titulo": "MINHA VIDA TEM SENTIDO",
+    "categoria": "Ofertório",
+    "pagina": 22,
+    "letra": "1- Minha vida tem sentido, cada vez que eu venho aqui / E te faço o meu pedido de não me esquecer de ti\nMeu amor é como este pão, que era trigo / Que alguém plantou, depois colheu\nE depois tornou-se salvação, e deu mais vida / E alimentou o povo meu\n\nRefrão: Eu te ofereço este pão / Eu te ofereço meu amor (Bis)\n\n2- Minha vida tem sentido, cada vez que eu venho aqui / E te faço o meu pedido de não me esquecer de ti\nMeu amor é como este vinho, que era fruto / Que alguém plantou, depois colheu\nE depois encheu-se de carinho / E deu mais vida, e saciou o povo meu\n\nRefrão: Eu te ofereço vinho e pão / Eu te ofereço meu amor (Bis)"
+  },
+  {
+    "id": 64,
+    "numero": 5,
+    "titulo": "A NOSSA OFERTA APRESENTAMOS",
+    "categoria": "Ofertório",
+    "pagina": 22,
+    "letra": "Refrão: A nossa oferta apresentamos no altar / E te pedimos: Vem Senhor, nos libertar! (Bis)\n\n1- A chuva molhou a terra / O homem plantou um grão / A planta deu flor e frutos / Do trigo se fez o pão\n\n2- O homem plantou videiras / Cercou-as com seu carinho / Da vinha brotou a uva / Da uva se fez o vinho\n\n3- Os frutos de nossa terra / E as lutas dos filhos teus / Serão, pela tua graça / Pão vivo que vem dos céus\n\n4- Recebe, Pai, nossas vidas / Unidas ao pão e ao vinho / E vem conduzir teu povo / Guiando-o no teu caminho"
+  },
+  {
+    "id": 65,
+    "numero": 6,
+    "titulo": "Ó TRINDADE IMENSA E UNA",
+    "categoria": "Ofertório",
+    "pagina": 22,
+    "letra": "1- Ó Trindade imensa e uma / vossa força tudo cria;\n/ Vossa mão que rege os tempos / antes deles existia\n\n2- Pai, da graça fonte viva / Luz da glória de Deus Pai / Santo Espírito da vida / Que no amor os enlaçais\n\n3- Só por vós, Trindade Santa / Suma origem, todo bem / Todo ser, toda beleza / Toda vida se mantém\n\n4- Nós, os filhos adotivos / Pela graça consagrados / Nos tornemos templos vivos / A vós sempre dedicados"
+  },
+  {
+    "id": 66,
+    "numero": 7,
+    "titulo": "DE MÃOS ESTENDIDAS",
+    "categoria": "Ofertório",
+    "pagina": 22,
+    "letra": "Refrão: De mãos estendidas, ofertamos / O que de graça recebemos- (Bis)\n\n1- A naturez(a) tão bela / Que é louvor, que é serviço / O sol que ilumina as trevas / Transformando-as em luz\nO dia que nos traz o pão / E a noite que nos dá repouso / Ofertemos ao senhor /o louvor da criação\n\n2- Nossa vida toda inteira / Ofertamos ao senhor / Como prova de amizade / como prova de amor\nCom o vinho e com o pão / Ofertamos ao senhor / Nossa vida toda inteira / o louvor da criação"
+  },
+  {
+    "id": 67,
+    "numero": 8,
+    "titulo": "A MESA SANTA, QUE PREPARAMOS",
+    "categoria": "Ofertório",
+    "pagina": 23,
+    "letra": "1- A mesa santa que preparamos / Mãos que se elevam a Ti, ó Senhor\nO pão e o vinho, frutos da terra / Duro trabalho, carinho e amor / Ô ô ô, recebe Senhor / Ô ô, recebe Senhor\n\n2- Flores, espinhos, dor e alegria / Pais, mães e filhos diante do altar\nA nossa oferta em nova festa / A nossa dor vem, Senhor, transformar / Ô ô ô, recebe Senhor / Ô ô, recebe Senhor\n\n3- A vida nova, nova família / Que celebramos, aqui tem lugar\nTua bondade vem com fartura / É só saber reunir, partilhar / Ô ô ô, recebe Senhor/ Ô ô, recebe Senhor"
+  },
+  {
+    "id": 68,
+    "numero": 9,
+    "titulo": "SABES SENHOR",
+    "categoria": "Ofertório",
+    "pagina": 23,
+    "letra": "Refrão: Sabes, Senhor / O que temos é tão pouco pra dar\nMas este pouco / Nós queremos com os irmãos compartilhar\n\n1- Queremos nesta hora / Diante dos irmãos / Comprometer a vida / Buscando a união\n\n2- Sabemos que é difícil / Os bens compartilhar / Mas com a tua graça / Senhor, podemos dar\n\n3- Olhando o teu exemplo / Senhor, vamos seguir / Fazendo o bem a todos / Sem nada exigir"
+  },
+  {
+    "id": 69,
+    "numero": 10,
+    "titulo": "MEU CORAÇÃO É PARA TI",
+    "categoria": "Ofertório",
+    "pagina": 23,
+    "letra": "1- Meu coração é para Ti, Senhor / Meu coração é para Ti, Senhor\nMeu coração é para Ti, Senhor / Meu coração é para Ti\n\nRefrão: Porque Tu me deste a vida / Porque Tu me deste o existir\nPorque Tu me deste o carinho / Me deste o amor, me deste o amor (Bis)\n\n2- Pão e vinho são para Ti Senhor / Pão e vinho são para Ti, Senhor\nPão e vinho são para Ti, Senhor / Pão e vinho são para Ti\n\n3- A minha vida é para Ti, Senhor / A minha vida é para Ti, Senhor\nA minha vida é para Ti, Senhor / A minha vida é para Ti"
+  },
+  {
+    "id": 70,
+    "numero": 11,
+    "titulo": "TODO POVO SOFREDOR",
+    "categoria": "Ofertório",
+    "pagina": 23,
+    "letra": "Refrão: Todo povo sofredor/O seu pranto esquecerá / Pois o que plantou na dor / Na alegria colherá!\n\n1- Retornar do cativeiro / Fez-se sonho verdadeiro / Sonho de libertação\nAo voltarem os exilados / Deus trazendo os deportados / Libertados pra Sião!\n\n2- Nós ficamos tão felizes / Nossa boca foi sorrisos / Nossos lábios só canções\nNós vibramos de alegria / O Senhor fez maravilhas / Publicaram as nações!\n\n3- Ó Senhor, Deus poderoso / Não esqueçais o vosso povo / A sofrer na escravidão\nNos livrai do cativeiro / Qual chuvada de janeiro / Alagando o sertão"
+  },
+  {
+    "id": 71,
+    "numero": 12,
+    "titulo": "PÃO E VINHO TE APRESENTAMOS",
+    "categoria": "Ofertório",
+    "pagina": 23,
+    "letra": "1- Pão e vinho te apresentamos nesse altar / Como sinal que tu recolhes nossa oferta / Tudo o que somos deixamos aqui (Bis)\n\nRef: É um milagre que se dá / O pão e o vinho em corpo e sangue / Vão se transformar\nNão há limites para o amor / Vem transformar também minha vida / Oh senhor, é teu esse milagre de amor"
+  },
+  {
+    "id": 72,
+    "numero": 13,
+    "titulo": "DOA A TUA VIDA",
+    "categoria": "Ofertório",
+    "pagina": 23,
+    "letra": "1- Uma noite de suor, sobre o barco em alto mar / O céu começa a clarear a tua rede está vazia\nMas a voz que te chama te mostrará um outro mar / E sobre muitos corações a tua rede lançarás\n\nRefrão: Doa a tua vida, como Maria aos pés da cruz / E será servo de cada homem\nServo por amor/Sacerdote da humanidade\n\n2- Caminhavas no silêncio, esperando além da dor / Que a semente que tu lançavas / No bom terreno germinasse\nMas, o coração exulta / Porque o campo já está dourado / O grão maduro pelo sol, no celeiro pode entrar"
+  },
+  {
+    "id": 73,
+    "numero": 14,
+    "titulo": "A ΤΙ MEU DEUS",
+    "categoria": "Ofertório",
+    "pagina": 23,
+    "letra": "1- A Ti, meu Deus / Elevo meu coração / Elevo as minhas mãos / Meu olhar, minha voz\nA Ti, meu Deus, eu quero oferecer / Meus passos e meu viver / Meus caminhos, meu sofrer\n\nRefrão: A Tua ternura, Senhor, vem me abraçar / E a Tua bondade infinita, me perdoar\nVou ser o Teu seguidor e Te dar o meu coração / Eu quero sentir o calor de Tuas mãos\n\n2- A Ti meu Deus / Que És bom e que Tens amor / Ao pobre, ao sofredor / Vou servir, esperar\nEm Ti, Senhor / Humildes se alegrarão / Cantando a nova canção / De esperança e de paz"
+  },
+  {
+    "id": 74,
+    "numero": 15,
+    "titulo": "ESTAR EM TUAS MÃOS",
+    "categoria": "Ofertório",
+    "pagina": 24,
+    "letra": "1- Mão na terra e o coração além deste céu / E a semente que brota é um germe de eternidade\nVai brotando, crescendo, esperando / É a vida que vem despontar / E este trigo maduro, a colheita o recolherá\n\nRefrão: Estar em Tuas mãos, ó Pai / E a vida ofertar / No pão e no vinho a Ti/E o céu se abrirá\nEstar em Tuas mãos, Senhor / E a vida entregar / A minha oblação em Ti / Se perderá, frutificará\nFrutificará, frutificará, frutificará\n\n2- Da videira a flor não restará, passará / E o fruto da terra surgirá, brotará\nPela força do vento, da chuva / E do Sol que traz vida e calor / Cada dia, crescendo e aprendendo a recomeçar"
+  },
+  {
+    "id": 75,
+    "numero": 16,
+    "titulo": "ACOLHEI AS OFERENDAS DESTE VINHO E DESTE PÃO",
+    "categoria": "Ofertório",
+    "pagina": 24,
+    "letra": "1- É prova de amor, junto à mesa partilhar / É sinal de humildade, nossos dons apresentar\n\nRefrão: Acolhei as oferendas deste vinho e deste pão / E o nosso coração também\nSenhor que vos doastes totalmente por amor / Fazei de nós o que convém!\n\n2- Quem vive para si, empobrece seu viver / quem doar a própria vida, vida nova há de colher\n\n3- Oferta é bem servir, por amor a nosso irmão / É reunir-se nesta mesa é celebrar a redenção"
+  },
+  {
+    "id": 76,
+    "numero": 17,
+    "titulo": "CADA VEZ QUE EU VENHO PARA TE FALAR",
+    "categoria": "Ofertório",
+    "pagina": 24,
+    "letra": "1- Cada vez que eu venho, para te falar / Na verdade eu venho para te escutar / Fala-me da Vida, preciso te escutar\nFala da Verdade, que vai me libertar / Fala-me da Vida, preciso te escutar / Fala da Verdade, que vai me libertar!\n\n2- Cada vez que eu venho para oferecer / Na verdade eu venho para receber / Dá-me o pão da Vida, que vai me alimentar\nDá-me a água viva, que vai me saciar / Dá-me o pão da Vida, que vai me alimentar / Dá-me a água viva, que vai me saciar!"
+  },
+  {
+    "id": 77,
+    "numero": 18,
+    "titulo": "BENDITO SEJAIS SENHOR",
+    "categoria": "Ofertório",
+    "pagina": 24,
+    "letra": "1- Bendito sejais, Senhor / Deus do Universo, pelo pão / Que recebemos de Vossa bondade\nFruto da Terra e do trabalho humano / Que agora Vos apresentamos / E para nós vai se tornar o pão da vida\n\nRefrão: Bendito seja Deus para sempre / Bendito seja Deus para sempre (Bis)\n\n2- Bendito sejais, Senhor, Deus do universo / Pelo vinho que recebemos de Vossa bondade\nFruto da videira e do trabalho humano / Que agora vos apresentamos / E para vai se tornar vinho da salvação"
+  },
+  {
+    "id": 78,
+    "numero": 19,
+    "titulo": "RECEBE, Ó PAI ESTES DONS DE AMOR",
+    "categoria": "Ofertório",
+    "pagina": 24,
+    "letra": "1- Ó meu Senhor Jesus / Deus que me conduz / E jamais se cansa / Venho te oferecer / Todo o meu viver / Minhas esperanças\n\nRefrão: Recebe, ó Pai / Estes dons de amor / Que a igreja te oferta com fervor (Bis)\n\n2- Sim, neste vinho e pão / Vem o Deus irmão / Dar-se em sacramento / Eis a entrega total / Gesto divinal / Torna-se alimento"
+  },
+  {
+    "id": 79,
+    "numero": 20,
+    "titulo": "NÃO TINHA NADA PRA TE OFERECER",
+    "categoria": "Ofertório",
+    "pagina": 24,
+    "letra": "1- Não tinha para te oferecer / Não tinha nada que eu pudesse pôr no teu altar / Eu só pensava nos pecados que eu já fiz\nEu só pensava nos irmãos aos quais não fiz feliz / Então eu me lembrei / Então eu me lembrei\n\nRefrão: Mais do que ouro, mais que prata, mais do que qualquer dom / O que Tu queres é meu coração (Bis)\n\n2- De mãos abertas e em procissão / Eu te ofereço o fruto do trabalho dos irmãos / Eis minhas mãos, eu sou trabalhador\nTrago nas mãos este sinal, sinal do meu amor / Enquanto eu trabalhei, foi isso que eu pensei"
+  },
+  {
+    "id": 80,
+    "numero": 21,
+    "titulo": "NAS TERRAS DO ORIENTE",
+    "categoria": "Ofertório",
+    "pagina": 24,
+    "letra": "1- Nas terras do Oriente / Surgiu nos céus uma luz\nQue vem brilhar sobre o mundo / E para Deus nos conduz (Bis)\n\nRefrão: Nasceu Jesus Salvador / Aleluia, aleluia / É Ele o Cristo Senhor / Aleluia, aleluia!\n\n2- Nasceu-nos hoje um menino / Um Filho que nos foi dado\nÉ grande e tão pequenino / Deus forte é Ele chamado (Bis)\n\n3- Cantai com muita alegria / Que grande amor Deus nos tem\nPequeno, pobre, escondido/Nasceu por nós em Belém (Bis)"
+  },
+  {
+    "id": 81,
+    "numero": 1,
+    "titulo": "SANTO A CAPELLA",
+    "categoria": "Santo",
+    "pagina": 28,
+    "letra": "Santo, santo, santo é o Senhor / Senhor Deus do universo / O céu e a terra proclamam a Vossa glória (Bis)\nHosana no alto céu\n\n1- Bendito é aquele que vem / Em nome do Senhor / Hosana, hosana no alto céu / Hosana, hosana no alto céu\nSanto, santo, santo é o Senhor / Senhor Deus do universo / O céu e a terra proclamam a Vossa glória\nHosana no alto céu"
+  },
+  {
+    "id": 82,
+    "numero": 2,
+    "titulo": "SANTO LENTO",
+    "categoria": "Santo",
+    "pagina": 28,
+    "letra": "1- Santo, santo, santo / Senhor Deus do universo / O céu e a terra proclamam / A Vossa glória\n\nRefrão: Hosana nas alturas, hosana (Bis)\n\n2- Bendito aquele que vem / Em nome do Senhor (Bis)"
+  },
+  {
+    "id": 83,
+    "numero": 3,
+    "titulo": "SANTO FRANCISCANO",
+    "categoria": "Santo",
+    "pagina": 28,
+    "letra": "1- Santo, Santo, Santo / Senhor Deus do universo / O céu e a terra proclamam a Vossa Glória\n\n2- Hosana nas alturas / Bendito o que vem em nome do Senhor / Hosana nas alturas"
+  },
+  {
+    "id": 84,
+    "numero": 4,
+    "titulo": "SANTO GLÓRIA A DEUS",
+    "categoria": "Santo",
+    "pagina": 28,
+    "letra": "1- Santo, Santo, Santo / Senhor Deus do universo / O céu e a terra proclamam a Vossa glória\n\nRefrão: Hosana / Hosana / Hosana/Hosana/Hosana nas alturas\n\n2- Bendito o que vem / Em nome do Senhor"
+  },
+  {
+    "id": 85,
+    "numero": 5,
+    "titulo": "SANTO SEPARADO",
+    "categoria": "Santo",
+    "pagina": 28,
+    "letra": "1- Santo, santo / Santo é o Senhor / Deus do Universo / Santo é o Senhor\n\n2- O céu e a terra / Santo é o Senhor / Proclamam Vossa glória / Santo é o Senhor\n\n3- Bendito o que vem / Santo é o Senhor / Em nome do Senhor / Santo é o Senhor\n\n4- Hosana nas alturas / Santo é o Senhor / Hosana nas alturas / Santo é o Senhor"
+  },
+  {
+    "id": 86,
+    "numero": 6,
+    "titulo": "SANTO DO MINISTÉRIO ADORAÇÃO E AMOR",
+    "categoria": "Santo",
+    "pagina": 28,
+    "letra": "1- Santo, santo, santo / Senhor Deus do universo / O céu e a Terra / Proclamam Vossa glória (Bis)\nHosana (hosana), hosana (hosana), hosana nas alturas (Bis)\n\n2- Bendito o que vem / Em nome do Senhor / Hosana nas alturas"
+  },
+  {
+    "id": 87,
+    "numero": 7,
+    "titulo": "SANTO DE APARECIDA DO NORTE",
+    "categoria": "Santo",
+    "pagina": 28,
+    "letra": "1- Santo / Santo / Santo / Senhor Deus do Universo / O céu e a terra / Proclamam a Vossa glória\n\n2- Hosana nas alturas / Bendito que vem / Em nome do Senhor / Hosana nas alturas / Hosana nas alturas"
+  },
+  {
+    "id": 88,
+    "numero": 8,
+    "titulo": "SANTO COMUM",
+    "categoria": "Santo",
+    "pagina": 28,
+    "letra": "1- Santo, Santo é meu Senhor / Santo, Santo é o nosso Deus / Céus e terra proclamam Sua glória\nBendito é o que vem / Em nome desse Deus\n\nRefrão: Hosana em toda terra / Hosana em toda terra / Hosana em toda terra / Hosana lá no céu (Bis)"
+  },
+  {
+    "id": 89,
+    "numero": 1,
+    "titulo": "AMÉM (LENTO)",
+    "categoria": "Amém",
+    "pagina": 31,
+    "letra": "1-Amém/Amém/A_A_A_Amém"
+  },
+  {
+    "id": 90,
+    "numero": 2,
+    "titulo": "AMÉM (SOLENE)",
+    "categoria": "Amém",
+    "pagina": 31,
+    "letra": "1-A_a_mém/A_a_mém/A_a_a_amém"
+  },
+  {
+    "id": 91,
+    "numero": 3,
+    "titulo": "AMÉM (RÁPIDO)",
+    "categoria": "Amém",
+    "pagina": 31,
+    "letra": "1-Amém / Amém / A_amém Amém Amém"
+  },
+  {
+    "id": 92,
+    "numero": 4,
+    "titulo": "AMÉM (ALELUIA)",
+    "categoria": "Amém",
+    "pagina": 31,
+    "letra": "1-Amém aleluia / Amém aleluia / Amém aleluia, aleluia amém"
+  },
+  {
+    "id": 93,
+    "numero": 5,
+    "titulo": "AMÉM (ISSO MESMO AMÉM)",
+    "categoria": "Amém",
+    "pagina": 31,
+    "letra": "1-Amém, isso mesmo amém / Muito bem assim se_ja, amém!"
+  },
+  {
+    "id": 94,
+    "numero": 6,
+    "titulo": "AMÉM (ADAMS)",
+    "categoria": "Amém",
+    "pagina": 31,
+    "letra": "Aaaamém/Aaaamém / Aaa / Aaa/ Aa_a_amém / Aaa / Aaa/Aa a amém"
+  },
+  {
+    "id": 95,
+    "numero": 1,
+    "titulo": "CORDEIRO (PADRE MARCELO)",
+    "categoria": "Cordeiro",
+    "pagina": 33,
+    "letra": "1- Cordeiro de Deus, que tirais o pecado do mundo / Tende piedade, tende piedade / Tende piedade, piedade de nós\n2- Cordeiro de Deus, que tirais o pecado do mundo / Tende piedade, tende piedade / Tende piedade, piedade de nós\n3- Cordeiro de Deus, que tirais o pecado do mundo / Dai-nos a paz, dai-nos a paz / Dai-nos a paz, Senhor / a Vossa paz"
+  },
+  {
+    "id": 96,
+    "numero": 2,
+    "titulo": "CORDEIRO (DO FREI)",
+    "categoria": "Cordeiro",
+    "pagina": 33,
+    "letra": "1- Cordeiro de Deus, que tirais o pecado do mundo / Tende piedade de nós\n2- Cordeiro de Deus, que tirais o pecado do mundo / Tende piedade de nós\n3- Cordeiro de Deus, que tirais o pecado do mundo / Dai-nos a paz, dai-nos a paz / Senhor a vossa paz, vossa paz (Bis 2x)"
+  },
+  {
+    "id": 97,
+    "numero": 3,
+    "titulo": "CORDEIRO (FRAÇÃO DO PÃO)",
+    "categoria": "Cordeiro",
+    "pagina": 33,
+    "letra": "1- Cordeiro de Deus, que tirais o pecado do mundo / Tende piedade de nós\n2-Cordeiro de Deus, que tirais o pecado do mundo / Tende piedade de nós\n3- Cordeiro de Deus, que tirais o pecado do mundo / Dai-nos a paz"
+  },
+  {
+    "id": 98,
+    "numero": 4,
+    "titulo": "CORDEIRO (SEPARADO)",
+    "categoria": "Cordeiro",
+    "pagina": 33,
+    "letra": "1- Cordeiro de Deus, Cordeiro de Deus / Que tirais o pecado do mundo, que tirais o pecado do mundo\nTende piedade de nós, tende piedade de nós\n2- Cordeiro de Deus, Cordeiro de Deus / Que tirais o pecado do mundo, que tirais o pecado do mundo\nTende piedade de nós, tende piedade de nós\n3- Cordeiro de Deus, Cordeiro de Deus / Que tirais o pecado do mundo, que tirais o pecado do mundo\nDai a todos vossa paz, dai a todos vossa paz/ Dai a todos vossa paz"
+  },
+  {
+    "id": 99,
+    "numero": 5,
+    "titulo": "CORDEIRO (CARISMÁTICO)",
+    "categoria": "Cordeiro",
+    "pagina": 33,
+    "letra": "1- Cordeiro de Deus, que tirais o pecado do mundo / Tende piedade, piedade de nós\n2- Cordeiro de Deus, que tirais o pecado do mundo / Tende piedade, piedade de nós\n3- Cordeiro de Deus, que tirais o pecado do mundo / Dai-nos a paz, a vossa paz"
+  },
+  {
+    "id": 100,
+    "numero": 6,
+    "titulo": "CORDEIRO (COMUM)",
+    "categoria": "Cordeiro",
+    "pagina": 33,
+    "letra": "1- Cordeiro de Deus que tirais o pecado do mundo / Tende piedade de nós\n2- Cordeiro de Deus que tirais o pecado do mundo / Tende piedade de nós\n3- Cordeiro de Deus que tirais o pecado do mundo / Dai-nos a paz"
+  },
+
+  {
+    "id": 101,
+    "numero": 7,
+    "titulo": "CORDEIRO (DE NÓS)",
+    "categoria": "Cordeiro",
+    "pagina": 33,
+    "letra": "1- Cordeiro de Deus que tirais o pecado do mundo / Tende piedade de nós, de nós\n2- Cordeiro de Deus que tirais o pecado do mundo / Tende piedade de nós, de nós\n3- Cordeiro de Deus que tirais o pecado do mundo / Dai-nos a paz, dai-nos a paz / Senhor a vossa paz"
+},
+  {
+    "id": 102,
+    "numero": 1,
+    "titulo": "ANTES DA MORTE E RESSUREIÇÃO",
+    "categoria": "Comunhão",
+    "pagina": 36,
+    "letra": "1- Antes da morte e ressurreição de Jesus / Ele, na ceia, quis se entregar / Deu-se em comida e bebida pra nos salvar\nRef: E quando amanhecer / O dia eterno, a plena visão / Ressurgiremos por crer / Nesta vida escondida no pão\n2- Para lembrarmos a morte, a cruz do Senhor / Nós repetimos, como Ele fez / Gestos, palavras, até que volte outra vez\n3- Este banquete alimenta o amor dos irmãos / E nos prepara pra glória do céu / Ele é força na caminhada pra Deus\n4- Eis o pão vivo mandado a nós por Deus Pai / Quem o recebe, não morrerá / No último dia, vai ressurgir, viverá\n5- Cristo está vivo, ressuscitou para nós / Esta verdade vai anunciar / A toda Terra, com alegria, cantar"
+  },
+  {
+    "id": 103,
+    "numero": 2,
+    "titulo": "TOMAI, COMEI",
+    "categoria": "Comunhão",
+    "pagina": 36,
+    "letra": "1- Eu quis comer esta ceia agora / Pois vou morrer, já chegou minha hora\nRef: Tomai, comei, é Meu corpo e Meu sangue que dou / Vivei no amor, Eu vou preparar a ceia na casa do Pai\n2- Comei o pão, é Meu corpo imolado por vós / Perdão para todo o pecado\n3- E vai nascer do Meu corpo a esperança / O amor, a paz, uma nova aliança\n4- Eu vou partir, deixo o Meu testamento / Vivei no amor, eis o Meu mandamento\n5- Irei ao Pai, sinto a vossa tristeza / Porém no céu vos preparo outra mesa\n6- De Deus virá o Espírito Santo / Que vou mandar pra enxugar vosso pranto"
+  },
+  {
+    "id": 104,
+    "numero": 3,
+    "titulo": "O CORPO QUE ERA DELE",
+    "categoria": "Comunhão",
+    "pagina": 36,
+    "letra": "Refrão: O corpo que era dele eu comerei agora / O sangue que era dele meu será\nA vida que era dele eu viverei agora- O sonho que era dele meu será\n1- A farinha molhada na água é o pão / A farinha molhada na fé é Jesus\nEis o sonho que o mundo não quis entender- Quem não comer, não viverá\n2- Muita uva amassada no pé é o vinho / Muita uva amassada na fé é Jesus\nEis o sonho que o mundo não quis entender- Quem não beber, não viverá"
+  },
+  {
+    "id": 105,
+    "numero": 4,
+    "titulo": "CANTAR A BELEZA DA VIDA",
+    "categoria": "Comunhão",
+    "pagina": 36,
+    "letra": "1- Cantar a beleza da vida / Presente do amor sem igual / Missão do Teu povo escolhido / Senhor, vem livrar-nos do mal\nRefrão: Vem dar-nos Teu filho, Senhor / Sustento no pão e no vinho\nE a força do Espírito Santo / Unindo Teu povo a caminho\n2- Falar do Teu filho às nações / Vivendo como Ele viveu / Missão do Teu povo escolhido / Senhor, vem cuidar do que é Teu!\n3- Viver o perdão sem medida / Servir sem jamais condenar / Missão do Teu povo escolhido / Senhor, vem conosco ficar\n4- Erguer os que estão humilhados / Doar-se aos pequenos e aos pobres / Missão do Teu povo escolhido / Senhor, nossas forças redobre\n5- Buscar a verdade e a justiça / Nas trevas brilhar como a luz / Missão do Teu povo escolhido! / Senhor, nossos passos conduz\n6- Andar os caminhos do mundo / Plantando Teu reino de paz / Missão do Teu povo escolhido / Senhor, nossos passos refaz\n7- Fazer deste mundo um só povo / Fraterno, a serviço da vida / Missão do Teu povo escolhido / Senhor, vem nutrir nossa vida"
+  },
+  {
+    "id": 106,
+    "numero": 5,
+    "titulo": "CRISTO PÃO",
+    "categoria": "Comunhão",
+    "pagina": 36,
+    "letra": "1- Vim de longe, de outras terras, pelo espírito enviado / Pelo Cristo separado, proclamar a salvação\nRefrão: Cristo pão, vem me sustentar, sua palavra é vida, para a vida iluminar\n2- Mas não lembro os sofrimentos, os açoites que ganhei / Os insultos que levei, por amor ao meu irmão\n3- Esquecido do passado, vivo em Cristo o meu presente / E me lanço para frente, para o Reino construir\n4- Neste peito meu de barro, para o homem desvalido / Trago o Deus desconhecido e a esperança do porvir\n5- Para o fraco sem defesa, para o pobre injustiçado / E o inocente acorrentado, anuncio libertação\n6- Pelo mundo sem fronteiras, continuo minha viagem / Sou de Cristo a nova imagem, sou de Cristo o coração\n7- Vou correndo até que o Reino seja a todos proclamado / E o homem libertado, reconheça o Deus de amor\n8- Combati o bom combate, terminei minha carreira / Guardei a fé verdadeira, glória a Cristo meu senhor"
+  },
+  {
+    "id": 107,
+    "numero": 6,
+    "titulo": "PRESENÇA REAL",
+    "categoria": "Comunhão",
+    "pagina": 37,
+    "letra": "1- Eu sou o pão do amor vivo / Que desceu do céu / Não morrerá jamais / Quem dele comer / Pois terá a Vida Eterna\nRef: Presença real / Não é mais pão / É o Corpo de Jesus / Que se entregou por nós na cruz / É presença real\nPresença real / Não é mais vinho / É o Sangue do Senhor / É o mandamento do amor / É presença real\n2- Meu Corpo e também meu Sangue é Isto / Que é dado por vós / E será perdão / Para todo o pecado / Eis a Nova Aliança\n3- E aquele que vem a mim livre / Também vai ao Pai / E viverá feliz / No Espírito Santo / No projeto de Deus\n4- Viver no amor e na Paz de Cristo / É a nossa missão / Não temerá jamais / Quem a vida doar / Em favor dos irmãos"
+  },
+  {
+    "id": 108,
+    "numero": 7,
+    "titulo": "PELO AMOR DE JESUS E MARIA",
+    "categoria": "Comunhão",
+    "pagina": 37,
+    "letra": "1- Entre muitos presentes que nos deu / Jesus Cristo deixou a Eucaristia\nFoi a forma tão simples que encontrou / pra ficar com seu povo noite e dia\nRefrão: Pelo amor de Jesus e Maria / Esta Eucaristia nos faça viver (Bis)\n2- Celebrando com os seus a despedida / Não querendo deixar-nos sós no mundo\nTransformou-se no pão da nossa vida / Num mistério tão rico e tão profundo\n3- Como outrora a seu povo no deserto / Deus nos dá o seu Filho por comida\nQuem comer deste pão pode estar certo / Terá Cristo envolvendo a sua vida"
+  },
+  {
+    "id": 109,
+    "numero": 8,
+    "titulo": "SENHOR VEM DAR-NOS, SABEDORIA",
+    "categoria": "Comunhão",
+    "pagina": 37,
+    "letra": "1- Senhor vem dar-nos sabedoria / Que faz ter tudo como Deus quis\nE assim faremos da Eucaristia / O grande meio de ser feliz\nRefrão: Dá-nos, Senhor, esses dons, essa luz / E nós veremos que Pão é Jesus!\n2- Dá-nos, Senhor, o entendimento / Que tudo ajuda a compreender\nPara nós vermos como é alimento / O pão e o vinho que Deus quer ser\n3- Senhor, vem dar-nos divina ciência / Que, como o eterno, faz ver sem véus\nTu vês por fora, Deus vê a essência / Pensas que é pão, mas é nosso Deus\n4- Dá-nos, Senhor, o teu conselho / Que nos faz sábios para guiar\nHomem, mulher, jovem e velho / Nós guiaremos ao Santo Altar\n5- Senhor, vem dar-nos a fortaleza / A santa força do coração\nSó quem vencer vai sentar-se à mesa / Para quem luta Deus quer o pão\n6- Dá-nos, Senhor, filial piedade / A doce forma de amar enfim\nPara que amemos quem, na verdade / Aqui amou-nos até o fim\n7- Dá-nos, enfim, temor sublime / De não amá-los como convém\nO Cristo-hóstia, que nos redime / O Pai Celeste, que nos quer bem"
+  },
+  {
+    "id": 110,
+    "numero": 9,
+    "titulo": "AGORA O TEMPO SE CUMPRIU",
+    "categoria": "Comunhão",
+    "pagina": 37,
+    "letra": "Refrão: Agora o tempo se cumpriu o reino já chegou / Irmãos, convertam-se / E creiam firmes no evangelho!\n1- Feliz aquele homem que não anda / Conforme os conselhos dos perversos\n2- Que não entra no caminho dos malvados / Nem junto aos zombadores vai sentar-se\n3- Mas encontra seu prazer na lei de Deus / E medita, dia e noite, sem cessar\n4- Eis que ele é semelhante a uma árvore / Que à beira da torrente está plantada\n5- Ela sempre dá frutos a seu tempo / E jamais as suas folhas vão murchar\n6- Pois deus vigia o caminho dos eleitos / Mas a estrada dos malvados leva a morte"
+  },
+  {
+    "id": 111,
+    "numero": 10,
+    "titulo": "PROVA DE AMOR MAIOR NÃO HÁ",
+    "categoria": "Comunhão",
+    "pagina": 37,
+    "letra": "Refrão: Prova de amor maior não há / Que doar a vida pelo irmão! (Bis)\n1- Eis que eu vos dou / Um novo mandamento: / Amai-vos uns aos outros / Como eu vos tenho amado\n2- Vós sereis os meus amigos / Se seguirdes meu preceito: / Amai-vos uns aos outros / Como eu vos tenho amado\n3- Permanecei em meu amor / E segui meu mandamento: / Amai-vos uns aos outros / Como eu vos tenho amado\n4- E chegando a minha páscoa / Vos amei até o fim: / Amai-vos uns aos outros / Como eu vos tenho amado\n5- Nisto todos saberão que vós / Sois os meus discípulos: / Amai-vos uns aos outros / Como eu vos tenho amado"
+  },
+  {
+    "id": 112,
+    "numero": 11,
+    "titulo": "DA CEPA BROTOU A RAMA",
+    "categoria": "Comunhão",
+    "pagina": 38,
+    "letra": "Refrão: Da cepa brotou a rama / Da rama brotou a flor / Da flor nasceu Maria / De Maria, o Salvador (Bis)\n1- O espírito de Deus sobre ele pousará / De saber, de entendimento, este espírito será\nDe conselho e fortaleza, de ciência e de temor / Achará sua alegria no temor do seu Senhor\n2- Não será pela ilusão do olhar, do ouvir falar / Que Ele irá julgar os homens, como é praxe acontecer\nMas os pobres desta terra, com justiça julgará / E dos fracos o direito Ele é quem defenderá\n3- A palavra de Sua boca ferirá o violento / E o sopro de Seus lábios matará o avarento\nA justiça é o cinto que circunda a Sua cintura / E o manto da lealdade é a Sua vestidura\n4- Neste dia, neste dia, o incrível, verdadeiro / Coisa que nunca se viu: Morar lobo com cordeiro\nA comer do mesmo pasto, tigre, boi, burro e leão / Por um menino guiados, se confraternizarão"
+  },
+  {
+    "id": 113,
+    "numero": 12,
+    "titulo": "MULHER, NINGUÉM TE CONDENOU?",
+    "categoria": "Comunhão",
+    "pagina": 38,
+    "letra": "1- De madrugada, retornando ao templo / Jesus reuniu-se com aquele povo\nE ensinando-lhes sobre o amor / Dizia coisas que jamais ouvidas\nE, entretanto, quiseram prová-lo / Os fariseus e os mestres da lei\nAo entregarem aquela mulher / Não hesitavam em apedrejá-la\nRef: Mulher, ninguém te condenou? / Não, ninguém me condenou!\nNem eu te condenarei / Vá e não peques mais! (Bis)\n2- Ali estavam os acusadores / Para tramar a morte de jesus\nE, persistindo em interrogá-lo / Com artimanhas, mostravam a lei\nQue tinha sido escrita por moisés: / Por isso temos um motivo justo\nO que tu dizes sobre este preceito / O que tu falas sobre este assunto?\n3- Eles armados com pedras nas mãos / Estavam prontos para condenar\nAquela pobre mulher indefesa / E sem mais chances para caminhar\nQuando, inclinado no chão a escrever / Jesus pergunta dentre todo o povo:\nSe alguém não peca, que seja o primeiro / Apedrejá-la é um motivo novo?\n4- Todos aqueles, ao ouvirem isto / Foram aos poucos desistindo disso\nJesus ficou sozinho com a mulher / Que se encontrava em meio àquele povo\nDeus não protege a quem somente é justo / Mas quer salvar também os pecadores\nNão condenar, é para isto que veio / E dar sua vida para a salvação"
+  },
+  {
+    "id": 114,
+    "numero": 13,
+    "titulo": "É BOM ESTARMOS JUNTOS",
+    "categoria": "Comunhão",
+    "pagina": 38,
+    "letra": "1- É bom estarmos juntos à mesa do Senhor / E unidos na alegria, partir o Pão do Amor\nRefrão: Na vida caminha quem come deste pão / Não anda sozinho quem vive em comunhão\n2- Embora sendo muitos, é um o nosso Deus / Com Ele, vamos juntos, seguindo os passos seus\n3- Formamos a Igreja, o corpo do Senhor / Que em nós o mundo veja a luz do seu amor\n4- Foi Deus quem deu outrora ao povo o pão do céu / Porém, nos dá agora o próprio Filho seu\n5- Será bem mais profundo o encontro: a comunhão / Se formos para o mundo sinal de salvação\n6- Beber nossa Eucaristia ajude a sustentar / Quem quer no dia-a-dia o amor testemunhar"
+  },
+  {
+    "id": 115,
+    "numero": 14,
+    "titulo": "QUANDO TEU PAI REVELOU",
+    "categoria": "Comunhão",
+    "pagina": 38,
+    "letra": "1- Quando teu Pai revelou o segredo a Maria / Que, pela força do Espírito, conceberia\nA ti Jesus, ela não hesitou logo em responder: / Faça-se em mim, pobre serva o a que Deus aprouver!\nHoje imitando a Maria que é imagem da igreja / Nossa família outra vez te recebe e deseja\nCheia de fé, de esperança e de amor, dizer sim a Deus / Eis aqui os teus servos, Senhor!\nRefrão: Que a graça de Deus / Cresça em nós sem cessar!\nE de ti nosso pai venha o Espírito Santo de amor/pra gerar e formar Cristo em nós\n2- Por um decreto do Pai ela foi escolhida / Para gerar-te, ó Senhor que és origem da vida\nCheia do Espírito Santo no corpo e no coração / Foi quem melhor cooperou com a tua missão\nNa comunhão recebemos o Espírito Santo / E vem contigo Jesus o teu pai sacrossanto\nVamos agora ajudar-te no plano da salvação: / Eis aqui os teus servos, Senhor!\n3- No coração de Maria, no olhar doce e terno / Sempre tiveste na vida um apoio materno\nDesde Belém, Nazaré, só viveu para te servir / Quando morrias na cruz tua mãe estava ali\nMãe amorosa da igreja quer ser nosso auxílio / Reproduzir no cristão as feições de teu filho\nComo ela fez em Caná, nos convida a te obedecer: / Eis aqui os teus servos, Senhor!"
+  },
+  {
+    "id": 116,
+    "numero": 15,
+    "titulo": "NA MESA SAGRADA",
+    "categoria": "Comunhão",
+    "pagina": 39,
+    "letra": "1- Na mesa sagrada se faz unidade / No pão que alimenta, que é o pão do Senhor\nFormamos família na fraternidade / Não há diferença de raça ou de cor\nRefrão: Importa viver, Senhor, unidos no amor / Na participação, vivendo em comunhão (Bis)\n2- Chegar junto à mesa é comprometer-se / É a Deus converter-se com sinceridade\nO grito dos fracos devemos ouvir / E em nome de Cristo amar e servir!\n3- Enquanto na terra o pão for partido / O homem nutrido se transformará\nVivendo a esperança num mundo melhor / Com Cristo lutando, o amor vencerá\n4- Se participamos da Eucaristia / É grande a alegria que Deus oferece\nPorém não podemos deixar esquecida / A dor, nesta vida, que o pobre padece\n5- Assim, comungando da única vida / A morte vencida será nossa sorte\nSe unidos buscarmos libertação / Teremos com cristo a ressurreição"
+  },
+  {
+    "id": 117,
+    "numero": 16,
+    "titulo": "POVO DE DEUS FOI ASSIM",
+    "categoria": "Comunhão",
+    "pagina": 39,
+    "letra": "1- Povo de Deus, foi assim: / Deus cumpriu a palavra que diz: / Uma virgem irá conceber / E a visita de Deus me fez mãe!\nMãe do Senhor, nossa mãe / Nós queremos contigo aprender / A humildade, a confiança total / E escutar o teu filho que diz:\nRefrão: Senta comigo à minha mesa / Nutre a esperança, reúne os irmãos!\nPlanta meu reino, transforma a terra / Mais que coragem, tens minha mão!\n2- Povo de Deus foi assim: / Nem montanha ou distância qualquer / Me impediu de servir e sorrir / Visitei com meu Deus fui irmã\nMãe do Senhor, nossa mãe / Nós queremos contigo aprender / Desapego, bondade, teu sim / E acolher o teu filho que diz:\n3- Povo de Deus, foi assim: / Meu menino cresceu e entendeu / Que a vontade do Pai conta mais / E a visita foi Deus quem nos fez\nMãe do Senhor, nossa mãe / Nós queremos contigo aprender / A justiça, a vontade do Pai / E entender o teu filho que diz:\n4- Povo de Deus, foi assim: / Da verdade jamais se afastou / Veio a morte e ficou nosso pão / Visitou-nos e espera por nós\nMãe do Senhor, nossa mãe / Nós queremos contigo aprender / A verdade, a firmeza, o perdão / E seguir o teu filho que diz:"
+  },
+  {
+    "id": 118,
+    "numero": 17,
+    "titulo": "IGUALDADE, FRATERNIDADE",
+    "categoria": "Comunhão",
+    "pagina": 39,
+    "letra": "1- Ó, Senhor, nós estamos aqui / Junto à mesa da celebração\nSimplesmente atraídos por Vós / Desejamos formar comunhão!\nRef: Igualdade, fraternidade, nesta mesa nos ensinais\nAs lições que melhor educam / Na Eucaristia é que nos dais (Bis)\n2- Todos cantam o Vosso louvor / Pois em Vós todos somos irmãos\nOuviremos com fé, ó Senhor / Os apelos de libertação\n3- Este encontro convosco, Senhor / Incentiva a justiça e a paz\nNos inquieta e convida a sentir / Os apelos que o pobre nos faz\n4- Acolheis com o Vosso perdão / Todo o homem disposto a crescer\nAo redor desta mesa, Senhor / A unidade podemos viver"
+  },
+  {
+    "id": 119,
+    "numero": 18,
+    "titulo": "CRISTO, QUERO SER INSTRUMENTO",
+    "categoria": "Comunhão",
+    "pagina": 39,
+    "letra": "1- Cristo, quero ser instrumento / De Tua paz e do Teu infinito amor\nOnde houver ódio ou rancor / Que eu leve a concórdia, que eu leve o amor\nRefrão: Onde há ofensa que dói / Que eu leve o perdão\nOnde houver a discórdia / Que eu leve a união e Tua paz\n2- Onde encontrar um irmão a chorar de tristeza / Sem ter voz e nem vez\nQuero bem no seu coração / Semear alegria, pra florir gratidão\n3- Mestre, que eu saiba amar / Compreender, consolar e dar sem receber\nQuero sempre mais perdoar / Trabalhar na conquista e vitória da paz\n4- Onde eu encontrar um irmão / A chorar de tristeza, sem ter voz e nem vez.\nQuero bem no seu coração / Semear alegria, pra florir gratidão!\n5- Mestre, que eu saiba amar / Compreender, consolar e dar sem receber.\nQuero sempre mais perdoar / Trabalhar na conquista e vitória da paz!"
+  },
+  {
+    "id": 120,
+    "numero": 19,
+    "titulo": "O PÃO QUE SE REPARTE NESTE ALTAR",
+    "categoria": "Comunhão",
+    "pagina": 40,
+    "letra": "1- O pão que se reparte neste altar / Nos faz compreender tamanho amor\nA vida que se entrega faz brotar / Seguindo, assim, a voz do Criador\nFraterno amor jamais pode faltar / Quem se doa ao irmão mais sofredor\nRefrão: Dá-nos a graça, ó, Senhor / Com a força deste pão\nE assim faremos, ó, Senhor / Um mundo mais fraterno em comunhão (Bis)\n2- A partilha, grande gesto do Cristão / Onde o amor se faz viver, se faz sentir\nUma vida partilhada em vinho e pão / É exemplo que a família quer seguir\nNa graça desta santa comunhão / estamos sempre prontos pra servir"
+  },
+  {
+    "id": 121,
+    "numero": 20,
+    "titulo": "VIMOS SUA ESTRELA, NO ORIENTE",
+    "categoria": "Comunhão",
+    "pagina": 40,
+    "letra": "Refrão: Vimos Sua estrela / no oriente / e, assim, vimos adorar / o Rei da gente\n1- Onde foi que nasceu / o Rei dos judeus? / Em Belém da Judéia / conforme diz Miquéias\n2- No lugar da estrebaria / se deteve a estrela guia / Encontraram com alegria / o Menino com Maria\n3- E abrindo os seus tesouros / deram incenso, mirra e ouro / Glória ao Pai e ao Menino / E ao Espírito Divino"
+  },
+  {
+    "id": 122,
+    "numero": 21,
+    "titulo": "O PÃO DA VIDA A COMUNHÃO",
+    "categoria": "Comunhão",
+    "pagina": 40,
+    "letra": "Refrão: O pão da vida, a Comunhão / Nos une a Cristo e aos irmãos\nE nos ensina a abrir as mãos para partir, repartir o Pão (Bis)\n1- Lá no deserto, a multidão / Com fome segue o Bom Pastor\nCom sede busca a Nova Palavra / Jesus tem pena e reparte o pão\n2- Na Páscoa Nova da Nova Lei / Quando amou-nos até o fim\nPartiu o pão disse: / Isto é meu Corpo / Por vós doado, tomai, comei!\n3- Se neste Pão, nesta Comunhão / Jesus nos dá a própria vida\nVamos também repartir os dons / Doar a vida por nosso irmão\n4- Onde houver fome, reparte o Pão / E tuas trevas hão de ser luz\nEncontrarás Cristo no irmão / Serás bendito do eterno Pai\n5- Não é feliz quem não sabe dar / Quem não aprende a lição do altar\nDe abrir a mão e o coração / Para doar-se no próprio dar"
+  },
+  {
+    "id": 123,
+    "numero": 22,
+    "titulo": "DESAMARREM AS SANDÁLIAS",
+    "categoria": "Comunhão",
+    "pagina": 40,
+    "letra": "1- Ao recebermos, Senhor / Tua presença sagrada / Pra confirmar Teu amor / Faz de nós Tua morada\nSurge um sincero louvor / Brota a semente plantada / Faz-nos seguir Teu caminho / Sempre trilhar tua estrada\nRefrão: Desamarrem as sandálias e descansem / Este chão é terra santa, irmãos meus\nVenham, orem, comam, cantem / Venham todos / E renovem a esperança no Senhor\n2- O Filho de Deus com o Pai / E o Espírito Santo / Nesta Trindade um só ser / Que pede a nós sermos santos\nDai-nos, Jesus, Teu poder / De se doar sem medidas / Deixa que compreendamos / Que este é o sentido da vida\n3- Ao virmos Te receber / Nós Te pedimos, ó Cristo / Fazes vibrar nosso ser / Indo ao encontro ao Pai Santo\nSem descuidar dos irmãos / Mil faces da Tua face / Fazes que o coração sinta / A força da caridade"
+  },
+  {
+    "id": 124,
+    "numero": 23,
+    "titulo": "VÓS SOIS O CAMINHO, A VERDADE E A VIDA",
+    "categoria": "Comunhão",
+    "pagina": 40,
+    "letra": "Refrão: Vós sois o caminho, a verdade e a vida / O pão da alegria descido do Céu!\n1- Nós somos caminheiros que marcham para os céus / Jesus é o caminho que nos conduz a Deus\n2- Da noite da mentira, das trevas para a luz / Busquemos a verdade, verdade é só Jesus\n3- Pecar é não ter vida, pecar é não ter luz / Tem vida só quem segue os passos de Jesus\n4- Jesus, verdade e vida, Caminho que conduz / À Igreja peregrina que marcha para a luz"
+  },
+  {
+    "id": 125,
+    "numero": 1,
+    "titulo": "TOMADO PELA MÃO",
+    "categoria": "Final",
+    "pagina": 46,
+    "letra": "Refrão: Tomado pela mão com Jesus eu vou / Sigo-o como ovelha que encontrou o pastor\nTomado pela mão, com Jesus eu vou aonde ele for (Bis)\n1- Se Jesus me diz: amigo, deixa tudo e vem comigo / Onde tudo é mais formoso e mais feliz\nSe Jesus me diz: amigo, deixa tudo e vem comigo / Eu, minha mão porei na sua e irei com ele\n2- Eu te levarei, amigo, a um lugar comigo/Onde o sol e as estrelas brilham mais\nEu te levarei amigo a um lugar comigo / Onde tudo é mais formoso e mais feliz"
+  },
+  {
+    "id": 126,
+    "numero": 2,
+    "titulo": "PELOS PRADOS E CAMPINAS",
+    "categoria": "Final",
+    "pagina": 46,
+    "letra": "1- Pelos prados e campinas, verdejantes, eu vou / É o Senhor que me leva a descansar\nJunto às fontes de águas puras, repousantes, eu vou / Minhas forças o Senhor vai animar\nRefrão: Tu és, Senhor, o meu pastor / Por isso nada em minha vida faltará! (Bis)\n2- Nos caminhos mais seguros, junto d'Ele, eu vou / E pra sempre o Seu nome eu honrarei\nSe eu encontro mil abismos, nos caminhos, eu vou / Segurança sempre tenho em Suas mãos\n3- Ao banquete em sua casa, muito alegre, eu vou / Um lugar em Sua mesa me preparou\nEle unge minha fronte e me faz ser feliz / E transborda a minha taça em Seu amor\n4- Bem à frente do inimigo, confiante, eu vou / Tenho sempre o Senhor junto de mim\nSeu cajado me protege e eu jamais temerei / Sempre junto do Senhor eu estarei"
+  },
+  {
+    "id": 127,
+    "numero": 3,
+    "titulo": "BOM É LOUVAR O SENHOR",
+    "categoria": "Final",
+    "pagina": 46,
+    "letra": "Refrão: Bom é louvar o Senhor, nosso Deus / Cantar salmos ao nome do Altíssimo\nCom alegria aclamar Seu amor / Sua glória, bondade e poder\n1- Como Tuas obras me alegram, Senhor / Os Teus prodigios suscitam louvor\nTua presença eu contemplo no Céu / Olho a terra também nela estás\n2- Tu engrandeces o homem mortal / Da natureza ele é rei e senhor\nDe honra o coroaste, de glória e poder / Pouco menos que aos anjos do Céu\n3- Narram os céus o que fez tua mão / Todo universo Teu nome bendiz\nA criação é um canto de amor / E esse canto é também meu louvor\n4- Tua bondade cercou-me de bens / Tudo que tenho é por graça e favor\nQuero os dons com os irmãos partilhar / Vendo em Ti nosso Deus, nosso Pai\n5- Chave suprema de um plano de pai / Neste universo que cresce na dor\nDeste-nos Cristo, homem-Deus, nosso irmão / E é por ele que vamos a Ti"
+  },
+  {
+    "id": 128,
+    "numero": 4,
+    "titulo": "VOU NAVEGAR",
+    "categoria": "Final",
+    "pagina": 46,
+    "letra": "1- Outra vez me vejo só, com meu Deus / Não consigo mais fugir, fugir de mim\nJunto às águas deste mar vou lutar / Hoje quero me encontrar / Buscar o meu lugar\nRefrão: Vou navegar nas águas deste mar / Navegar, eu quero me encontrar / Navegar, não posso mais fugir\nVou procurar nas águas mais profundas / No mar, feliz, eu vou seguir / Só amar, buscar o meu lugar\nSem dúvidas, sem medo de sonhar!\n2- Ó, Jesus, com fé eu Te seguirei / Só contigo sou feliz, Tu és em mim!\nTeu espírito de amor criador / Me sustenta no meu sim / Me lança neste mar\n3- Vivo a certeza desta missão / Já não posso desistir, voltar atrás\nMãe Maria, vem tomar minha mão / E me ajuda a ser fiel / Só Cristo é luz e paz"
+  },
+  {
+    "id": 129,
+    "numero": 5,
+    "titulo": "OBRIGADO, SENHOR",
+    "categoria": "Final",
+    "pagina": 46,
+    "letra": "1- Obrigado, Senhor, porque és meu amigo / Porque sempre comigo Tu estás a falar\nNo perfume das flores, na harmonia das cores / E no mar que murmura o Teu nome a rezar\nRefrão: Escondido Tu estás no verde das florestas / Nas aves em festa, no sol a brilhar\nNa sombra que abriga, na brisa amiga / Na fonte que corre ligeiro a cantar\n2- Te agradeço ainda porque na alegria / Ou na dor de cada dia posso Te encontrar\nQuando a dor me consome, murmuro o Teu nome / E mesmo sofrendo, eu posso cantar / Escondido tu estás"
+  },
+  {
+    "id": 130,
+    "numero": 6,
+    "titulo": "PORQUE ELE VIVE",
+    "categoria": "Final",
+    "pagina": 47,
+    "letra": "1- Deus enviou seu Filho amado / Para morrer em meu lugar\nNa cruz sofreu por meus pecados / Mas ressurgiu e vivo com o Pai está\nRefrão: Porque Ele vive, posso crer no amanhã / Porque Ele vive, temor não há\nMas eu bem sei, eu sei, que a minha vida / Está nas mãos do meu Jesus, que vivo está\n2- E quando, enfim, chegar a hora / Em que a morte enfrentarei\nSem medo, então, terei vitória / Verei na glória, o meu Jesus que vivo está"
+  },
+  {
+    "id": 131,
+    "numero": 7,
+    "titulo": "VOU EVANGELIZAR",
+    "categoria": "Final",
+    "pagina": 47,
+    "letra": "1- Senhor, eu quero Te agradecer / De todos os dias a gente poder conversar\nSenhor, às vezes me ponho a chorar / Só Tu és a força que anima o meu caminhar\nRefrão: Eu quero Te dizer agora / Que eu já vou embora / Evangelizar (Bis)\n2- Senhor, eu vejo irmãos a sofrer / E sei pela fé que pedes a todos amar\nSenhor, o mundo precisa entender / Que só com amor a justiça sobreviverá\n3- Senhor, às vezes me ponho a pensar / E peço o fim da violência e da fome do irmão\nSenhor, o mundo precisa te conhecer / Mas eu te prometo que vou evangelizar"
+  },
+  {
+    "id": 132,
+    "numero": 8,
+    "titulo": "VINDE, CRISTÃOS",
+    "categoria": "Final",
+    "pagina": 47,
+    "letra": "1- Vinde, cristãos, vinde à porfia / Hinos cantemos de louvor / Hinos de paz e de alegria / Hinos de anjos do Senhor\nRefrão: Glória a Deus nas alturas (Bis)\n2- Vinde juntar-vos aos pastores / Vinde com eles a Belém / Vinde correndo pressurosos / O Salvador que enfim nos vem\n3- Foi nesta noite venturosa / Do nascimento do Senhor / Que anjos de voz harmoniosa / Deram a Deus o seu louvor"
+  },
+  {
+    "id": 133,
+    "numero": 9,
+    "titulo": "A BARCA",
+    "categoria": "Final",
+    "pagina": 47,
+    "letra": "1- Tu, te abeiraste na praia / Não buscaste nem sábios nem ricos / Somente queres que eu te siga!\nRefrão: Senhor, Tu me olhaste nos olhos / A sorrir, pronunciastes meu nome\nLá na praia, eu larguei o meu barco / Junto a Ti buscarei outro mar\n2- Tu sabes bem que em meu barco / Eu não tenho nem ouro nem espadas / Somente redes e o meu trabalho\n3- Tu, minhas mãos solicitas / Meu cansaço que a outros descanse / Amor que almeja seguir amando\n4- Tu, pescador de outros lagos / Ânsia eterna de almas que esperam / Bondoso amigo que assim me chamas"
+  },
+  {
+    "id": 134,
+    "numero": 10,
+    "titulo": "SEGURA NA MÃO DE DEUS",
+    "categoria": "Final",
+    "pagina": 47,
+    "letra": "1- Se as águas do mar da vida quiserem te afogar / Segura na mão de Deus e vai\nSe as tristezas desta vida quiserem te sufocar / Segura na mão de Deus e vai\nRefrão: Segura na mão de Deus, segura na mão de Deus / Pois ela, ela te sustentará\nNão temas, segue adiante e não olhes para trás / Segura na mão de Deus e vai\n2- Se a jornada é pesada e te cansas da caminhada / Segura na mão de Deus e vai\nOrando, jejuando, confiando e confessando / Segura na mão de Deus e vai\n3- O Espírito do Senhor sempre te revestirá / Segura na mão de Deus e vai\nJesus Cristo prometeu que jamais te deixará / Segura na mão de Deus e vai"
+  },
+  {
+    "id": 135,
+    "numero": 11,
+    "titulo": "A VIAGEM",
+    "categoria": "Final",
+    "pagina": 47,
+    "letra": "1- Eu vim de longe pra encontrar o meu caminho / Tinha um sorriso e o sorriso ainda valia\nAchei difícil a viagem até aqui / Mas eu cheguei, mas eu cheguei\n2- Eu vim depressa, eu não vim de caminhão / Eu vim a jato neste asfalto e neste chão\nAchei difícil a viagem até aqui / Mas eu cheguei, mas eu cheguei\n3- Eu vim por causa daquilo que não se vê / Vim nu, descalço, sem dinheiro e o pior\nAchei difícil a viagem até aqui / Mas eu cheguei, mas eu cheguei\n4- Eu tive ajuda de quem você não acredita / Tive a esperança de chegar até aqui\nVim caminhando, aqui estou, me decidi: / Eu vou ficar, eu vou ficar / Eu já fiquei, pois me encontrei"
+  },
+  {
+    "id": 136,
+    "numero": 12,
+    "titulo": "CANTO DOS TRÊS JOVENS",
+    "categoria": "Final",
+    "pagina": 48,
+    "letra": "1- De Deus criaturas e todos mortais / Dizei-me cantando: bendito sejais!\nÓ, anjos celestes que a Deus adorais / Dizei-me cantando: bendito sejais!\nRefrão: Bendito sejais, ó Pai criador / Pai santo e senhor, bendito sejais (Bis)\n(Três jovens de fé desafiaram o rei / E no fogaréu louvaram a Deus!) (Bis)\n2- Estrelas e lua e sol que brilhais / Dizei-lhe cantando: bendito sejais!\nÓ, noites e dias, manhãs que raiais / Dizei-lhe cantando: bendito sejais!\n3- Ó, ventos e nuvens que as chuvas formais / Dizei-me cantando: bendito sejais!\nMontanhas e vales que o mundo enfeitais / Dizei-me cantando: bendito sejais!\n4- Florestas e campos, lavouras, quintais / Dizei-me cantando: bendito sejais!\nÓ, aves e peixes e os animais / Dizei-me cantando: bendito sejais!\n5- Crianças e jovens, ó, filhos e pais / Dizei-me cantando: bendito sejais!\nProfetas e justos de Cristo sinais / Dizei-me cantando: bendito sejais!"
+  },
+  {
+    "id": 137,
+    "numero": 13,
+    "titulo": "NO PEITO EU LEVO UMA CRUZ",
+    "categoria": "Final",
+    "pagina": 48,
+    "letra": "1- Eu venho do sul e do norte / Do oeste e do leste, de todo lugar\nEstrada da vida eu percorro / Levando socorro a quem precisar\nAssunto de paz é meu forte / Eu cruzo montanhas e vou aprender\nO mundo não me satisfaz / O que eu quero é a paz, o que eu quero é viver\nRefrão: No peito eu levo uma cruz / No meu coração o que disse Jesus (Bis)\n2- Eu sei que não tenho a idade / Da maturidade de quem já viveu\nMas sei que já tenho a idade / De ver a verdade o que eu quero ser eu\nO mundo ferido e cansado / De um triste passado de guerras sem fim\nTem medo da bomba que fez / E da fé que desfez, mas aponta pra mim\n3- Eu venho trazer meu recado / Não tenho passado, mas sei entender\nUm jovem foi crucificado / Por ter ensinado a gente viver\nEu grito ao mundo descrente que eu ser gente / Que eu creio na cruz\nEu creio na força do jovem / Que segue o caminho de Cristo Jesus"
+  },
+  {
+    "id": 138,
+    "numero": 14,
+    "titulo": "BEM-AVENTURADOS OS MISERICORDIOSOS",
+    "categoria": "Final",
+    "pagina": 48,
+    "letra": "1- Levantarei meu olhar aos montes / De onde o auxílio virá / Deus é a força de quem tem fé / Misericórdia Ele é\n2- Quando erramos Ele é por nós / Mostra-nos o colo do Pai / Com seu sangue libertador / Livra do mal e da dor\nRefrão: Bem aventurados os misericordiosos / Porque eles alcançarão misericórdia\n3- Sem seu perdão quando eu cair / Quem poderá me levantar? / Se Deus perdoa quem somos nós / Para não perdoar?\n4- O sangue de Cristo nos resgatou / Ele ressuscitou / Grite pro mundo inteiro ouvir / Jesus Cristo é o Senhor!\n5- Deixa o teu medo e tem fé / Um novo tempo virá / Cristo está vivo: vivo entre nós! / E um dia Ele voltará!"
+  },
+  {
+    "id": 139,
+    "numero": 15,
+    "titulo": "TOMÉ",
+    "categoria": "Final",
+    "pagina": 48,
+    "letra": "1- Contigo andei sorri chorei, ouvindo tua voz, teu seguidor me tornei então\nPelos mares e nos lares tua presença é paz, amor e salvação\nRefrão: Mas Te tocar precisei / Tu és o Jesus de Nazaré!\nEssas feridas eu vi, eu sei / Pequena é a minha fé\nVeio Tua paz para mim / Eu duvidei, mas sou só Teu\nO Teu amor nunca vai ter fim / Meu Senhor e meu Deus!\n2- Teu sorriso, Tua ternura / Tuas curas / Lázaro ressuscitado!\n3- O flagelo, o Calvário, Tua cruz / A lança entrando em Teu lado\nA coroa de espinhos / A Tua dor ficou em mim e não se apaga\n4- Mesmo assim, aqui entras / Dá-nos a paz / E o Espírito Santo\nNos envias à missão / Para o amor e a paz / Pregar em todo canto"
+  },
+  {
+    "id": 140,
+    "numero": 1,
+    "titulo": "O AMOR NÃO É AMADO",
+    "categoria": "Franciscanos",
+    "pagina": 53,
+    "letra": "1- No meu sonho eu caminhava tão feliz, / De repente um homem pobre eu avistei, /\nAndando pela estrada de Assis, / Tão aflito que confesso eu chorei\nPerguntei-lhe o que tinha acontecido, / Me ouviu, mas ficou chorando sem parar\nAté que enfim me olhou e disse assim: / A Paixão de JESUS hei de chorar\nRefrão: Pois o Amor, o Amor não é amado / A felicidade assim não se pode encontrar\nÉ preciso voltar a JESUS, / O Amor que eu quero amar\n2- Esse estranho só falava da Paixão, / E usava uma roupa em forma de cruz\nO braço deixava um pedaço de pau, / Violino de pobre cantando o amor de JESUS\nNós amamos tanta coisa neste mundo, / Dinheiro, prazer, fama e poder\nTudo, menos o que é mais amável / Tudo, menos aquele que mais bem nos quer\n3- Muitas vezes olhando um mundo tão triste, / Volta de mansinho ao meu pensar\nA figura do Pobrezinho de Assis, / E com ele tenho a vontade de gritar\nNo meu sonho eu caminhava tão feliz, / De repente um homem pobre eu avistei,\nAndando pela estrada de Assis, / Tão aflito que confesso que eu chorei"
+  },
+  {
+    "id": 141,
+    "numero": 2,
+    "titulo": "CLARO FOI O TEU CHAMADO",
+    "categoria": "Franciscanos",
+    "pagina": 53,
+    "letra": "1- Claro foi o teu chamado, só o amor pode explicar / Abriu mão de tantas coisas para aos pobres se doar\nClara como a luz do dia soou em teu coração / Uma voz que te levou ao encontro do cristão\nClara foi a tua vontade de servir e se entregar / Que nem mesmo ouro e bens te puderam segurar\nE assim de corpo e alma viu no pobre teu irmão / Irmã clara teu exemplo faz sorrir meu coração\nRefrão: Um coração que é pobre, meu Senhor / mas cheio de amor, / eu quero te doar\nEu me consagro pra te render louvor / meu Deus e meu Senhor, /pra sempre te amar\n2- Hoje entendo a importância deste ato de amor / É bem claro em minha mente o que Clara nos deixou\nMandamento precioso pra cumprir com devoção / Caridade verdadeira é amar ao meu irmão-"
+  },
+  {
+    "id": 142,
+    "numero": 3,
+    "titulo": "ROSAS DE SANGUE",
+    "categoria": "Franciscanos",
+    "pagina": 53,
+    "letra": "Refrão: Rosas de sangue floresceram / Revivem em teu corpo a Paixão\nFrancisco de amor está ferido, nas mãos, nos pés, no coração\n1- Acolhes aos pobres com carinho, repartes o pão com o mendigo\nEu quero também amar a todos, já podes, Senhor, contar comigo\n2- Plantando a paz e o bem, caminhas; semeando também vou a teu lado\nEm ti o Evangelho é carne viva, e Cristo outra vez crucificado"
+  },
+  {
+    "id": 143,
+    "numero": 4,
+    "titulo": "ESPELHO DA PERFEIÇÃO",
+    "categoria": "Franciscanos",
+    "pagina": 53,
+    "letra": "1- Não, não conheceram cansaço / Foi quem mais imitou a Jesus\nFalava de lua, de flores do campo / por onde passava / O nosso irmão lobo, / a nossa irmã terra, / Francisco louvava\nRefrão: Mas ele é o exemplo de vida / que eu trago no coração\nEspelho da perfeição (Bis) / Francisco de Assis (Bis)\n2- Não, não quis saber de riquezas / Deixou tudo e se converteu\nFalava com pobres leprosos e cegos, a quem ele via / O nosso irmão vento, o nosso irmão sol, que nos traz novo dia"
+  },
+  {
+    "id": 144,
+    "numero": 5,
+    "titulo": "INQUIETUDE",
+    "categoria": "Franciscanos",
+    "pagina": 53,
+    "letra": "(ÔÔÔÔ)\n1- Foi à procura de amor pra viver em liberdade / Que eu encontrei uma seta em direção à verdade\nEu fui seguindo uma voz que me indicava o caminho / Não demorou muito tempo e não estava sozinho\nEu procurava saber que estava a falar / Era um Deus apaixonado que gritava meu nome sem cessar!\nRefrão: E eu passei a Lhe procurar / no vento, na chuva, no ar\nEu procurei num raio de luz, / na gota de orvalho de cada manhã, / na brisa calma do mar\nNo silêncio da noite em cada lágrima no sonho / em cada gesto de amor\nOnde estaaaaaás? onde estás?\n(0000)\n2- Inquietude, tormentos deste cálice provei / Indecisão e angústia pelo caminho encontrei\nEu prossegui meu caminho à procura de Deus / Busca incessante da criatura por seu criador\nEu parecia cansado cansaço é do lutador / Se me cobria em pranto, gritava onde estás o meu Senhor?\n(ÔÔÔÔ)"
+  },
+  {
+    "id": 145,
+    "numero": 6,
+    "titulo": "A GENTE PODE SER MUITO MAIS FELIZ",
+    "categoria": "Franciscanos",
+    "pagina": 54,
+    "letra": "1- Quando o fogo do amor ardeu no peito / Vindo da luz tão radiante de Jesus\nNão resistiu a este amor puro e perfeito / Seguiu feliz os estigmas da cruz!\nE na pobreza foi reerguer Santa Maria / E nela toda Igreja do Senhor\nNa Eucaristia, na alegria, o dia-a-dia / Ele vivia o Evangelho com fervor\nRefrão: A gente pode ser muito mais feliz / Seguindo Clara e Francisco de Assis\n2- Lá entre flores encontrou a paz e harmonia / Cantando amores ao Deus da criação\nPássaros, ventos, animais, o sol e a lua / E os arvoredos, chamou todos de irmãos\nSorriu aos pobres / Seus amigos preferidos / Viu Jesus Cristo no semblante do irmão\nCom os mais sofridos, mais amados / Mais queridos / Na sua mesa ele repartiu o pão\n3- Depois vieram também Clara e Antônio / E muitos outros com entusiasmo e ardor\nE tão somente pela fé em Jesus Cristo / Eles fizeram a revolução do Amor\nE este \"Amor foi tão amado\" por Francisco/Que o seu ser se revestiu de luz\nE na explosão da graça em felicidade / Celebrou sua páscoa nos estigmas da cruz"
+  },
+  {
+    "id": 146,
+    "numero": 7,
+    "titulo": "ORAÇÃO DE SÃO FRANCISCO",
+    "categoria": "Franciscanos",
+    "pagina": 54,
+    "letra": "1- Senhor, fazei-me instrumento de vossa paz / Onde houver ódio, que eu leve o amor\nOnde houver ofensa, que eu leve o perdão / Onde houver discórdia que eu leve união\nOnde houver dúvida, que eu leve a fé\nOnde houver erro, que eu leve a verdade / Onde houver desespero, que eu leve a esperança\nOnde houver tristeza, que eu leve alegria / Onde houver trevas, que eu leve a luz\n2- Ó mestre, fazei que eu procure mais consolar que ser consolado / Compreender que ser compreendido\nAmar que ser amado / Pois é dando que se recebe / É perdoando que se é perdoado\nE é morrendo que se vive / Para a vida eterna"
+  },
+  {
+    "id": 147,
+    "numero": 8,
+    "titulo": "PERFEITA ALEGRIA",
+    "categoria": "Franciscanos",
+    "pagina": 54,
+    "letra": "1- Cai a tarde de inverno impiedoso, Francisco e Leão sob a neve caminham\nVão voltando à Santa Maria, com fome e com frio, ao final de outro dia\nFrei Leão vai à frente ligeiro / Frei Francisco o chama e lhe diz\nFrei leão toma nota se queres saber o que é a perfeita alegria\n2- Se nós tivéssemos a graça de Deus de pregar o Evangelho e a Cruz/E por obras e exemplos pudermos levar a Jesus\nE convertermos os homens à Fé, até mesmo os de mal coração / Frei Leão isto ainda não é a perfeita alegria\n3- Imagine Leão que Deus nos tenha dado a graça de a todos curar\nDe fazer ver a cegos, a coxos, andar, surdos, ouvir e mudos, falar\nE que até os demônios fugissem ao comando de nosso olhar\nE que os mortos nós ressuscitássemos, isto não é a perfeita alegria\n4- E se falássemos todas as línguas com o dom de bem comunicar/Transformando os reinos da terra em reinos de paz\nE se soubéssemos toda a ciência, e os segredos da terra e do mar / Frei Leão isto ainda não é a perfeita alegria\nRefrão: Mas, então, Pai Francisco, o que é a perfeita alegria?\n5- Se chegarmos ao nosso convento e batermos depressa esperando entrar\nE o porteiro do lado de dentro ao invés de abrir põe-se assim a falar\nQuem sois vós que assim importunos nesta hora nos incomodais?\nSomos nós, teus irmãos, Frei Leão e Francisco que chegam e querem entrar\n6- E Frei Leão, se o porteiro disser que é mentira e que não abrirá / Que encontremos um outro lugar em um canto qualquer\nE se nós diante da porta fechada, sob a noite e a neve que cai / Conservarmos a paz, isto é a perfeita alegria\n7- Mas se nós insistirmos em pranto que abra e que tenha piedade de nós\nPois com fome e tão necessitados na noite, não temos consolo e lugar\nE se então o porteiro sair, empunhando o bastão e gritar\nE bater em você e em mim, muito mais, nos deixando no chão a chorar\n8- E Frei Leão, se for Deus quem tal faz, que nos deixa na noite e na cruz / Se entendermos que este abandono imita Jesus\nE se nós diante da porta fechada, sob a noite e a neve que cai / Conservarmos a paz, isto é a perfeita alegria"
+  },
+  {
+    "id": 148,
+    "numero": 9,
+    "titulo": "DOCE É SENTIR",
+    "categoria": "Franciscanos",
+    "pagina": 54,
+    "letra": "1- Doce é sentir / Em meu coração / Humildemente / Vai nascendo amor\n2- Doce é saber / Não estou sozinho / Sou uma parte / De uma imensa vida\n3- Que generosa / Reluz em torno a mim / Imenso dom / Do teu amor sem fim\n4- Que generosa / Reluz em torno a mim / Imenso dom / Do teu amor sem fim\n5- O céu nos deste / E as estrelas claras / Nosso irmão Sol / Nossa irmã Lua\n6- Nossa mãe Terra / Com frutos, campos, flores / O fogo e o vento / O ar e a água pura\n7- Fonte de vida / De tua criatura / Que generosa / Reluz em torno a mim / Imenso dom / Do teu amor sem fim"
+  },
+  {
+    "id": 149,
+    "numero": 10,
+    "titulo": "IRMÃO SOL COM IRMÃ LUZ",
+    "categoria": "Franciscanos",
+    "pagina": 55,
+    "letra": "1- Irmão Sol com irmã luz / Trazendo o dia pela mão\nIrmão céu de intenso azul / A invadir o coração / Aleluia!\nRefrão: Irmãos, minhas irmãs / Vamos cantar nesta manhã\nPois renasceu mais uma vez / A criação das mãos de Deus\nIrmãos, minhas irmãs / Vamos cantar aleluia / Aleluia, aleluia\n2- Minha irmã terra que ao pé / Dá segurança de chegar\nMinha irmã planta que está / Suavemente a respirar / Aleluia!\n3- Irma flor que mal se abriu / Fala do amor que não tem fim\nÁgua irmã que nos refaz / E sai do chão cantando assim / Aleluia!\n4- Passarinhos meus irmãos / Com mil canções a ir e vir\nHomens todos meus irmãos / Que nossa voz se faça ouvir / Aleluia!"
+  },
+  {
+    "id": 150,
+    "numero": 11,
+    "titulo": "CANTIGA POR FRANCISCO",
+    "categoria": "Franciscanos",
+    "pagina": 55,
+    "letra": "1- Meu amigo deixou seu dinheiro / Sua herança e os direitos que tinha\nEra jovem demais o menino / Disse o pai, o vizinho e a vizinha\nMeu amigo encontrou a verdade / E em seu rosto banhado de luz\nPelas ruas de sua cidade / Meu amigo imitava Jesus\nRefrão: Irmão vento, irmão Sol, irmã Lua / Irmão lobo, tu és meu irmão\nRouxinol, sabiá, criaturas de Deus / Somos obras de suas mãos (Bis)\n2- Meu amigo viveu sem ter nada / Por esposa escolheu a pobreza\nEra jovem demais o menino / Não podia ter tanta certeza\nFoi assim que ele abriu um caminho / Para quem quer viver só de amor\nNão ficou muito tempo sozinho / Gente nova o seguiu com fervor\n3- Hoje em dia, nos jovens que eu vejo / Irrequietos, num mundo infeliz\nEu renovo a esperança e o desejo / De topar com Francisco de Assis\nCalça Lee, pé no chão, mundo novo / Mil ideias de renovação\nEles são consciência do povo / Queira Deus que eles cresçam irmãos"
+  },
+  {
+    "id": 151,
+    "numero": 12,
+    "titulo": "ORAÇÃO DE SÃO FRANCISCO, PADRE MARCELO",
+    "categoria": "Franciscanos",
+    "pagina": 55,
+    "letra": "1- Onde há dúvida, que eu leve a fé / Onde há ódio, que eu leve o amor / Onde há ofensa, que eu leve o perdão /\nOnde há discórdia, que eu leve a união / Onde houver erro, que eu leve a verdade /\nOnde houver desespero, que eu leve a esperança / Onde houver trevas, que eu leve a luz /\nOnde houver tristeza, que eu leve a alegria, aaaa, aaaa, aaaa\nRefrão: Senhor, fazei de mim um instrumento de Vossa paz (4x)\n2- Ó, mestre, que eu não busque tanto / Ser consolado, mas consolar / Ser compreendido, mas compreender /\nSer amado, mas amar / Porque é dando, que se recebe / É esquecendo, que se encontra /\nE é perdoando, que se encontra o perdão / E é morrendo, que se ressuscita para a Vida Eterna, aaaa, aaaa, aaaa\nRefrão: Senhor, fazei de mim um instrumento de Vossa paz (4x)\nLaia, Laia, Laia, Laia, Laia (4x)\nSenhor, fazei de mim um instrumento de Vossa paz"
+  },
+  {
+    "id": 152,
+    "numero": 13,
+    "titulo": "TEMA DE CLARA E FRANCISCO",
+    "categoria": "Franciscanos",
+    "pagina": 55,
+    "letra": "1- Irmão Francisco, irmão de todo irmão / Clara de Assis, irmã de toda irmã\nCantam ao mundo só Deus nos bastará / O amor é lindo, ele vencerá\nIrmão Francisco, vem me ensinar / Clara de Assis aponta o que fazer\nPara que o Senhor seja o tudo em mim / Para só servi-lo que devo fazer? / Vem dizer\nRefrão: Se você quiser servir a Deus / Faça poucas coisas, mas as faça bem\nPedra por pedra, com esperança de ver Jesus / Dia após dia, com alegria, sempre buscando além\nIrmão Francisco, irmão de todo irmão / Clara de Assis, irmã de toda irmā\nCantam ao mundo só Deus nos bastará / O amor é lindo, ele vencerá (Vencerá)"
+  },
+  {
+    "id": 153,
+    "numero": 14,
+    "titulo": "NOSSA FAMÍLIA FRANCISCANA",
+    "categoria": "Franciscanos",
+    "pagina": 56,
+    "letra": "1- Nossa Família Franciscana reunida / Junto do altar onde apresenta seu louvor\nVem celebrar de seu confrade a plena vida / E a caminhada prosseguindo no amor\nRefrão: A vós, Senhor, aqui louvamos / Com plena voz e gratidão\nAgradecendo nós cantamos / O dom da vida em nosso irmão!\n2- Se a perfeição for tua meta e sentires / Dever vendo tudo o que tens e vir a mim\nDarás aos pobres tudo quanto possuíres / E no meu reino guardarás tesouro enfim\n3- Com São Francisco viveremos em pobreza / Irmãos menores, trabalhemos pela paz\nUm mundo novo surgirá: Esta a certeza / Que por herança ao religioso Cristo traz!"
+  },
+  {
+    "id": 154,
+    "numero": 15,
+    "titulo": "CANTIGA POR IRMA CLARA",
+    "categoria": "Franciscanos",
+    "pagina": 56,
+    "letra": "Refrão: Clara, ô, Clara / Me diga porquê / Que foi que Francisco falou pra você\nClara, ô, Clara / Eu quero entender / Por que deste mundo te foste esconder\n2- Tu tinhas dinheiro, vivias feliz / Igual as meninas que havia em Assis\nSerá que Francisco te enfeitiçou / Que tão de repente teu mundo mudou\n3- Eu tinha dinheiro, vivias feliz / Igual as meninas que havia em Assis\nMas foi Jesus Cristo quem me cativou / Francisco somente o caminho mostrou\n4- Eras bonita de classe maior / Teu pai era nobre, patrão e senhor\nSerá que esta vida não era viver / Que tão de repente te foste esconder\nRefrão: Clara, ô, Clara / Me diga porquê/Que foi que Francisco falou pra você\nClara, ô, Clara / Eu quero entender / Por que deste mundo te foste esconder\n6- Eu era bonita de classe maior / Mas eu tinha sonhos de algo melhor\nSerá que esta vida é viver e morrer / Um dia por fim eu por ti fui viver\n7- Deixaste o dinheiro tranquila e feliz / E foste viver num mosteiro de Assis\nSerá que perdeste a razão de viver / Tão jovem e tão bela não dá pra entender\n8- Deixei o dinheiro tranquila e feliz / E fui me trancar num mosteiro de Assis\nDeixei o que eu tinha passei a viver / Que a vida é bem mais que a minha mania de ter\n9- Clara, ô Clara / Já posso entender / Porque deste mundo te foste esconder"
+  },
+  {
+    "id": 155,
+    "numero": 16,
+    "titulo": "FRANCISCO E CLARA, ROSTO DE DEUS",
+    "categoria": "Franciscanos",
+    "pagina": 56,
+    "letra": "1- Francisco e Clara / Mostram ao mundo o rosto de Deus\nDeus da vida Deus do amor / Deus dos pobres, Deus nosso Senhor\nRefrão: Tão pobre, tão nobre, Francisco de Assis / Homem natureza, tão puro e feliz\nCom tanta clareza com Clara de Assis / Descobre o caminho do que o Cristo diz (Bis)\n2- Francisco e Clara / Tem o segredo pra ser feliz\nSer pequeno ser irmão / Amar sempre, ser doação\n3- Francisco e Clara / Tem proposta pro querer de Deus\nSer fraterno, ser ternura / O evangelho viver com vigor"
+  },
+  {
+    "id": 156,
+    "numero": 17,
+    "titulo": "CÂNTICO DAS CRIATURAS",
+    "categoria": "Franciscanos",
+    "pagina": 56,
+    "letra": "1- Altíssimo e onipotente Bom Senhor / Teus são os louvores, a glória a honra e toda a benção\nA Ti somente, Altíssimo, eles convêm / E nenhum homem é digno de Te imitar\nLouvado sejas, meu Senhor, com todas as Tuas criaturas / Especialmente o senhor irmão Sol\nO qual faz o dia e por ele alumia / E ele é belo, radiante, com grande esplendor de Ti\nLouvado sejas, meu Senhor, pela irmã Lua / Pelas estrelas que no céu formaste as claras preciosas e belas\nLouvado sejas, meu Senhor, pelo irmão vento / Pelo ar, pela nuvem, pelo sereno e todo tempo\nPelo qual dá às tuas criaturas o sustento\nLouvado sejas, meu Senhor, pela irmã água / A qual nos é muito útil, úmida, preciosa e casta\nLouvado sejas, meu Senhor, pelo irmão fogo / Pelo qual iluminas a noite, ele é belo robusto e forte\nLouvado sejas, meu Senhor, pela nossa irmã a mãe terra / A qual nos sustenta, governa e produz diversos frutos\nFlores coloridas e ervas (2x)\nLouvado sejas, meu Senhor, pela nossa irmã a morte corporal / Da qual nenhum vivente pode escapar\nBendito aquele que se encontra na Tua santíssima vontade / Ao qual a morte não fará mal\nLouvai e bendizei o meu Senhor/Agradeça e sirva com grande humildade (5x)\nLouvai e bendizei o meu Senhor (3x)"
+  },
+  {
+    "id": 157,
+    "numero": 18,
+    "titulo": "LOUVADO SEJA MEU SENHOR",
+    "categoria": "Franciscanos",
+    "pagina": 57,
+    "letra": "Refrão: Louvado seja o meu Senhor (4x)\n1- Por todas suas criaturas / Pelo Sol e pela Lua\nPelas estrelas no firmamento / Pela água e pelo fogo\n2- Por aqueles que agora são felizes / Por aqueles que agora choram\nPor aqueles que agora nascem / Por aqueles que agora morrem\n3- O que dá sentido à vida / É amar-Te e louvar-Te\nPara que a nossa vida / Seja sempre uma canção"
+  },
+  {
+    "id": 158,
+    "numero": 19,
+    "titulo": "LOUVOR DA INDIGÊNCIA",
+    "categoria": "Franciscanos",
+    "pagina": 57,
+    "letra": "Refrão: Se, Senhor, vestes os lírios campais / Não te esqueças de mim, o menor dos teus\nSe, Senhor, dás alimento às aves / Não te esqueças de mim, o menor, meu Deus!\n1- Como que ao campo um pastor / Leva o cordeiro / Tu nos sustentas, Senhor / O passo inteiro\n2- Como o sol, que às coisas todas / Toda luz envia / Tu nos conduzes adentro / Do teu dia\n3- Se em ti, Senhor, é perfeita a alegria / Só em ti se faz / Todo o meu canto, Senhor / Dia a dia"
+  }
+,
+  {
+    "id": 159,
+    "numero": 1,
+    "titulo": "DAI-NOS A BENÇÃO, Ó MÃE QUERIDA",
+    "categoria": "Marianos",
+    "pagina": 62,
+    "letra": "Refrão: Dai-nos a benção, ó Mãe querida / Nossa Senhora Aparecida (Bis)\n\n1- Sob esse manto, do azul do céu / Guardai-nos sempre, no amor de Deus\n\n2- Eu me consagro ao vosso amor / Ó Mãe querida do Salvador\n\n3- Sois nossa vida, sois nossa luz / Ó Mãe querida do meu Jesus"
+  },
+  {
+    "id": 160,
+    "numero": 2,
+    "titulo": "DAI-NOS A BENÇÃO, Ó MÃE BONDADE",
+    "categoria": "Marianos",
+    "pagina": 62,
+    "letra": "1- Dai-nos a benção ó Mãe Bondade/ Nossa Senhora da Piedade"
+  },
+  {
+    "id": 161,
+    "numero": 3,
+    "titulo": "VIVA A MÃE DE DEUS E NOSSA (APARECIDA)",
+    "categoria": "Marianos",
+    "pagina": 62,
+    "letra": "Refrão: Viva a mãe de Deus e nossa / Sem pecado concebida / Viva a Virgem Imaculada / Ó Senhora Aparecida\n\n1- Aqui estão vossos devotos / Cheios de fé incendida / De conforto e de esperança / Ó, Senhora Aparecida\n\n2- Virgem santa, Virgem bela / Mäe amável, mãe querida / Amparai-nos, socorrei-nos / Ó, Senhora Aparecida\n\n3- Protegei a santa igreja / Mãe terna e compadecida / Protegei a nossa Pátria / Ó, Senhora Aparecida!\n\n4- Amparai a todo o clero / Em sua terrena lida / Para o bem dos pecadores / Ó, Senhora Aparecida\n\n5- Velai por nossas famílias / Pela infância desvalida / Pelo povo brasileiro / Ó, Senhora Aparecida"
+  },
+  {
+    "id": 162,
+    "numero": 4,
+    "titulo": "VIVA A MÃE DE DEUS E NOSSA (PIEDADE)",
+    "categoria": "Marianos",
+    "pagina": 62,
+    "letra": "Refrão: Viva a mãe de Deus e nossa / Toda pura, toda bondade / Salve ó Virgem Imaculada / Ó Senhora da Piedade\n\n1- Aqui estão vossos devotos / Cheios de fé e humildade / Esperando vossa graça / Ó Senhora da Piedade\n\n2- Lá no cimo do Calvário / Para nossa felicidade / Jesus fez-lhe nossa Mãe / Ó Senhora da Piedade\n\n3- Por Deus fostes escolhida / Na sua santa vontade / Para nossa padroeira / Ó Senhora da Piedade\n\n4- Protegei a Santa Igreja / Ó mãe terna, mãe de bondade / Protegei a nossa terra / Ó Senhora da Piedade\n\n5- Velai por nossas famílias / Pela pobre orfandade / Pelo povo brasileiro / Ó Senhora da Piedade\n\n6- Virgem Santa, Virgem Bela / Mãe amável, mãe de bondade / Amparai-nos, socorrei-nos / Ó Senhora da Piedade"
+  },
+  {
+    "id": 163,
+    "numero": 5,
+    "titulo": "COMO O SOL NASCE DA AURORA",
+    "categoria": "Marianos",
+    "pagina": 62,
+    "letra": "Ant.: Como o sol nasce da aurora, de Maria nascerá / Aquele que a terra seca, em jardim converterá\nÓ Belém, abre teus braços ao pastor que a ti virá / Emanuel, Deus conosco, vem ao nosso mundo, vem\n\nRefrão: Emanuel, Deus conosco, vem ao nosso mundo, vem\n\n1- Ouve, ó pastor do teu povo / Vem do alto céus, onde estás\n\n2- Vem, teu rebanho salvar / Mostra o amor que lhe tens\n\n3- Salva e protege essa vinha / Foi tua mão que a plantou\n\n4- Salva e confirma este eleito / Ele que é nosso pastor"
+  },
+  {
+    "id": 164,
+    "numero": 6,
+    "titulo": "VEM MARIA VEM",
+    "categoria": "Marianos",
+    "pagina": 62,
+    "letra": "Refrão: Vem Maria, vem / Vem nos ajudar / Neste caminhar / Tão difícil, rumo ao Pai (Bis)\n\n1- Vem, querida Mãe, nos ensinar / A ser testemunhas do amor\nQue fez do teu Corpo sua morada / Que se abriu pra receber o Salvador\n\n2- Nós queremos, ó Mãe, responder / Ao amor do Cristo Salvador\nCheios de ternura colocamos / Confiantes em tuas mãos esta oração"
+  },
+  {
+    "id": 165,
+    "numero": 7,
+    "titulo": "PELAS ESTRADAS DA VIDA",
+    "categoria": "Marianos",
+    "pagina": 62,
+    "letra": "1- Pelas estradas da vida / nunca sozinho estás / Contigo pelo caminho / Santa Maria vai\n\nRefrão: Ó, vem conosco, vem caminhar / Santa Maria vem (Bis)\n\n2- Se pelo mundo os homens / Sem conhecer-se, vão / Não negues nunca a tua mão / A quem te encontrar\n\n3- Mesmo que digam os homens / Tu nada podes mudar / Luta por um mundo novo / De unidade e paz\n\n4- Se parecer tua vida / Inútil caminhar / Lembra que abres caminho / Outros te seguirão"
+  },
+  {
+    "id": 166,
+    "numero": 8,
+    "titulo": "MARIA DA ASSUNÇÃO",
+    "categoria": "Marianos",
+    "pagina": 63,
+    "letra": "1- Maria, concebida sem culpa original / Trouxeste a luz da vida na noite de Natal\nTu foste imaculada na tua conceição / Ó Mãe predestinada da nova criação\n\nRefrão: Maria da Assunção, escuta a nossa voz / E pede proteção a cada um de nós (Bis)\n\n2- Maria, Mãe querida, sinal do eterno amor / No ventre deste a vida e corpo ao Salvador\nAo céu foste elevada por anjos do Senhor / Na glória coroada, coberta de esplendor\n\n3- Maria, Mãe, rainha, protege com teu véu / O povo que caminha na direção do céu\nTu foste a maravilha das obras do Senhor / Esposa, mãe e filha do mesmo Deus de amor"
+  },
+  {
+    "id": 167,
+    "numero": 9,
+    "titulo": "UMA ENTRE TODAS FOI A ESCOLHIDA",
+    "categoria": "Marianos",
+    "pagina": 63,
+    "letra": "1- Uma entre todas foi a escolhida / Foste tu Maria Serva preferida / Mãe do meu Senhor / Mãe do meu Salvador\n\nRefrão: Maria cheia de graça e consolo / Venha caminhar com teu povo / Nossa Mãe sempre serás (Bis)\n\n2- Roga pelos pecadores desta terra / Roga pelo povo que em seu Deus espera / Mãe do meu Senhor / Mãe do meu Salvador"
+  },
+  {
+    "id": 168,
+    "numero": 10,
+    "titulo": "QUEM É ESTA QUE AVANÇA COMO AURORA",
+    "categoria": "Marianos",
+    "pagina": 63,
+    "letra": "1- Quem é esta que avança como aurora / Temível como exército em ordem de batalha\nBrilhante como o Sol e como a Lua / Mostrando o caminho aos filhos seus\n\nRefrão: Ah, ah, ah, minha alma glorifica ao Senhor / Meu espírito exulta em Deus, meu Salvador (Bis)"
+  },
+  {
+    "id": 169,
+    "numero": 11,
+    "titulo": "NOSSA SENHORA VIRGEM DO SILÊNCIO",
+    "categoria": "Marianos",
+    "pagina": 63,
+    "letra": "1- Nossa senhora virgem do silêncio / Quero sempre te amar\nDeitar no teu colo, sentir teu perfume / Teu carinho materno ganhar (Bis)\n\nRef: Lágrimas de sangue nos teus olhos / Estigma e martírio da alma\nMãezinha minha vida / Pra igreja quero consumir\nQuero estar ao teu lado na cruz / Sofrendo as dores de Jesus\nE dizer que na loucura da cruz vou seguir (Bis)\n\nE dizer que na loucura da cruz vou seguir"
+  },
+  {
+    "id": 170,
+    "numero": 12,
+    "titulo": "QUEM PODERÁ DEFINIR O ENCANTO",
+    "categoria": "Marianos",
+    "pagina": 63,
+    "letra": "1- Quem poderá definir o encanto / Que há no espelho do teu olhar?\nÓ Mãe de Deus, eu te amo tanto / Mas cada vez mais te quero amar (Bis)\n\n2- Tu és a mais santa das mulheres / Tu és do céu a mais bela flor\nFazei de nós o que bem quiseres / Somos escravos do teu amor (Bis)\n\n3- Teu rosto é Sol que brilhando aquece / Nas horas tristes da solidão\nE ao teu sorriso de mãe parece / Abrir-se em flor nosso coração (Bis)\n\n4- Quantas estrelas fulgentes, belas / Por entre as nuvens a rutilar\nTais os louvores, puros amores / Que venho, ó Virgem, te consagrar (Bis)\n\n5- Teu belo nome, nome divino / Lembra um sonho feito de luz\nAbre caminho àquele destino / Que há de levar-nos até Jesus (Bis)"
+  },
+  {
+    "id": 171,
+    "numero": 13,
+    "titulo": "OH MÃE, LEVANTA-ME DO CHÃO (O PESO DA CRUZ)",
+    "categoria": "Marianos",
+    "pagina": 63,
+    "letra": "1- O peso da cruz derrubou o Rei Jesus / Só um coração de mãe pra compreender tamanha dor\nComo é difícil ser fiel e carregar a minha cruz / Mesmo fraca, ferida, o teu olhar me mostra o amor\nCaminhaste até o Calvário com teu Filho / Te convido a caminhar também comigo\n\nRefrão: Oh Mãe, levanta-me do chão / Acolhe-me em teus braços, intercede pelas lutas do meu coração\nOh Mãe, carrega-me em teu colo / Educa-me como educaste o Cristo\nPra que eu possa entender que o Calvário me ensinará a viver (Bis)"
+  },
+  {
+    "id": 172,
+    "numero": 14,
+    "titulo": "SANTA MARIA, DA PORCIÚNCULA (NOSSA SENHORA DOS ANJOS)",
+    "categoria": "Marianos",
+    "pagina": 63,
+    "letra": "1- Santa Maria da Porciúncula / Imaculada, Mãe e Rainha /\nCom São Francisco e Santa Clara / Nós aclamamos Nossa Senhora\n\n2- A natureza desfigurada / pelo pecado desfalecida / Por Deus, Maria Imaculada / Rejuvenesce por toda vida\n\nRefrão: Senhora dos Anjos, da Conceição / Ampara o mundo com poderosa mão\nImaculada, Deus a queria / Podia e fez, Santa Maria\n\n3- De Deus no mundo torna-se a porta / Para o pecado jamais aberta\nAos filhos teus ao bem exorta / Ampara a todos, Mãe sempre alerta"
+  },
+  {
+    "id": 173,
+    "numero": 15,
+    "titulo": "HINO NOSSA SENHORA PIEDADE (CAPUCHINHOS)",
+    "categoria": "Marianos",
+    "pagina": 64,
+    "letra": "1- O povo mineiro, busca o aconchego de tuas mãos divinas / Este povo inteiro gosta do silêncio que nasce das minas\nNo seu coração mora uma certeza, mora uma verdade / Que tu és de todos, a Mãe carinhosa, Mãe da Piedade!\n\nRefrão: Que tuas mãos divinas desçam sobre Minas, sobre o povo inteiro\nQue te ama tanto, ó Senhora da Nossa, Mãe Divina, Mãe da Piedade\nÉs nosso consolo, toma nos teus braços nossa vida inteira\nNão deixes que morra todo o nosso encanto / Dá-nos tua benção, Mãe da Piedade!\n\n2- Vem de muito longe o jeito hospedeiro desse povo humilde / Sorriso nos lábios, fala mansa cheia de longas histórias\nNinguém tira dele que tu és aquela que estás aso lado / És luz, a guia, companheira certa, Mãe da Piedade!\n\n3- Nós, os capuchinhos, seguindo Francisco, como peregrinos / Queremos pedir para preservarmos na minoridade\nNão permitas Mãe querida que percarmos teu grande carinho / E do povo simples do campo das vilas e das grandes cidades\n\n4- Que a Provincia inteira, como grande mina, busque no silêncio / No trabalho junto ao povo, ouvir o apelo do Santo Evangelho\nComo protetora nossa, Mãe querida, Mãe da Piedade / Faze com que nosso coração se alegre e seja mais fraterno"
+  },
+  {
+    "id": 174,
+    "numero": 16,
+    "titulo": "IMACULADA, MARIA DE DEUS",
+    "categoria": "Marianos",
+    "pagina": 64,
+    "letra": "Refrão: Imaculada, Maria de Deus / Coração pobre acolhendo Jesus\nImaculada, Maria do povo / Mãe dos aflitos que estão junto à cruz\n\n1- Um coração que era sim para a vida / Um coração que era sim para o irmão\nUm coração que era sim para Deus / Reino de Deus renovando este chão\n\n2- Olhos abertos pra sede do povo / Passo bem firme que o medo desterra\nMãos estendidas que os tronos renegam / Reino de Deus que renova esta terra\n\n3- Faça-se, ó Pai, Vossa plena vontade / Que os nossos passos se tornem memória\nDo amor fiel que Maria gerou / Reino de Deus atuando na história"
+  },
+  {
+    "id": 175,
+    "numero": 17,
+    "titulo": "Ó MÃE DE JESUS NÓS QUEREMOS CANTAR",
+    "categoria": "Marianos",
+    "pagina": 64,
+    "letra": "Refão: Ó Mãe de Jesus nós queremos cantar / Com grande alegria seu nome exaltar\nUnidos aos Anjos que cantam no além / É festa no Céu e na Lagoa também\n\n1- Na encarnação te entregaste ao Senhor / À sua vontade aderiste com ardor\n\n2- Na visitação prorrompeste em louvor / Ao Deus que de Ti fizera um primor\n\n3- De Deus a palavra grardava na mente / A graça crescia em tua alma ardente"
+  },
+  {
+    "id": 176,
+    "numero": 18,
+    "titulo": "SANTA MÃE MARIA",
+    "categoria": "Marianos",
+    "pagina": 64,
+    "letra": "1- Santa Mãe Maria, nessa travessia, cubra-nos teu manto cor de anil\nGuarda nossa vida, Mãe Aparecida, Santa padroeira do Brasil\n\nRefrão: Ave, Maria! / Ave, Maria! (Bis)\n\n2- Com amor divino, guarda os peregrinos nesta caminhada para o além\nDá-lhes companhia, pois também um dia foste peregrina de Belém\n\n3- Mulher peregrina, força feminina, a mais importante que existiu\nCom justiça queres que nossas mulheres sejam construtoras do Brasil\n\n4- Com seus passos lentos, enfrentando os ventos quando sopram noutra direção\nToda a Mãe Igreja, pede que tu sejas companheiras de libertação"
+  },
+  {
+    "id": 177,
+    "numero": 19,
+    "titulo": "MÄEZINHA DO CÉU",
+    "categoria": "Marianos",
+    "pagina": 64,
+    "letra": "Refrão: Mãezinha do céu, eu não sei rezar / Eu só sei dizer: Eu quero te amar\nAzul é seu manto, branco é seu véu / Mãezinha eu quero te ver lá no céu\nMãezinha eu quero te ver lá no céu\n\n1- Mãezinha do céu, Mãe do puro amor / Jesus é teu Filho, eu também o sou\n\nMãezinha do céu, vou te consagrar / Minha inocência, guarda sem cessar / Minha inocência, guarda sem cessar"
+  },
+  {
+    "id": 178,
+    "numero": 20,
+    "titulo": "SENHORA DO ROSÁRIO",
+    "categoria": "Marianos",
+    "pagina": 64,
+    "letra": "Refrão: Senhora do Rosário / Virgem Santa milagrosa / Livrai-nos da cilada de ter vida pecaminosa\nMãe de Jesus / Dai-me a graça de sofrer / Mesmo carregando a minha cruz desejo viver\n\n1- E vivendo a orar / Contrito, pedindo a salvação / Para os pobres pecadores / Que caíram em tentação"
+  },
+  {
+    "id": 179,
+    "numero": 21,
+    "titulo": "MARIA DE NAZARÉ",
+    "categoria": "Marianos",
+    "pagina": 65,
+    "letra": "1- Maria de Nazaré, Maria me cativou / Fez mais forte a minha fé / E por filho me adotou\nÀs vezes eu paro e fico a pensar / E sem perceber me vejo a rezar / E meu coração se põe a cantar / Pra Virgem de Nazaré\nMenina que Deus amou e escolheu / Pra mãe de Jesus o Filho de Deus / Maria que o povo inteiro elegeu / Senhora e Mãe do Céu\n\nRefrão: Ave Maria, Ave Maria / Ave Maria, Mãe de Jesus\n\n2- Maria que eu quero bem / Maria do puro amor / Igual a você ninguém / Mãe pura do meu Senhor\nEm cada mulher que a terra criou / Um traço de Deus Maria deixou / Um sonho de mãe Maria plantou / Pro mundo encontrar a paz\nMaria que fez o Cristo falar / Maria que fez Jesus caminhar / Maria que só viveu para seu Deus / Maria do povo meu"
+  },
+  {
+    "id": 180,
+    "numero": 22,
+    "titulo": "CONSAGRAÇÃO A NOSSA SENHORA",
+    "categoria": "Marianos",
+    "pagina": 65,
+    "letra": "1- Ó, Minha Senhora e também minha Mãe / Eu me ofereço, inteiramente, todo a Vós /\nE em prova da minha devoção, eu hoje Vos dou meu coração\n\n2- Consagro a Vós meus olhos, meus ouvidos, minha boca / Tudo o que sou, desejo que a Vós pertença\nIncomparável Mãe, guardai-me e defendei-me / Como filho e propriedade Vossa, amém (Bis)"
+  },
+  {
+    "id": 181,
+    "numero": 23,
+    "titulo": "SALVE RAINHA",
+    "categoria": "Marianos",
+    "pagina": 65,
+    "letra": "1- Salve Rainha, Mãe de misericórdia / Vida, doçura, esperança nossa, salve!\n/ Salve Rainha (2x)\n\n2- A Ti procuramos, filhos degredados de Eva / A Ti suspiramos, chorando, neste vale de lágrimas\n\n3- Tu que és nossa Mãe, volve a nós teu olhar / Mostra depois exílio, o fruto do teu ventre Jesus\n\n4- Salve Rainha, Mãe de misericórdia / Ó clemente, ó pia, ó doce Virgem Maria, Salve Rainha\n\n5- Salve Rainha / Salve / Salve"
+  },
+  {
+    "id": 182,
+    "numero": 24,
+    "titulo": "A TREZE DE MAIO NA COVA DA IRIA",
+    "categoria": "Marianos",
+    "pagina": 65,
+    "letra": "1- A Treze de Maio / Na cova da Iria / No céu aparece / A virgem Maria\n\nRefrão: Ave! Ave! Ave Maria! (Bis)\n\n2- A três pastorinhos / Cercada de luz / Visita Maria / A Mãe de Jesus\n\n3- Das Mãos lhe pendiam / Continhas de luz / Assim era o terço / Da mãe de Jesus\n\n4- A virgem Ihes manda / O terço rezar / Assim diz-\"Meus filhos / vos hei de salvar\"\n\n5- Dos vícios da carne / Nos manda conter / Que faz dentre todos / Mais almas perder\n\n6- Vesti com modéstia / Com muito pudor / Olhai como veste / A Mãe do Senhor"
+  },
+  {
+    "id": 183,
+    "numero": 25,
+    "titulo": "SALVE REGINA",
+    "categoria": "Marianos",
+    "pagina": 65,
+    "letra": "Salve, Regína, Mater misericórdiæ / Vita, dulcédo, et spes nostra, salve\nAd te clamámus, éxsules fílii Hevæ / Ad te suspirámus, geméntes et flentes / In hac lacrimárum valle\nEia, ergo, advocáta nostra, illos tuos / Misericórdes óculos ad nos converte\nEt lesum, benedíctum fructum ventris tui / NoBis post hoc exílium ostende\nO clemens, O pia, O dulcis Virgo Maria"
+  },
+  {
+    "id": 184,
+    "numero": 26,
+    "titulo": "MARIA MINHA MÃE MARIA",
+    "categoria": "Marianos",
+    "pagina": 65,
+    "letra": "Refrão: Maria, minha mãe, Maria / Queria te falar de amor\nMostrar que em meu peito aberto / Cultivo um jardim em flor\nCultivo um jardim de rosas / Que não têm espinhos pra te machucar\nCultivo um jardim tão lindo / Rosas perfumadas pra te ofertar\n\n1- Maria, eu que não sabia / Como era tão sublime amar / Agora, mãe do céu, Maria / Contigo sigo a cantar\nE canto pela vida afora / Embora encontre pedras / Não vou mais parar\nPois sei que com você, Maria / Minha mãe, Maria / Vou sempre contar\n\nRefrão: Maria, minha mãe, Maria / Queria te falar de amor\nMostrar que em meu peito aberto / Cultivo um jardim em flor\nCultivo um jardim de rosas / Que não têm espinhos pra te machucar\nCultivo um jardim tão lindo / Rosas perfumadas pra te ofertar\n\nMaria, minha mãe, Maria / Maria vou sempre te amar / Maria vou sempre te amar"
+  },
+  {
+    "id": 185,
+    "numero": 27,
+    "titulo": "NOSSA SENHORA IMPLORA",
+    "categoria": "Marianos",
+    "pagina": 66,
+    "letra": "1- Nossa Senhora Implora por nós junto ao filho seu / Nossa Senhora pede uma benção que vem de Deus\nNossa Senhora é mãe, em Belém e também lá na cruz-/ Chora, mas crê na vida que vê, a Mãe do Senhor Jesus\n\nRefrão: Ave Maria, Nossa Senhora / Roga noite e dia pelo teu povo que chora (Bis)\n\n2- Nossa Senhora Implora ao mundo que esquece Deus / Nossa Senhora pede com carinho aos filhos seus:\nRezem com devoção a oração que meu filho ensinou / E sejam fiéis, na vida e na cruz, ao nosso Senhor Jesus"
+  },
+  {
+    "id": 186,
+    "numero": 28,
+    "titulo": "MÃE DO CÉU MORENA",
+    "categoria": "Marianos",
+    "pagina": 66,
+    "letra": "Refrão: Mãe do Céu Morena / Senhora da América Latina\nDe olhar e caridade tão divina / De cor igual a cor de tantas raças\nVirgem tão serena / Senhora destes povos tão sofridos\nPatrona dos pequenos e oprimidos / Derrama sobre nós as tuas graças\n\n1- Derrama sobre os jovens tua luz / Aos pobres vem mostrar o teu Jesus / Ao mundo inteiro traz o teu amor de mãe\nEnsina quem tem tudo a partilhar / Ensina quem tem pouco a não cansar / E faz o nosso povo caminhar em paz\n\nRefrão: Mãe do Céu Morena / Senhora da América Latina\nDe olhar e caridade tão divina / De cor igual a cor de tantas raças\nVirgem tão serena / Senhora destes povos tão sofridos\nPatrona dos pequenos e oprimidos / Derrama sobre nós as tuas graças\n\n2- Derrama a esperança sobre nós / Ensina o povo a não calar a voz / Desperta o coração de quem não acordou\nEnsina que a justiça é condição / De construir um mundo mais irmão / E faz o nosso povo conhecer Jesus"
+  },
+  {
+    "id": 187,
+    "numero": 1,
+    "titulo": "TÃO SUBLIME SACRAMENTO",
+    "categoria": "Outros Cantos",
+    "pagina": 72,
+    "letra": "1- Canta Igreja o Rei do mundo / Que se esconde sob os véus\nCanta o sangue tão fecundo / Derramado pelos seus\nE o mistério tão profundo / De uma Vir---gem, Mãe de Deus\n\n2- Um menino nos foi dado / Veio aos servos o Senhor\nFoi na terra semeada / O seu Verbo Salvador\nAo partir, nos foi deixado/Pão de vi---da, pão do amor\n\n3- Celebrando a despedida / Com os Doze Ele ceou\nToda a Páscoa foi cumprida / Novo rito inaugurou\nE, seu corpo, pão da vida / Aos irmãos Ele entregou\n\n4- Tão sublime Sacramento / Vamos todos ado----rar\nPois um Novo Testamento /Vem o Antigo suplantar\nSeja a fé nosso argumento / Se o senti----do nos faltar\n\n5- Ao Eterno Pai cantemos / E a Jesus, o Salvador\nIgual honra tribu--temos / Ao Espíri------to de Amor\nNosso hinos canta-----remos, / Chegue ao céus nos----so louvor (A-----mém / A-----mém)"
+  },
+  {
+    "id": 188,
+    "numero": 2,
+    "titulo": "O POVO DE DEUS NO DESERTO ANDAVA",
+    "categoria": "Outros Cantos",
+    "pagina": 72,
+    "letra": "1- O povo de Deus no deserto andava, / Mas à sua frente alguém caminhava\nO povo de Deus era rico em nada / Só tinha esperança e o pó da estrada\n\nRefrão: Também sou teu povo, Senhor, estou nessa estrada / Somente a tua graça me basta e mais nada\n\n2- O povo de Deus também vacilava / Às vezes custava a crer no amor\nO povo de Deus, chorando, rezava / Pedia perdão e recomeçava\n\nRefrão: Também sou Teu povo, Senhor / E estou nessa estrada / Perdoa se, às vezes, não creio em mais nada!\n\n3- O povo de Deus também teve fome / E Tu lhe mandaste o pão lá do céu\nO povo de Deus, cantando, deu graças / Provou Teu amor, Teu amor que não passa\n\nRefrão: Também sou Teu povo, Senhor/E estou nessa estrada / Tu és alimento na longa jornada!\n\n4- O povo de Deus ao longe avistou / A terra querida que o amor preparou\nO povo de Deus corria e cantava / E nos seus louvores, Teu poder proclamava\n\nRefrão: Também sou Teu povo, Senhor / E estou nessa estrada q Cada dia mais perto da terra esperada! (Bis)"
+  },
+  {
+    "id": 189,
+    "numero": 3,
+    "titulo": "PECADOR AGORA É TEMPO",
+    "categoria": "Outros Cantos",
+    "pagina": 72,
+    "letra": "1- Pecador, agora é tempo / De pesar e de temor\nServe a Deus despreza o mundo / Já não sejas pecador (Bis)\n\n2- Neste tempo sacrossanto / O pecado faz horror\nContemplando a cruz de Cristo / Já não sejas pecador (Bis)\n\n3- Vais pecando, vais pecando / Vais de horror em mais horror\nFilho, acordas dessa morte / Já não seja pecador! (Bis)\n\n4- Passam meses, passam anos / Sem que busques teu Senhor\nComo um dia para o outro / Assim morre o pecador! (Bis)\n\n5- Pecador arrependido / Pobrezinho pecador\nVem, abraça-me contrito / Com teu Pai, teu Criador! (Bis)\n\n6-Compaixão, misericórdia / Vos pedimos, Redentor\nPela Virgem, Mãe das dores / Perdoai-nos, Deus de amor! (Bis)"
+  },
+  {
+    "id": 190,
+    "numero": 4,
+    "titulo": "NOITE FELIZ",
+    "categoria": "Outros Cantos",
+    "pagina": 72,
+    "letra": "1- Noite feliz, noite feliz / Ó senhor, Deus de amor / Pobrezinho nasceu em Belém\nEis na lapa Jesus, nosso bem / Dorme em paz, ó Jesu_us / Dorme em paz, ó Jesus\n\n2- Noite feliz, noite feliz / Ó Jesus, Deus da luz / Quão afável é teu coração\nQue quiseste nascer nosso irmão / E a nós todos salva_ar / E a nós todos salvar\n\n3- Noite feliz, noite feliz / Eis que no ar vem cantar / Aos pastores, seus anjos no céu\nAnunciando a chegada de Deus / De Jesus Salvado_or / De Jesus Salvador"
+  },
+  {
+    "id": 191,
+    "numero": 5,
+    "titulo": "EU NAVEGAREI",
+    "categoria": "Outros Cantos",
+    "pagina": 73,
+    "letra": "1- Eu navegarei no oceano do espírito / Ali adorarei ao Deus do meu amor (Bis)\n\nR: Espírito, Espírito que desce como fogo / Vem como em pentecoste e enche-me de novo (Bis)\n\n2- Eu adorarei ao Deus da minha vida / Que me compreendeu sem nenhuma explicação (Bis)\n\n3- Eu servirei ao meu Deus fiel / Ao meu Libertador aquele que venceu (Bis)"
+  },
+  {
+    "id": 192,
+    "numero": 6,
+    "titulo": "AMIGOS PARA SEMPRE",
+    "categoria": "Outros Cantos",
+    "pagina": 73,
+    "letra": "1- Eu, não tenho nada pra dizer / você parece no momento até saber, o quanto eu estou, sofrendo\nVem, veja através dos olhos meus / a emoção que sinto em estar aqui / seguir seu coração, e amando\n\nRefrão: Amigos para sempre é o que nós iremos ser, na primavera ou em qualquer das estações\nNas horas tristes nos momentos de prazer / Amigos para sempre (Bis)\n\n2- Você pode estar longe, muito longe sim / Mas por te amar, sinto você perto de mim / E o meu coração contente\nNão nos perderemos, não te esquecerei / Você é a minha vida, tudo que sonhei / E quis para mim um dia"
+  },
+  {
+    "id": 193,
+    "numero": 7,
+    "titulo": "AMAR COMO JESUS AMOU",
+    "categoria": "Outros Cantos",
+    "pagina": 73,
+    "letra": "1- Um dia uma criança me parou, / Olhou-me nos meus olhos a sorrir\nCaneta e papel na sua mão / Tarefa escolar a cumprir\nE perguntou no meio de um sorriso / O que é preciso para ser feliz?\n\nR: Amar como Jesus amou / Sonhar como Jesus sonhou\nPensar como Jesus pensou / Viver como Jesus viveu\nSentir o que Jesus sentia / Sorrir como Jesus sorria / E ao chegar fim do dia\nSei que eu dormiria muito mais feliz (Bis)\n\n2- Ouvindo o que eu falei ela me olhou / E disse que era lindo o que eu falei\nPediu que eu repetisse, por favor / Mas não dissesse tudo de uma vez\nE perguntou de novo num sorriso / O que é preciso para ser feliz?\n\n3- Depois que eu terminei de repetir / Seus olhos não saíam do papel\nToquei no seu rostinho e a sorrir / Pedi que, ao transmitir, fosse fiel\nE ela deu-me um beijo demorado / E ao meu lado foi dizendo assim"
+  },
+  {
+    "id": 194,
+    "numero": 8,
+    "titulo": "PODES REINAR",
+    "categoria": "Outros Cantos",
+    "pagina": 73,
+    "letra": "1- Senhor eu sei que é teu este lugar / Todos querem te adorar toma tu a direção\nSim, oh, vem, ó Santo Espirito os espaços preencher / Reverência a tua voz vamos fazer\n\nRefrão: Podes reinar senhor jesus ó sim / O teu poder teu povo sentirá\nQue bom senhor saber que estás presente aqui / Reina Senhor neste lugar\n\n2- Visita cada irmão, ó meu Senhor / Dá-lhes paz interior e razões pra te louvar\nDesfaz toda tristeza incertezas e desamor / Glorifica o teu nome ó meu Senhor"
+  },
+  {
+    "id": 195,
+    "numero": 9,
+    "titulo": "NINGUÉM TE AMA COMO EU",
+    "categoria": "Outros Cantos",
+    "pagina": 73,
+    "letra": "1-Tenho esperado este momento / Tenho esperado que viesses a mim\nTenho esperado que me fales / Tenho esperado que estivesses assim\nEu sei bem que tens vivido / Sei também que tens chorado\nEu sei bem que tens sofrido / Pois permaneço ao teu lado\n\nRefrão: Ninguém te ama como eu / Ninguém te ama como eu\nOlhe pra cruz / Esta é a minha grande prova / Ninguém te ama como eu\nNinguém te ama como eu / Ninguém te ama como eu\nOlhe pra cruz / Foi por ti, porque te amo / Ninguém te ama como eu\n\n2- Eu sei bem o que me dizes / Ainda que nunca me fales\nEu sei bem o que tens sentido / Ainda que nunca me reveles\nTenho andado ao teu lado / Junto a ti permanecido\nEu te levo em meus braços / Pois sou teu melhor amigo"
+  },
+  {
+    "id": 196,
+    "numero": 10,
+    "titulo": "JESUS ESTÁ AQUI",
+    "categoria": "Outros Cantos",
+    "pagina": 73,
+    "letra": "1- Jesus está aqui (aleluia) / Tão certo como o ar que eu, respiro, (aleluia)\nTão certo como o amanhã que se leva_a_nta / Tão certo quanto eu te falo e podes me ouvir\n\n2- Deus está aqui (aleluia) / Tão certo como o ar que eu, respiro, (aleluia)\nTão certo como o amanhã que se leva_a_nta / Tão certo quanto eu te falo e podes me ouvir\n\n3- Maria...."
+  },
+  {
+    "id": 197,
+    "numero": 11,
+    "titulo": "UM JOVEM GALILEU",
+    "categoria": "Outros Cantos",
+    "pagina": 74,
+    "letra": "1- Um certo dia, a beira mar / Apareceu um jovem Galileu\nNinguém podia imaginar / Que alguém pudesse amar do jeito que ele amava\nSeu jeito simples de conversar / Tocava o coração de quem o escutava\n\nRefrão: E seu nome era Jesus de Nazaré /Sua fama se espalhou e todos vinham ver\nO fenômeno do jovem pregador/Que tinha tanto amor\n\n2- Naquelas praias, naquele mar / Naquele rio, em casa de Zaqueu\nNaquela estrada, naquele sol / E o povo a escutar histórias tão bonitas\nSeu jeito amigo de se expressar / Enchia o coração de paz tão infinita\n\n3- Em plena rua, naquele chão / Naquele poço e em casa de Simão\nNaquela relva, no entardecer / O mundo viu nascer a paz de uma esperança\nSeu jeito puro de perdoar / Fazia o coração voltar a ser criança\n\n4- Um certo dia, ao tribunal / Alguém levou o jovem Galileu\nNinguém sabia qual foi o mal / E o crime que ele fez; quais foram seus pecados\nSeu jeito honesto de denunciar / Mexeu na posição de alguns privilegiados\n\nRefrão: E mataram a Jesus de Nazaré / E no meio de ladrões puseram sua cruz\nMas o mundo ainda tem medo de Jesus / Que tinha tanto amor\n\n5- Vitorioso, ressuscitou / Após três dias a vida Ele voltou\nRessuscitado, não morre mais / Está junto do Pai / Pois Ele é o filho eterno\nMas Ele vive em cada lar / E onde se encontrar um coração fraterno\n\nRefrão: Proclamamos que Jesus de Nazaré / Glorioso e triunfante Deus conosco está\nEle é o Cristo e a razão da nossa Fé / E um dia voltará!"
+  },
+  {
+    "id": 198,
+    "numero": 12,
+    "titulo": "ORAÇÃO PELA FAMÍLIA",
+    "categoria": "Outros Cantos",
+    "pagina": 74,
+    "letra": "1- Que nenhuma família comece em qualquer de repente / Que nenhuma família termine por falta de amor\nQue o casal seja um para o outro de corpo e de mente / E que nada no mundo separe um casal sonhador!\nQue nenhuma família se abrigue debaixo da ponte / Que ninguém interfira no lar e na vida dos dois\nQue ninguém os obrigue a viver sem nenhum horizonte / Que eles vivam do ontem, do hoje em função de um depois\n\nR: Que a família comece e termine sabendo onde vai / E que o homem carregue nos ombros a graça de um pai\nQue a mulher seja um céu de ternura, aconchego e calor / E que os filhos conheçam a força que brota do amor\nAbençoa, Senhor, as famílias! Amém! Abençoa, Senhor, a minha também (Bis)\n\n2- Que marido e mulher tenham força de amar sem medida / Que ninguém vá dormir sem pedir ou sem dar seu perdão\nQue as crianças aprendam no colo, o sentido da vida / Que a família celebre a partilha do abraço e do pão!\nQue marido e mulher não se traiam, nem traiam seus filhos / Que o ciúme não mate a certeza do amor entre os dois\nQue no seu firmamento a estrela que tem maior brilho / Seja a firme esperança de um céu aqui mesmo e depois"
+  },
+  {
+    "id": 199,
+    "numero": 13,
+    "titulo": "GLORIA A JESUS NA HÓSTIA SANTA",
+    "categoria": "Outros Cantos",
+    "pagina": 74,
+    "letra": "1- Glória a Jesus na hóstia santa / Que se consagra sobre o altar\nE aos nossos olhos se levanta / Para o Brasil abençoar\n\n2- Que o Santo Sacramento / Que é o próprio Cristo Jesus\nSeja adorado e seja amado / Nesta terra de Santa Cruz!\n\n3- Glória a Jesus prisioneiro / Do nosso amor a esperar\nLá no sacrário o dia inteiro / Que o vamos todos procurar\n\n4- Glória a Jesus, Deus escondido / Que, vindo a nós na comunhão\nPurificado, enriquecido / Deixa-nos sempre o coração\n\n5- Glória a Jesus, que ao rico e ao pobre / Se dá na Hóstia em alimento-\nE faz do humilde e faz do nobre / Um outro Cristo em tal momento!\n\n6- Glória a Jesus na eucaristia / Cantemos todos sem cessar\nCertos também que de Maria / Bênçãos a pátria há de ganhar"
+  },
+  {
+    "id": 200,
+    "numero": 14,
+    "titulo": "HINO À SANTO EXPEDITO",
+    "categoria": "Outros Cantos",
+    "pagina": 74,
+    "letra": "1- Santo Expedito um show de graças / És solda_do de_fen_sor\nDe todas causas urgentes / Aos pés de No_sso Se_nhor\n\nRefrão: Santo expedito / Socorre-me agora / Santo expedito / És o Santo da última hora\nLevarei teu nome/Pe_lo mun_do afo_ra\n\n2- Santo Expedito um show de graças / Derramai em minhas mãos\nMeu pedido leve ao Pai / Pois urgen_te é a mi_ssão"
+  },
+  {
+    "id": 201,
+    "numero": 15,
+    "titulo": "HINO À SÃO SEBASTIÃO",
+    "categoria": "Outros Cantos",
+    "pagina": 75,
+    "letra": "1- A ti, santo, hoje damos louvores, / Grande mártir, São Sebastião\nQue da morte afrontaste os horrores, / Indo à glória reinar em Sião\nIndo a glória / Indo a glória / Indo a glória reinar em Sião / Indo a Glória Reinar em Sião\n\n2- Protetor dessa Igreja querida / Livrai-nos dos frajelos mortais\nDai-nos paz, pureza e santa vida / Para a Glória gozar imortais;\nPara a glória, para a glória / para a Glória gozar imortais / Para a Glória gozar imortais\n\n3- Três batalhas tremendas vencestes / Ganancia, grandeza o poder\nTrês triunfos que tu merecestes / Tríplice glória que sempre há de ter\nTríplice glória, tríplice glória / Tríplice glória que sempre há de ter / Tríplice glória que sempre há de ter\n\n4- Duras setas em ti se cravaram / Teu corpo ferido mortal / \nMas ao invés da morte o que te deram / Foi a Glória, coroa imortal;\nFoi a glória, foi a glória; / Foi a Glória, coroa imortal / Foi a Glória, coroa imortal"
+  },
+  {
+    "id": 202,
+    "numero": 16,
+    "titulo": "HINO À SÃO VICENTE",
+    "categoria": "Outros Cantos",
+    "pagina": 75,
+    "letra": "1- Glória e louvor ao ínclito Vicente / Oh meu bom Pai e santo protetor,\nSois na Igreja um sol resplandecente / Louvar-vos-ei alegre e com fervor-\n\nRefrão: Ao nosso Deus glória e louvor Eternamente / Ao Deus de São Vicente,\nGlória e louvor! Glória e amor! / Por nos ter concedido, protetor tão querido!\n\n2- Glória e louvor a quem formou tal alma / E a encheu de seu divino amor;\nDesde a infância um vivo fogo inflama / A São Vicente é luz! É chama ardente-\n\n3- Glória e louvor à grande caridade: / É vivo ardor do servo do Senhor\nPra consolar a pobre humanidade / Em todo o mal e infeliz labor-\n\n4- Glória e louvor! Vicente compassivo / Rogai por nós a nosso Salvador\nE alcançai no dia decisivo / Nos dê, no céu, da glória o resplendor-"
+  },
+  {
+    "id": 203,
+    "numero": 17,
+    "titulo": "HINO À SANTA ISABEL DA HUNGRIA",
+    "categoria": "Outros Cantos",
+    "pagina": 75,
+    "letra": "1- Princesa aqui na terra, piedosa tu reinaste / E morto o teu marido, a Deus te consagraste-\nExpulsa do palácio, aos pobres assistias / Buscando entre os leprosos divinas alegrias-\n\nRefrão: Santa Isabel, dos pobres cuidadora / Junto de Deus és nossa intercessora! (Bis)\n\n2- Seguindo a São Francisco, terceira te fizeste / A púrpura trocando por tão grosseira veste-\nJuntaste aos teus filhos o Pobre entre os mais pobres / Nas faces dos mendigos Jesus é que descobres!"
+  },
+  {
+    "id": 204,
+    "numero": 18,
+    "titulo": "EXULTE DE ALEGRIA (VIGÍLIA PASCAL)",
+    "categoria": "Outros Cantos",
+    "pagina": 75,
+    "letra": "Celebrante: Exulte de alegria / Dos anjos a multidão / Exultemos também nós por tão grande salvação\nDo grande Rei a vitória cantemos o resplendor/Das trevas surgiu a glória da morte o libertador\nHomens: O Senhor esteja convosco / Todos: Ele está no meio de nós\nHomens: Os corações para o alto / Todos: A Deus ressoe nossa voz\n\n1- No esplendor desta noite / Que viu os hebreus libertos / Nós os cristãos bem despertos / Brademos: morreu a morte\n\nRefrão: Bendito seja o Cristo Senhor / Que é do Pai imortal esplendor (Bis)\n\n2- No esplendor desta noite / Que viu vencer o Cordeiro / Por Cristo salvos, cantemos / A Seu sangue justiceiro\n\n3- No esplendor desta noite / Que viu ressurgir Jesus / Do sepulcro exultemos / Pela vitória da cruz\n\n4- Noite mil vezes feliz / Deus por nós seu Filho deu / O Filho salva os escravos / Quem tanto amor mereceu\n\n5- Noite mil vezes feliz / Ó feliz culpa de Adão / Que mereceu tanto amor / Que recebeu o perdão\n\n6- Noite mil vezes feliz / Aniquilou-se a maldade / As algemas se quebraram / Despontou a liberdade\n\n7- Noite mil vezes feliz / O opressor foi despojado /Os pobres enriquecidos / O céu à terra irmanado\n\n8- Noite mil vezes feliz / Em Círio de virgem cera / Nova esperança se acende / No seio de Tua Igreja\n\n9- Noite mil vezes feliz / Noite clara como o dia / Na luz de Cristo glorioso / Exultemos de alegria"
+  },
+  {
+    "id": 205,
+    "numero": 19,
+    "titulo": "CRISTÃOS VINDE TODOS",
+    "categoria": "Outros Cantos",
+    "pagina": 76,
+    "letra": "1- Cristãos vinde todos com alegres cantos / Oh vin_de Oh vinde até Belém\nVêde nascido vosso Rei éter_no\n\nRefrão: Oh vinde adoremos / Oh vinde adoremos / Oh vinde adoremos o Salvador\n\n2- Humildes pastores deixam seus rebanhos / E alegres acorrem ao Rei dos céus\nNós igualmente cheios de alegria\n\n3- O Deus invisível de eternal grandeza / Sob véu de humildade podemos ver\nDeus pequenino Deus envolto em faixas\n\n4- Nasceu em pobreza repousando em palhas / O nosso afeto lhe vamos dar\nTanto amou-nos / Quem não há de ama-lo?"
+  },
+  {
+    "id": 206,
+    "numero": 20,
+    "titulo": "SACRAMENTO DA COMUNHÃO",
+    "categoria": "Outros Cantos",
+    "pagina": 76,
+    "letra": "1- Senhor, quando te vejo no sacramento da comunhão / Sinto o céu se abrir e uma luz a me atingir\nEsfriando minha cabeça e esquentando meu coração\nSenhor, graças e louvores sejam dados a todo momento / Quero te louvar na dor, na alegria e no sofrimento\nE se em meio à tribulação, eu me esquecer de ti / Ilumina minhas trevas com Tua luz\n\nRefrão: Jesus, fonte de misericórdia que jorra do templo / Jesus, O Filho da Rainha\nJesus, Rosto divino do homem/Jesus, rosto humano de Deus (Bis)\n\n2- Chego muitas vezes em tua casa, meu senhor / Triste e abatido, precisando de amor\nMas depois da comunhão tua casa é meu coração / Então sinto o céu dentro de mim\nNão comungo porque mereço, isso eu sei, oh meu senhor comungo pois preciso de ti\nQuando faltei na missa, eu fugia de mim de ti mas agora eu voltei, por favor aceita-me"
+  },
+  {
+    "id": 207,
+    "numero": 21,
+    "titulo": "QUÃO GRANDE ÉS TÚ",
+    "categoria": "Outros Cantos",
+    "pagina": 76,
+    "letra": "1- Senhor meu Deus quando eu maravilhado / Fico a pensar nas obras de Tuas mãos\nNo céu azul de estrelas pontilhado / O Teu poder mostrando a criação-\n\nRefrão: Então minh'alma canta a Ti Senhor / Quão grande és Tu / Quão grande és Tu (Bis)\n\n2- Quando a vagar nas matas e florestas / O passaredo alegre ouço a cantar-\nOlhando os montes, vales e florestas / O Teu poder mostrando a criação-"
+  },
+  {
+    "id": 208,
+    "numero": 22,
+    "titulo": "A PAZ ESTEJA CONVOSCO",
+    "categoria": "Outros Cantos",
+    "pagina": 76,
+    "letra": "A paz esteja conosco / A paz esteja conosco / A paz esteja conosco / A paz de Cristo / Cristo / Cristo é nossa paz"
+  },
+  {
+    "id": 209,
+    "numero": 23,
+    "titulo": "PAZ, PAZ DE CRISTO (SE ALGUM DIA NA VIDA)",
+    "categoria": "Outros Cantos",
+    "pagina": 76,
+    "letra": "Refrão: Paz, paz de Cristo, paz, paz que vem do Amor te desejo irmão\nPaz que é felicidade de ver em você Cristo nosso Irmão\n\n1-Se algum dia na vida / Você de mim precisar / Saiba que eu sou seu amigo / Pode comigo contar\nO mundo dá tantas voltas / A gente vai se encontrar / Quero nas voltas da vida / A tua mão apertar"
+  },
+  {
+    "id": 210,
+    "numero": 24,
+    "titulo": "A NÓS DESCEI DIVINA LUZ",
+    "categoria": "Outros Cantos",
+    "pagina": 76,
+    "letra": "Refrão: A nós descei, divina luz / A nós descei, divina luz\nEm nossas almas acendei / O amor, O amor de Jesus / O amor, O amor de Jesus\n\n1- Vinde, Santo Espírito / E do céu mandai / Luminoso raio / Luminoso raio\nVinde, Pai dos pobres / Doador dos dons / Luz dos corações / Luz dos corações\nGrande defensor / Em nós habitais / E nos confortai / E nos confortai\nNa fadiga, pouso / No ardor brandura / E na dor ternura / E na dor ternura\n\n2- Ó luz venturosa / Divinais clarões / Encham os corações / Encham os corações\nSem um tal poder / Em qualquer vivente / Nada há de inocente / Nada há de inocente\nLavai o impuro / E regai o seco / Sarai o enfermo / Sarai o enfermo\nDobrei a dureza / Aquecei o frio / Livrai do desvio / Livrai do desvio"
+  },
+  {
+    "id": 211,
+    "numero": 25,
+    "titulo": "ΕΝΤΟΑI AO SENHOR NOVO CANTO",
+    "categoria": "Outros Cantos",
+    "pagina": 76,
+    "letra": "1- Entoai ao Senhor novo canto / Pois prodígios foi Ele quem fez / Sua mão e o seu braço santo / A vitória lhe deram de vez\n\nRefrão: Então, os povos viram / O Deus que nos salvou / Por isso, ó terra inteira / Cantai louvor a Deus\n\n2- O senhor revelou seu auxílio / Sua justiça aos povos mostrou / Recordou-se de sua bondade / Em favor de seu povo fiel\n\n3- Celebrai o Senhor com a harpa / Com viola o saltério cantai / Com tambores, cornetas e flautas / Aclamai ao Senhor, Deus e Rei"
+  },
+  {
+    "id": 212,
+    "numero": 26,
+    "titulo": "ANTES QUE TE FORMASSES",
+    "categoria": "Outros Cantos",
+    "pagina": 77,
+    "letra": "1- Antes que te formasses dentro do ventre de tua mãe / Antes que tu nascesses, te conhecia e te consagrei\nPara ser meu profeta entre as nações eu te escolhi / Onde te envio irás e o que te mando proclamarás\n\nRefrão: Tenho que gritar, tenho que arriscar / Ai de mim se não o faço\nComo escapar de ti, como calar / Se tua voz arde em meu peito?\nTenho que andar, tenho que lutar / Ai de mim se não o faço\nComo escapar de ti, como calar / Se tua voz arde em meu peito?\n\n2- Não temas arriscar-te, porque contigo eu estarei / Não temas anunciar-me, em tua boca eu falarei\nEntrego-te meu povo, vai arrancar e derrubar / Para edificar, destruirás e plantarás\n\n3- Deixa os teus irmãos, deixa teu pai e tua mãe / Deixa a tua casa, porque a terra gritando está\nNada tragas contigo, porque ao teu lado eu estarei / É hora de lutar, porque meu povo sofrendo está"
+  },
+  {
+    "id": 213,
+    "numero": 27,
+    "titulo": "COMO É BOM TER A MINHA FAMÍLIA",
+    "categoria": "Outros Cantos",
+    "pagina": 77,
+    "letra": "1- É no campo da vida / Que se esconde um tesouro / Vale mais que o ouro / Mais que a prata que brilha\nÉ presente de Deus / É o céu já aqui / O amor mora ali / E se chama família-\n\nRef: Como é bom ter a minha família / Como é bom / Vale a pena vender tudo mais para poder comprar\nEsse campo que esconde um tesouro, que é puro dom / É meu ouro, meu céu, minha paz, minha vida meu lar\n\n2- Até mesmo o céu / Desejou ser família / Para que a família / Desejasse ser céu\nNela se faz a paz / No ouvir no falar / E na arte de amar / O amargor vira mel"
+  },
+  {
+    "id": 214,
+    "numero": 28,
+    "titulo": "TE AMAREI SENHOR",
+    "categoria": "Outros Cantos",
+    "pagina": 77,
+    "letra": "1- Me chamaste para caminhar na vida contigo / Decidi para sempre seguir-te e não voltar atrás\nMe puseste uma brasa no peito e uma flecha na alma / É difícil agora viver sem lembrar-me de Ti\n\nRefrão: Te amarei, Senhor, Te amarei, Senhor / Eu só encontro a paz e a alegria bem perto de Ti (Bis)\n\n2- Eu pensei muitas vezes calar e não dar nem resposta / Eu pensei na fuga esconder-me e ir longe de Ti\nMas tua força venceu e ao final eu fiquei seduzido / É difícil agora viver sem saudades de Ti\n\n3- Ó Jesus não me deixes jamais caminhar solitário / Pois conheces a minha fraqueza e o meu coração\nVem ensina-me a viver a vida na Tua presença / No amor dos irmãos, na alegria, na paz, na união"
   }
 ]

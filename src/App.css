@@ -120,3 +120,12 @@ p {
   text-align: center;
   padding: 10px;
 }
+
+.info-pagina {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9em;
+  color: var(--cor-marrom-escuro);
+  opacity: 0.8;
+  margin-top: -15px;
+}

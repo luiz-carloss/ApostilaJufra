@@ -11,9 +11,9 @@ base: '/ApostilaJufra/',
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-    name: 'APPostila Jufra',
+    name: 'Notas Franciscanas',
     short_name: 'APPostila',
-    description: 'Apostila digital do coral Jufra de Lagoa Formosa.',
+    description: 'Apostila digital do coral da Jufra de Lagoa Formosa.',
     theme_color: '#d6a18d', // Pode ser a cor principal da capa
     background_color: '#fefcf3', // Fundo para splash screen
     icons: [
