@@ -1,10 +1,10 @@
 :root {
   /* ... (suas variáveis de cor continuam iguais) ... */
-  --cor-bege-fundo: #fefcf3; 
-  --cor-marrom-escuro: #4a2c1e; 
-  --cor-laranja-claro: #d6a18d; 
-  --cor-laranja-medio: #c28873; 
-  --cor-verde-escuro: #3a5c32; 
+  --cor-bege-fundo: #fefcf3;
+  --cor-marrom-escuro: #4a2c1e;
+  --cor-laranja-claro: #d6a18d;
+  --cor-laranja-medio: #c28873;
+  --cor-verde-escuro: #3a5c32;
 
   --fonte-titulo: 'Georgia', serif;
   --fonte-corpo: 'Palatino Linotype', 'Book Antiqua', serif;
@@ -16,33 +16,42 @@ body {
   font-family: var(--fonte-corpo);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--cor-bege-fundo); 
-  color: var(--cor-marrom-escuro); 
-  line-height: 1.6; 
+  background-color: var(--cor-bege-fundo);
+  color: var(--cor-marrom-escuro);
+  line-height: 1.6;
 
   /* MUDANÇA AQUI - Background menos zoom e nome .jpg */
-  background-image: url('/parchment-bg.jpg'); /* Corrigido para .jpg */
-  background-repeat: repeat; /* Isso fará a textura repetir (tiling) */
+  background-image: url('/parchment-bg.jpg');
+  /* Corrigido para .jpg */
+  background-repeat: repeat;
+  /* Isso fará a textura repetir (tiling) */
   /* Removemos 'background-size: cover' e 'background-attachment: fixed' */
   /* Isso fará a imagem aparecer no tamanho original, menos "zoom" */
 }
 
 .app-container {
-  max-width: 800px; /* Largura máxima do conteúdo */
-  margin: 0 auto; /* Centraliza o container na página */
+  max-width: 800px;
+  /* Largura máxima do conteúdo */
+  margin: 0 auto;
+  /* Centraliza o container na página */
   padding: 10px;
 }
 
 /* Estilo para a imagem de São Francisco */
 .sao-francisco-violino {
-  display: block; /* Para centralizar */
-  margin: 20px auto; /* Centraliza horizontalmente e dá margem */
-  max-width: 150px; /* Tamanho razoável, ajuste se precisar */
+  display: block;
+  /* Para centralizar */
+  margin: 20px auto;
+  /* Centraliza horizontalmente e dá margem */
+  max-width: 150px;
+  /* Tamanho razoável, ajuste se precisar */
   height: auto;
-  opacity: 0.8; /* Um pouco transparente para parecer uma marca d'água */
+  opacity: 0.8;
+  /* Um pouco transparente para parecer uma marca d'água */
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: var(--fonte-titulo);
   color: var(--cor-marrom-escuro);
   text-align: center;
@@ -53,7 +62,8 @@ h1, h2 {
 
 h1 {
   font-size: 2.2em;
-  letter-spacing: 2px; /* Espaçamento entre letras no título principal */
+  letter-spacing: 2px;
+  /* Espaçamento entre letras no título principal */
 }
 
 h2 {
@@ -62,14 +72,14 @@ h2 {
 
 /* Listas (categorias e músicas) */
 ul {
-  list-style: none; 
+  list-style: none;
   padding: 0;
   max-width: 600px;
   margin: 20px auto;
 }
 
 li {
-  background-color: rgba(255, 255, 255, 0.6); 
+  background-color: rgba(255, 255, 255, 0.6);
   border: 1px solid var(--cor-laranja-medio);
   border-radius: 8px;
   margin-bottom: 10px;
@@ -89,7 +99,8 @@ li:hover {
 }
 
 .letra-musica {
-  white-space: pre-wrap; /* Mantém as quebras de linha */
+  white-space: pre-wrap;
+  /* Mantém as quebras de linha */
   padding: 0 20px;
   max-width: 700px;
   margin: 20px auto;
@@ -108,7 +119,8 @@ button {
   cursor: pointer;
   font-size: 1em;
   margin: 15px auto;
-  display: block; /* Para centralizar o botão de voltar */
+  display: block;
+  /* Para centralizar o botão de voltar */
   transition: background-color 0.3s ease;
 }
 
@@ -128,4 +140,119 @@ p {
   color: var(--cor-marrom-escuro);
   opacity: 0.8;
   margin-top: -15px;
+}
+
+.admin-status-bar {
+  background-color: #2ecc71;
+  /* Verde para indicar estado ativo */
+  color: white;
+  padding: 8px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.admin-status-bar button {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.admin-status-bar button:hover {
+  background-color: white;
+  color: #2ecc71;
+}
+
+/* src/App.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.modal-content {
+  background: #fdf6e3;
+  /* Tom de pergaminho */
+  padding: 25px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  color: #5d4037;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #795548;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  padding: 8px;
+  border: 1px solid #d7ccc8;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-cancel {
+  background: #bdbdbd;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-confirm {
+  background: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-delete {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
 }
