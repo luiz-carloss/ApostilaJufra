@@ -10,6 +10,10 @@
   --fonte-corpo: 'Palatino Linotype', 'Book Antiqua', serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* Estilo global do corpo */
 body {
   margin: 0;
@@ -219,6 +223,7 @@ p {
   border: 1px solid #d7ccc8;
   border-radius: 4px;
   font-family: inherit;
+  color: var(--cor-marrom-escuro);
 }
 
 .modal-actions {
@@ -306,12 +311,19 @@ p {
 
 .busca-container {
   padding: 10px;
+  width: 100%;
+  overflow-x: hidden;
+  /* Evita scroll horizontal acidental */
 }
 
 .search-input-wrapper {
   position: relative;
   max-width: 600px;
+  width: 100%;
+  /* Garante que ocupe o espaço disponível */
   margin: 0 auto 20px auto;
+  box-sizing: border-box;
+  /* Garante que o padding não aumente a largura */
 }
 
 .search-input-wrapper input {
@@ -322,6 +334,10 @@ p {
   background-color: rgba(255, 255, 255, 0.9);
   font-size: 1rem;
   font-family: var(--fonte-corpo);
+  color: var(--cor-marrom-escuro);
+
+  /* A CHAVE PARA O PROBLEMA: */
+  box-sizing: border-box;
 }
 
 .search-icon-inside {
@@ -335,9 +351,8 @@ p {
 .result-item {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
   text-align: left !important;
-  /* Sobrescreve o centro do li */
 }
 
 .result-number {
@@ -371,4 +386,51 @@ p {
 .no-results {
   font-style: italic;
   opacity: 0.6;
+}
+
+/* Adicione ou atualize estas classes no seu App.css */
+
+.search-row {
+  display: flex;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+.search-input-wrapper.small {
+  flex: 1;
+  /* Faz os dois campos de número/página terem o mesmo tamanho */
+  margin: 0;
+}
+
+/* Garante que o ícone e o texto fiquem alinhados nos campos menores */
+.search-input-wrapper.small input {
+  padding-left: 40px;
+}
+
+.search-input-wrapper.small .search-icon-inside {
+  left: 12px;
+}
+
+/* Remove as setinhas padrão de campos numéricos para manter o visual limpo */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Ajuste para dispositivos móveis muito estreitos */
+@media (max-width: 400px) {
+  .search-row {
+    gap: 10px;
+  }
+
+  .search-input-wrapper.small input {
+    font-size: 0.9rem;
+    padding-left: 35px;
+  }
 }

@@ -145,7 +145,7 @@ function App() {
       
       <header>
         <h1>Notas Franciscanas</h1>
-        <img src="public/sao-francisco.png" alt="São Francisco" className="sao-francisco-violino" />
+        <img src="/sao-francisco.png" alt="São Francisco" className="sao-francisco-violino" />
 
         <nav className="tabs-container">
           <button 

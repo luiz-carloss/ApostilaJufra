@@ -1,90 +1,117 @@
 import React, { useState, useEffect } from 'react';
 import { collection, getDocs } from "firebase/firestore";
 import { db } from '../firebaseConfig';
-import { Search as SearchIcon, Hash, BookOpen, Type } from 'lucide-react';
+import { Search as SearchIcon, Hash, BookOpen } from 'lucide-react';
 
 function BuscaMusica({ onMusicaClick }) {
-    const [todasMusicas, setTodasMusicas] = useState([]);
-    const [termoBusca, setTermoBusca] = useState('');
-    const [resultados, setResultados] = useState([]);
-    const [carregando, setCarregando] = useState(true);
+  const [todasMusicas, setTodasMusicas] = useState([]);
+  const [termoTexto, setTermoTexto] = useState('');
+  const [termoNumero, setTermoNumero] = useState('');
+  const [termoPagina, setTermoPagina] = useState('');
+  const [resultados, setResultados] = useState([]);
+  const [carregando, setCarregando] = useState(true);
 
-    // Carrega todas as músicas do Firebase uma única vez
-    useEffect(() => {
-        const buscarTudo = async () => {
-            try {
-                const querySnapshot = await getDocs(collection(db, "musicas"));
-                const docs = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-                setTodasMusicas(docs);
-            } catch (e) {
-                console.error("Erro na busca:", e);
-            } finally {
-                setCarregando(false);
-            }
-        };
-        buscarTudo();
-    }, []);
+  useEffect(() => {
+    const buscarTudo = async () => {
+      try {
+        const querySnapshot = await getDocs(collection(db, "musicas"));
+        const docs = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        setTodasMusicas(docs);
+      } catch (e) {
+        console.error("Erro na busca:", e);
+      } finally {
+        setCarregando(false);
+      }
+    };
+    buscarTudo();
+  }, []);
 
-    // Lógica de Filtro Triple-Match
-    useEffect(() => {
-        if (termoBusca.trim() === '') {
-            setResultados([]);
-            return;
-        }
+  useEffect(() => {
+    // Só filtra se pelo menos um campo tiver conteúdo
+    if (termoTexto === '' && termoNumero === '' && termoPagina === '') {
+      setResultados([]);
+      return;
+    }
 
-        const termo = termoBusca.toLowerCase();
-        const filtrados = todasMusicas.filter(m => {
-            const matchTitulo = m.titulo.toLowerCase().includes(termo);
-            const matchLetra = m.letra.toLowerCase().includes(termo);
-            // Busca por número ou página (tratando como string)
-            const matchNumeroOuPagina =
-                m.numero.toString() === termo ||
-                m.pagina.toString() === termo;
+    const filtrados = todasMusicas.filter(m => {
+      // Filtro de Texto (Título ou Letra)
+      const matchTexto = termoTexto === '' || 
+        m.titulo.toLowerCase().includes(termoTexto.toLowerCase()) ||
+        m.letra.toLowerCase().includes(termoTexto.toLowerCase());
 
-            return matchTitulo || matchLetra || matchNumeroOuPagina;
-        });
+      // Filtro de Número (exato)
+      const matchNumero = termoNumero === '' || m.numero.toString() === termoNumero;
 
-        setResultados(filtrados.sort((a, b) => a.numero - b.numero));
-    }, [termoBusca, todasMusicas]);
+      // Filtro de Página (exato)
+      const matchPagina = termoPagina === '' || m.pagina.toString() === termoPagina;
 
-    if (carregando) return <p>Carregando base de busca...</p>;
+      // A música deve passar em todos os filtros ativos (Lógica AND)
+      return matchTexto && matchNumero && matchPagina;
+    });
 
-    return (
-        <div className="busca-container">
-            <div className="search-input-wrapper">
-                <SearchIcon className="search-icon-inside" size={20} />
-                <input
-                    type="text"
-                    placeholder="Título, número, página ou trecho..."
-                    value={termoBusca}
-                    onChange={(e) => setTermoBusca(e.target.value)}
-                    autoFocus
-                />
-            </div>
+    setResultados(filtrados.sort((a, b) => a.numero - b.numero));
+  }, [termoTexto, termoNumero, termoPagina, todasMusicas]);
 
-            <div className="search-results">
-                {resultados.length > 0 ? (
-                    <ul>
-                        {resultados.map(musica => (
-                            <li key={musica.id} onClick={() => onMusicaClick(musica)}>
-                                <div className="result-item">
-                                    <span className="result-number">#{musica.numero}</span>
-                                    <div className="result-info">
-                                        <span className="result-title">{musica.titulo}</span>
-                                        <span className="result-meta">
-                                            <BookOpen size={12} /> Pág. {musica.pagina} | {musica.categoria}
-                                        </span>
-                                    </div>
-                                </div>
-                            </li>
-                        ))}
-                    </ul>
-                ) : termoBusca !== '' && (
-                    <p className="no-results">Nenhuma música encontrada para "{termoBusca}"</p>
-                )}
-            </div>
+  if (carregando) return <p>Carregando base de busca...</p>;
+
+  return (
+    <div className="busca-container">
+      {/* Campo de Título/Trecho */}
+      <div className="search-input-wrapper">
+        <SearchIcon className="search-icon-inside" size={20} />
+        <input 
+          type="text" 
+          placeholder="Buscar por Título ou Trecho da letra..."
+          value={termoTexto}
+          onChange={(e) => setTermoTexto(e.target.value)}
+        />
+      </div>
+
+      {/* Campos de Número e Página Lado a Lado */}
+      <div className="search-row">
+        <div className="search-input-wrapper small">
+          <Hash className="search-icon-inside" size={18} />
+          <input 
+            type="number" 
+            placeholder="Nº"
+            value={termoNumero}
+            onChange={(e) => setTermoNumero(e.target.value)}
+          />
         </div>
-    );
+        <div className="search-input-wrapper small">
+          <BookOpen className="search-icon-inside" size={18} />
+          <input 
+            type="number" 
+            placeholder="Página"
+            value={termoPagina}
+            onChange={(e) => setTermoPagina(e.target.value)}
+          />
+        </div>
+      </div>
+
+      <div className="search-results">
+        {resultados.length > 0 ? (
+          <ul>
+            {resultados.map(musica => (
+              <li key={musica.id} onClick={() => onMusicaClick(musica)}>
+                <div className="result-item">
+                  <span className="result-number">#{musica.numero}</span>
+                  <div className="result-info">
+                    <span className="result-title">{musica.titulo}</span>
+                    <span className="result-meta">
+                      Pág. {musica.pagina} | {musica.categoria}
+                    </span>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
+        ) : (termoTexto !== '' || termoNumero !== '' || termoPagina !== '') && (
+          <p className="no-results">Nenhuma música encontrada com esses critérios.</p>
+        )}
+      </div>
+    </div>
+  );
 }
 
 export default BuscaMusica;
