@@ -254,3 +254,121 @@ p {
   cursor: pointer;
   border-radius: 4px;
 }
+
+/* Container das abas abaixo da imagem */
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 0 20px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--cor-laranja-claro);
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--cor-laranja-medio);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0;
+  /* Resetando margem do botão padrão */
+  padding: 5px 10px;
+  opacity: 0.6;
+}
+
+.tab-button span {
+  font-size: 0.75rem;
+  margin-top: 4px;
+  font-family: var(--fonte-corpo);
+}
+
+.tab-button:hover {
+  background: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+}
+
+.tab-button.active {
+  color: var(--cor-marrom-escuro);
+  opacity: 1;
+  transform: scale(1.1);
+  border-bottom: 2px solid var(--cor-marrom-escuro);
+}
+
+/* Ajuste no botão de adicionar para não conflitar com a centralização */
+.btn-add {
+  background-color: var(--cor-verde-escuro) !important;
+  margin: 0 !important;
+}
+
+.busca-container {
+  padding: 10px;
+}
+
+.search-input-wrapper {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+.search-input-wrapper input {
+  width: 100%;
+  padding: 12px 12px 12px 45px;
+  border-radius: 25px;
+  border: 1px solid var(--cor-laranja-medio);
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  font-family: var(--fonte-corpo);
+}
+
+.search-icon-inside {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--cor-laranja-medio);
+}
+
+.result-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-align: left !important;
+  /* Sobrescreve o centro do li */
+}
+
+.result-number {
+  background: var(--cor-laranja-claro);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  min-width: 45px;
+  text-align: center;
+}
+
+.result-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.result-title {
+  font-weight: bold;
+  color: var(--cor-marrom-escuro);
+}
+
+.result-meta {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.no-results {
+  font-style: italic;
+  opacity: 0.6;
+}
