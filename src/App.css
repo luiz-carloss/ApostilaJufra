@@ -40,14 +40,12 @@ body {
 /* Estilo para a imagem de São Francisco */
 .sao-francisco-violino {
   display: block;
-  /* Para centralizar */
-  margin: 20px auto;
-  /* Centraliza horizontalmente e dá margem */
-  max-width: 150px;
-  /* Tamanho razoável, ajuste se precisar */
+  margin: 10px auto;
+  max-width: 350px;
   height: auto;
   opacity: 0.8;
-  /* Um pouco transparente para parecer uma marca d'água */
+  border: 2px solid #c28873;
+  border-radius: 2px;
 }
 
 h1,
