@@ -2,13 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { db, auth } from './firebaseConfig';
 import { collection, getDocs, query, where, addDoc } from "firebase/firestore";
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
-import { Music, Search, Book } from 'lucide-react';
+import { Music, Search, ClipboardList } from 'lucide-react';
 
 import ListaCategorias from './components/ListaCategorias';
 import ListaMusicas from './components/ListaMusicas';
 import DetalheMusica from './components/DetalheMusica';
 import FormMusica from './components/FormMusica';
 import BuscaMusica from './components/BuscaMusica';
+import SecaoMissa from './components/SecaoMissa';
 import './App.css';
 
 function App() {
@@ -116,9 +117,39 @@ function App() {
     }
   } else if (abaAtiva === 'busca') {
     conteudo = <BuscaMusica onMusicaClick={(m) => setMusicaSelecionada(m)} />;
-  } else {
-    conteudo = <div className="placeholder-section"><h2>Em breve: Meu Caderno</h2></div>;
+  } else if (abaAtiva === 'missa') {
+    conteudo = <SecaoMissa onVerMusica={(m) => setMusicaSelecionada(m)} />;
   }
+
+
+  // No seu App.jsx
+
+  useEffect(() => {
+    // 1. Função que lida com o evento de "voltar" do navegador/celular
+    const handlePopState = (event) => {
+      if (musicaSelecionada) {
+        // Se estiver numa música, volta para a lista
+        setMusicaSelecionada(null);
+      } else if (categoriaSelecionada) {
+        // Se estiver numa categoria, volta para o menu principal
+        setCategoriaSelecionada(null);
+      }
+    };
+
+    // 2. Sempre que o usuário entra em uma "subtela", adicionamos um estado no histórico
+    if (musicaSelecionada || categoriaSelecionada) {
+      window.history.pushState({ step: 'detail' }, '');
+    }
+
+    // 3. Ouvinte para o botão de voltar do sistema
+    window.addEventListener('popstate', handlePopState);
+
+    // Limpeza ao desmontar
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
+  }, [musicaSelecionada, categoriaSelecionada]);
+  // Toda vez que um desses estados mudar, o efeito roda novamente
 
   return (
     <div className="app-container">
@@ -140,8 +171,12 @@ function App() {
           <button className={`tab-button ${abaAtiva === 'busca' ? 'active' : ''}`} onClick={() => handleTrocarAba('busca')}>
             <Search size={24} /> <span>Busca</span>
           </button>
-          <button className={`tab-button ${abaAtiva === 'caderno' ? 'active' : ''}`} onClick={() => handleTrocarAba('caderno')}>
-            <Book size={24} /> <span>Caderno</span>
+          <button
+            className={`tab-button ${abaAtiva === 'missa' ? 'active' : ''}`}
+            onClick={() => handleTrocarAba('missa')}
+          >
+            <ClipboardList size={24} />
+            <span>Missa</span>
           </button>
         </nav>
       </header>

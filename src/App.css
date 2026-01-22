@@ -434,3 +434,166 @@ input[type=number] {
     padding-left: 35px;
   }
 }
+
+.missa-container {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.missa-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.btn-limpar {
+  background-color: #e74c3c !important;
+  font-size: 0.8rem !important;
+  margin: 0 !important;
+}
+
+.missa-row {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--cor-laranja-claro);
+}
+
+.missa-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.missa-label label {
+  font-weight: bold;
+  color: var(--cor-marrom-escuro);
+}
+
+.btn-toggle {
+  background: none !important;
+  color: var(--cor-laranja-medio) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  opacity: 0.7;
+}
+
+.input-group-missa {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.input-with-icon {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid var(--cor-laranja-claro);
+  border-radius: 4px;
+  padding: 0 8px;
+  flex: 1;
+}
+
+.input-with-icon input {
+  border: none !important;
+  width: 100%;
+  padding: 8px !important;
+  font-size: 0.9rem;
+}
+
+.missa-inputs input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--cor-laranja-claro);
+  border-radius: 4px;
+}
+
+/* Ajuste para telas maiores */
+@media (min-width: 600px) {
+  .missa-row {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .missa-label {
+    width: 180px;
+    margin-bottom: 0;
+  }
+
+  .missa-inputs {
+    flex: 1;
+  }
+}
+
+/* src/App.css */
+
+/* Padrão Global de Inputs */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 25px;
+  /* Padrão da Busca */
+  border: 1px solid var(--cor-laranja-medio);
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  font-family: var(--fonte-corpo);
+  color: var(--cor-marrom-escuro);
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--cor-marrom-escuro);
+  box-shadow: 0 0 5px rgba(74, 44, 30, 0.2);
+  background-color: white;
+}
+
+/* Ajuste específico para os wrappers com ícone (Busca e Missa) */
+.search-input-wrapper input {
+  padding-left: 45px;
+  /* Espaço para o ícone */
+}
+
+/* No Modal, removemos as bordas quadradas antigas */
+.form-group input,
+.form-group textarea,
+.form-group select {
+  border-radius: 15px;
+  /* Um pouco menos arredondado para o formulário */
+}
+
+.input-missa-small {
+  max-width: 80px;
+  text-align: center;
+  padding: 8px !important;
+}
+
+.btn-ver-musica {
+  background-color: var(--cor-verde-escuro);
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  transition: transform 0.2s;
+}
+
+.btn-ver-musica:hover {
+  transform: scale(1.1);
+  background-color: var(--cor-marrom-escuro);
+}
