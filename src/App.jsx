@@ -20,7 +20,6 @@ function App() {
   const [carregando, setCarregando] = useState(false);
   const [mostrandoAdd, setMostrandoAdd] = useState(false);
 
-  // Monitorar autenticação
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       setUsuario(user);
@@ -28,19 +27,6 @@ function App() {
     return () => unsubscribe();
   }, []);
 
-  // Atalho de Teclado
-  useEffect(() => {
-    const handleKeyDown = (event) => {
-      if (event.ctrlKey && event.altKey && event.key.toLowerCase() === 'l') {
-        event.preventDefault();
-        fazerLogin();
-      }
-    };
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, []);
-
-  // Buscar músicas por categoria
   useEffect(() => {
     if (categoriaSelecionada) {
       const buscarMusicas = async () => {
@@ -68,20 +54,21 @@ function App() {
     if (email && senha) {
       try {
         await signInWithEmailAndPassword(auth, email, senha);
-        alert("Logado como administrador!");
-      } catch (error) {
-        alert("Falha no login: " + error.message);
-      }
+        alert("Logado!");
+      } catch (error) { alert("Erro: " + error.message); }
     }
   };
 
-  const salvarNovaMusica = async (novaMusica) => {
-    try {
-      await addDoc(collection(db, "musicas"), novaMusica);
-      setMostrandoAdd(false);
-      alert("Música adicionada com sucesso!");
-    } catch (e) { alert("Erro ao salvar."); }
-  };
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.ctrlKey && event.altKey && event.key.toLowerCase() === 'l') {
+        event.preventDefault();
+        fazerLogin();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   const handleTrocarAba = (novaAba) => {
     setAbaAtiva(novaAba);
@@ -89,11 +76,17 @@ function App() {
     setCategoriaSelecionada(null);
   };
 
-  // LÓGICA DE CONTEÚDO (CONSOLIDADA)
-  let conteudo;
+  const salvarNovaMusica = async (novaMusica) => {
+    try {
+      await addDoc(collection(db, "musicas"), novaMusica);
+      setMostrandoAdd(false);
+      alert("Sucesso!");
+    } catch (e) { alert("Erro ao salvar."); }
+  };
 
+  // LÓGICA DE CONTEÚDO
+  let conteudo;
   if (musicaSelecionada) {
-    // Se uma música estiver selecionada, ela domina a tela idependente da aba
     conteudo = (
       <DetalheMusica
         musica={musicaSelecionada}
@@ -101,81 +94,58 @@ function App() {
         isAdmin={!!usuario}
       />
     );
-  } else {
-    // Caso contrário, decide o que mostrar baseado na aba
-    if (abaAtiva === 'categorias') {
-      if (categoriaSelecionada) {
-        conteudo = (
-          <div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
-              <button onClick={() => setCategoriaSelecionada(null)}>&larr; Categorias</button>
-              {usuario && (
-                <button onClick={() => setMostrandoAdd(true)} className="btn-add">+ Música</button>
-              )}
-            </div>
-            {carregando ? (
-              <p>Carregando músicas...</p>
-            ) : (
-              <ListaMusicas
-                categoria={categoriaSelecionada}
-                musicas={musicasFiltradas}
-                onMusicaClick={(id) => setMusicaSelecionada(musicasFiltradas.find(m => m.id === id))}
-              />
-            )}
+  } else if (abaAtiva === 'categorias') {
+    if (categoriaSelecionada) {
+      conteudo = (
+        <div>
+          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
+            <button onClick={() => setCategoriaSelecionada(null)}>&larr; Categorias</button>
+            {usuario && <button onClick={() => setMostrandoAdd(true)} className="btn-add">+ Música</button>}
           </div>
-        );
-      } else {
-        conteudo = <ListaCategorias onCategoriaClick={(cat) => setCategoriaSelecionada(cat)} />;
-      }
-    } else if (abaAtiva === 'busca') {
-      conteudo = <BuscaMusica onMusicaClick={(m) => setMusicaSelecionada(m)} />;
-    } else if (abaAtiva === 'caderno') {
-      conteudo = <div className="placeholder-section"><h2>Em breve: Meu Caderno</h2><p>Aqui você poderá salvar suas músicas favoritas.</p></div>;
+          {carregando ? <p>Carregando...</p> : (
+            <ListaMusicas
+              categoria={categoriaSelecionada}
+              musicas={musicasFiltradas}
+              onMusicaClick={(id) => setMusicaSelecionada(musicasFiltradas.find(m => m.id === id))}
+            />
+          )}
+        </div>
+      );
+    } else {
+      conteudo = <ListaCategorias onCategoriaClick={(cat) => setCategoriaSelecionada(cat)} />;
     }
+  } else if (abaAtiva === 'busca') {
+    conteudo = <BuscaMusica onMusicaClick={(m) => setMusicaSelecionada(m)} />;
+  } else {
+    conteudo = <div className="placeholder-section"><h2>Em breve: Meu Caderno</h2></div>;
   }
 
   return (
     <div className="app-container">
       {usuario && (
         <div className="admin-status-bar">
-          <span>● Modo Administrador Ativo ({usuario.email})</span>
+          <span>● Admin: {usuario.email}</span>
           <button onClick={() => signOut(auth)}>Sair</button>
         </div>
       )}
-      
       <header>
         <h1>Notas Franciscanas</h1>
-        <img src="/sao-francisco.png" alt="São Francisco" className="sao-francisco-violino" />
+        {/* CORREÇÃO: Caminho relativo sem a barra inicial */}
+        <img src="sao-francisco.png" alt="São Francisco" className="sao-francisco-violino" />
 
         <nav className="tabs-container">
-          <button 
-            className={`tab-button ${abaAtiva === 'categorias' ? 'active' : ''}`}
-            onClick={() => handleTrocarAba('categorias')}
-          >
-            <Music size={24} />
-            <span>Categorias</span>
+          <button className={`tab-button ${abaAtiva === 'categorias' ? 'active' : ''}`} onClick={() => handleTrocarAba('categorias')}>
+            <Music size={24} /> <span>Categorias</span>
           </button>
-          <button 
-            className={`tab-button ${abaAtiva === 'busca' ? 'active' : ''}`}
-            onClick={() => handleTrocarAba('busca')}
-          >
-            <Search size={24} />
-            <span>Busca</span>
+          <button className={`tab-button ${abaAtiva === 'busca' ? 'active' : ''}`} onClick={() => handleTrocarAba('busca')}>
+            <Search size={24} /> <span>Busca</span>
           </button>
-          <button 
-            className={`tab-button ${abaAtiva === 'caderno' ? 'active' : ''}`}
-            onClick={() => handleTrocarAba('caderno')}
-          >
-            <Book size={24} />
-            <span>Caderno</span>
+          <button className={`tab-button ${abaAtiva === 'caderno' ? 'active' : ''}`} onClick={() => handleTrocarAba('caderno')}>
+            <Book size={24} /> <span>Caderno</span>
           </button>
         </nav>
       </header>
-
-      <main>
-        {conteudo}
-      </main>
-
+      <main>{conteudo}</main>
       {mostrandoAdd && (
         <FormMusica
           tituloModal="Nova Música"
