@@ -14,11 +14,25 @@ function DetalheMusica({ musica, onVoltar, isAdmin }) {
       await updateDoc(doc(db, "musicas", musica.id), dadosAtualizados);
       setEditando(false);
       alert("Música atualizada!");
-      onVoltar(); 
-    } catch (e) { 
+      onVoltar();
+    } catch (e) {
       console.error(e);
-      alert("Erro ao atualizar."); 
+      alert("Erro ao atualizar.");
     }
+  };
+
+  const formatarTexto = (texto) => {
+    if (!texto) return "";
+
+    // Essa regex procura tudo que está entre ** ** e coloca dentro de <strong>
+    const partes = texto.split(/(\*\*.*?\*\*)/g);
+
+    return partes.map((parte, index) => {
+      if (parte.startsWith('**') && parte.endsWith('**')) {
+        return <strong key={index}>{parte.slice(2, -2)}</strong>;
+      }
+      return parte;
+    });
   };
 
   const confirmarExclusao = async () => {
@@ -43,7 +57,9 @@ function DetalheMusica({ musica, onVoltar, isAdmin }) {
         </div>
       )}
 
-      <p className="letra-musica">{musica.letra}</p>
+      <p className="letra-musica" style={{ whiteSpace: 'pre-wrap' }}>
+        {formatarTexto(musica.letra)}
+      </p>
 
       {editando && (
         <FormMusica

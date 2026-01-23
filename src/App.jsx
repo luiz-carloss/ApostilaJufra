@@ -151,6 +151,19 @@ function App() {
   }, [musicaSelecionada, categoriaSelecionada]);
   // Toda vez que um desses estados mudar, o efeito roda novamente
 
+  useEffect(() => {
+    const baixarBaseCompletaOffline = async () => {
+      try {
+        // Busca todas as músicas uma única vez para popular o cache do IndexedDB
+        await getDocs(collection(db, "musicas"));
+        console.log("Banco de dados sincronizado para uso offline.");
+      } catch (e) {
+        console.warn("Erro ao sincronizar banco offline:", e);
+      }
+    };
+    baixarBaseCompletaOffline();
+  }, []);
+
   return (
     <div className="app-container">
       {usuario && (
